@@ -1,6 +1,5 @@
 before_install:
-- openssl aes-256-cbc -K $encrypted_21da1cd8bdb1_key -iv $encrypted_21da1cd8bdb1_iv
-  -in .id_rsa.enc -out .id_rsa -d
+- openssl aes-256-cbc -K $encrypted_21da1cd8bdb1_key -iv $encrypted_21da1cd8bdb1_iv -in .id_rsa.enc -out .id_rsa -d
 env:
   global:
   - ENCRYPTION_LABEL: "21da1cd8bdb1"
