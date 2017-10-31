@@ -1,5 +1,6 @@
 # Jekyll output files
 _site/
+.sass-cache/
 
 
 # Ignore local unencrypted keys
