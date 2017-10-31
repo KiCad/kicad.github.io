@@ -1,0 +1,5 @@
+{% for rule in site.klc %}
+{% if rule.title contains include.filter %}
+  * [{{ rule.title }} - {{ rule.brief }}]({{ rule.title }})
+{% endif %}
+{% endfor %}

@@ -1,0 +1,37 @@
+title: KiCad Libraries
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  KiCad
+
+# Build settings
+theme: minima
+
+collections:
+  klc:
+    output: true
+  symbols:
+    output: true
+  footprints:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "klc"
+    values:
+      layout: "klc"
+  - scope:
+      path: ""
+      type: "symbols"
+    values:
+      layout: "symlib"
+  - scope:
+      path: ""
+      type: "footprints"
+      layout: "symlib"
+  - scope:
+      path: ""
+      type: "packages3d"
+      layout: "symlib"
+
+exclude: [kicad-footprints, kicad-symbols]

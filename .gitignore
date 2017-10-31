@@ -1,4 +1,9 @@
+# Jekyll output files
+_site/
+
 
 # Ignore local unencrypted keys
 .id_rsa
 .id_rsa.pub
+
+*.pyc

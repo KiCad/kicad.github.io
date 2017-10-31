@@ -1,0 +1,16 @@
+<table class="download">
+  <tr>
+    <th>Library</th>
+    <th>Description</th>
+    <th>Symbols</th>
+    <th>Download</th>
+  </tr>
+{% for lib in site.symbols %}
+  <tr>
+    <td><a href="/symbols/{{ lib.title }}">{{ lib.title }}</a></td>
+    <td>{{ lib.descr }}</td>
+    <td align="center">{{ lib.symbolcount }}</td>
+    <td><a href="/download/symbols/{{ lib.title }}.7z">{{ lib.archivesize }}</a></td>
+  </tr>
+{% endfor %}
+</table>

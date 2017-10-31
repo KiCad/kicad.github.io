@@ -1,0 +1,2 @@
+<a href="/assets/img/klc/{{ include.src }}.png">
+<img src="/assets/img/klc/{{ include.src }}.png" class="klcimg" height="250" title="{{ include.title }}"></a>

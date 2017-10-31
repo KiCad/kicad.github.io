@@ -1,0 +1,100 @@
+Library,Description
+Altera,A thing that is a thing
+Battery_Management,Battery management ICs
+Bosch,Assorted Bosch ICs
+Connector,Generic connector symbols
+DSP_Microchip_DSPIC33,Microchip dsPIC33 DSP IC
+Diode,Diodes
+Display,Display modules
+ESD_Protection,ESD protection devices
+Espressif,?
+FPGA_Actel,Actel FPGAs
+Graphic,Graphical symbols
+LED,Light emitting diodes
+LEM,Current sensors?
+Lattice,?
+Logic_74xgxx,74xGxx series logic devices
+Logic_74xx,74xx series logic devices
+Logic_CMOS_4000,CMOS 4000 series logic devices
+Logic_CMOS_IEEE,IEEE 4000 series logic devices
+Logic_TTL_IEEE,IEEE TTL series logic devices
+MCU_Microchip_PIC10,Microchip PIC10 series microcontrollers
+MCU_Microchip_PIC12,Microchip PIC12 series microcontrollers
+MCU_Microchip_PIC16,Microchip PIC16 series microcontrollers
+MCU_Microchip_PIC18,Microchip PIC18 series microcontrollers
+MCU_Microchip_PIC24,Microchip PIC24 series microcontrollers
+MCU_Microchip_PIC32,Microchip PIC32 series microcontrollers
+MCU_NXP_Kinetic,NXP Kinetis microcontrollers
+MCU_NXP_LPC,NXP LPC microcontrollers
+MCU_NXP_S08,NXP S08 microcontrollers
+MCU_Parallax,Parallax microcontrollers
+MCU_ST_STM32,ST STM32 series microcontrollers
+MCU_ST_STM8,ST STM8 series microcontrollers
+MCU_Texas_MSP430,Texas Instruments MSP430 series microcontrollers
+Mechanical,??
+Motor,Motor symbols
+Oscillators,Oscillators
+Power_Management,Power management and distribution devices
+RFSolutions,??
+Relay,Relays
+Sensor_Current,Current sensor devices
+Switch,Switches and buttons
+Transformer,Transformers
+Transistor,Transistors
+Valve,Valves
+Worldsemi,??
+Zilog,??
+ac-dc,AC to DC converter modules
+adc-dac,Analog to digital (ADC) and digital to analog (DAC) converters
+analog_devices,??
+analog_switches,Analog switches
+atmel,Various unassigned Atmel components
+audio,Audio devices
+bbd,Various unassigned BBD components
+brooktre,Various unassigned Brooktre components
+contrib,??
+cypress,??
+dc-dc,DC to DC switching converters
+device,Common generic symbols
+digital-audio,??
+driver_gate,MOSFET gate drivers, bridge driver ICs
+dsp,Digital signal processors, unassigned
+elec-unifil,?
+ftdi,FTDI parts (unassigned)
+gennum,?
+hc11,?
+infineon,Unassigned Infineon parts
+intel,Unassigned Intel parts
+interface,Interface parts, unassigned
+intersil,Unnasigned Intersil parts
+ir,Unassigned International Rectifier parts
+linear,Op amps etc
+logic_programmable,Programmable logic devices
+maxim,Unassigned Maxim parts
+memory,Memory
+Microchip,Unassigned Microchip parts
+microcontrollers,Microcontrollers
+modules,??
+motor_drivers,Motor driver ICs
+motorola,Unassigned Motorolla parts
+nordicsemi,Unassigned Nordic parts
+nxp,Unassigned NXP parts
+onsemi,Unassigned ON Semiconductor parts
+opto,Opto devices
+philips,Unassigned Philips parts
+power,Power symbols
+powerint,??
+pspice,Spice symbols for simulation
+references,Voltage references
+regul,DC to DC linear regulators
+rfcom,RF and wireless devices
+sensors,Sensors, various
+silabs,Unassigned SiLabs parts
+siliconi,?
+supertex,?
+texas,Unassigned Texas Instruments parts
+triac_thyristor,??
+video,?
+wiznet,?
+xilinx, ?
+zetex, ?

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{% include head.html %}
+
+<body>
+
+  {% include header.html %}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+    <h2>KLC {{ page.title }}</h1>
+    <b><i>{{ page.brief }}</b></i>
+    <hr>
+    {{ content }}
+    <hr>
+    <a href="/klc">Back</a>
+  </div>
+  </main>
+
+  {% include footer.html %}
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+<table class="download">
+  <tr>
+    <th>Library</th>
+    <th>Description</th>
+    <th>Models</th>
+    <th>Download</th>
+  </tr>
+{% for lib in site.packages3d %}
+  <tr>
+    <td><a href="/packages3d/{{ lib.title }}">{{ lib.title }}</a></td>
+    <td>{{ lib.descr }}</td>
+    <td align="center">{{ lib.modelcount }}</td>
+    <td><a href="/download/packages3d/{{ lib.title }}.7z">{{ lib.archivesize }}</a></td>
+  </tr>
+{% endfor %}
+</table>
