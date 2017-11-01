@@ -15,3 +15,4 @@ script:
 #  - bash $TRAVIS_BUILD_DIR/_scripts/gen_symbols.sh
 #  - bash $TRAVIS_BUILD_DIR/_scripts/gen_footprints.sh
 #  - bash $TRAVIS_BUILD_DIR/_scripts/gen_models.sh
+  - echo "Travis completio"
