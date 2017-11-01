@@ -7,10 +7,10 @@ env:
   - ENCRYPTION_LABEL: "21da1cd8bdb1"
   - COMMIT_AUTHOR_EMAIL: "kicad.klc.bot@gmail.com"
 script:
-  - python /home/travis/build/utils/download_pretty_libs.py -p /home/travis/build/footprints --shallow > /dev/null
-  - rm _footprints/*.md
-  - rm _symbols/*.md
-  - rm _packages3d/*.md
-  - bash _scripts/gen_symbols.sh
-  - bash _scripts/gen_footprints.sh
-  - bash _scripts/gen_models.sh
+#  - python /home/travis/build/utils/download_pretty_libs.py -p /home/travis/build/footprints --shallow > /dev/null
+  - rm $TRAVIS_BUILD_DIR/_footprints/*.md
+  - rm $TRAVIS_BUILD_DIR/_symbols/*.md
+  - rm $TRAVIS_BUILD_DIR/_packages3d/*.md
+  - bash $TRAVIS_BUILD_DIR/_scripts/gen_symbols.sh
+  - bash $TRAVIS_BUILD_DIR/_scripts/gen_footprints.sh
+  - bash $TRAVIS_BUILD_DIR/_scripts/gen_models.sh
