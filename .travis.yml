@@ -1,5 +1,4 @@
 before_install:
-  - openssl aes-256-cbc -K $encrypted_21da1cd8bdb1_key -iv $encrypted_21da1cd8bdb1_iv -in .id_rsa.enc -out .id_rsa -d
   # 7z is required to create library archives
   - sudo apt-get -qq update
   - sudo apt-get install -y p7zip-full
@@ -16,4 +15,6 @@ script:
   - python /home/travis/build/utils/download_pretty_libs.py -p /home/travis/build/footprints --shallow > /dev/null
   # Run!
   - bash $TRAVIS_BUILD_DIR/build.sh
+  # Make a deploy key
+  - openssl aes-256-cbc -K $encrypted_21da1cd8bdb1_key -iv $encrypted_21da1cd8bdb1_iv -in .id_rsa.enc -out -d
   - travis_wait 30 bash $TRAVIS_BUILD_DIR/push.sh
