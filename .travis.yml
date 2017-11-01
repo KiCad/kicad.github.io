@@ -16,4 +16,4 @@ script:
   - python /home/travis/build/utils/download_pretty_libs.py -p /home/travis/build/footprints --shallow > /dev/null
   # Run!
   - bash $TRAVIS_BUILD_DIR/build.sh
-  - travis wait 30 bash $TRAVIS_BUILD_DIR/push.sh
+  - travis_wait 30 bash $TRAVIS_BUILD_DIR/push.sh
