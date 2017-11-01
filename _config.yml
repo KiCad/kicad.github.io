@@ -34,4 +34,4 @@ defaults:
       type: "packages3d"
       layout: "symlib"
 
-exclude: [kicad-footprints, kicad-symbols]
+exclude: [kicad-library-utils, footprints, kicad-library]

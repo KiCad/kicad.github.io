@@ -1,4 +1,4 @@
 # Generate symbol listings
-rm _symbols/*.md
-python gen_symbol_info.py /home/travis/build/kicad-library/library/*.lib --schlib /home/travis/build/kicad-library/schlib --output _symbols --json files/symbols.json -v --download download/ --csv _data/symbols.csv
-gzip files/symbols.json -f
+rm $TRAVIS_BUILD_DIR/_symbols/*.md
+python gen_symbol_info.py $TRAVIS_BUILD_DIR/kicad-library/library/*.lib --schlib $TRAVIS_BUILD_DIR/kicad-library/schlib --output $TRAVIS_BUILD_DIR/_symbols --json $TRAVIS_BUILD_DIR/files/symbols.json -v --download $TRAVIS_BUILD_DIR/download/ --csv $TRAVIS_BUILD_DIR/_data/symbols.csv
+gzip $TRAVIS_BUILD_DIR/files/symbols.json -f

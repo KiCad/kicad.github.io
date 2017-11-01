@@ -7,7 +7,7 @@ env:
   - ENCRYPTION_LABEL: "21da1cd8bdb1"
   - COMMIT_AUTHOR_EMAIL: "kicad.klc.bot@gmail.com"
 script:
-  - python /home/travis/build/kicad-library/download_pretty_libs.py -p /home/travis/build/footprints --shallow
+  - python /home/travis/build/kicad-library-utils/download_pretty_libs.py -p /home/travis/build/footprints --shallow
   - bash _scripts/gen_footprints.sh
   - bash _scripts/gen_symbols.sh
   - bash _scripts/gen_models.sh
