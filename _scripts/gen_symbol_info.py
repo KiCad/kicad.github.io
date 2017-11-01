@@ -79,6 +79,9 @@ def create_output_file(sym_list):
     if not args.output:
         return
 
+    if not os.path.exists(args.output):
+        os.makedirs(args.output)
+
     output_file = os.path.join(args.output, sym_list.name + '.md')
 
     with open(output_file, 'w') as md_file:
@@ -108,7 +111,7 @@ for lib_file in src_libs:
         archive_dir = os.path.abspath(os.path.join(args.download, 'symbols'))
 
         if not os.path.exists(archive_dir):
-            os.mkdirs(archive_dir)
+            os.makedirs(archive_dir)
 
         archive = os.path.join(archive_dir, lib_name + '.7z')
 

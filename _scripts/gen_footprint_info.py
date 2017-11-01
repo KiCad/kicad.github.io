@@ -66,7 +66,7 @@ def create_output_file(fp_list):
         return
 
     if not os.path.exists(args.output):
-        os.mkdirs(args.output)
+        os.makedirs(args.output)
 
     output_file = os.path.join(args.output, fp_list.name + '.md')
 
@@ -114,7 +114,7 @@ for lib_dir in src_libs:
         archive_dir = os.path.abspath(os.path.join(args.download, 'footprints'))
 
         if not os.path.exists(archive_dir):
-            os.mkdirs(archive_dir)
+            os.makedirs(archive_dir)
 
         archive = os.path.join(archive_dir, lib_name + '.7z')
 
