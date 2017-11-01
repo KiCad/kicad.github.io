@@ -8,6 +8,7 @@ env:
   - COMMIT_AUTHOR_EMAIL: "kicad.klc.bot@gmail.com"
 script:
   - python /home/travis/build/kicad-library-utils/download_pretty_libs.py -p /home/travis/build/footprints --shallow
-  - bash _scripts/gen_footprints.sh
-  - bash _scripts/gen_symbols.sh
-  - bash _scripts/gen_models.sh
+  - rm _symbols/*.md
+  - python _scripts/gen_symbol_info.py /home/travis/build/kicad-library/library/*.lib --schlib /home/travis/build/kicad-library/utils/schlib --output _symbols -v --download download --csv _data/symbols.csv
+  - rm _footprints/*.md
+  - rm _packages3d/*.md
