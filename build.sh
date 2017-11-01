@@ -11,21 +11,23 @@ python gen_symbol_info.py /home/travis/build/kicad-library/library/*.lib --schli
 # And back to the build dir
 cd $TRAVIS_BUILD_DIR
 
-# If there are no changes to the compiled out (e.g. this is a README update) then just bail.
-if git diff --quiet; then
-    echo "No changes to the output on this push; exiting."
-    exit 0
-fi
 
 SHA=`git rev-parse --verify HEAD`
 
 git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
 
-git add .
+git add -A .
+
+# If there are no changes to the compiled out (e.g. this is a README update) then just bail.
+if git diff --quiet; then
+    echo "No changes found; exiting."
+    exit 0
+fi
+
 git commit -m "Autobuild by Travis: ${SHA}"
 
 ssh-add .id_rsa
 
 # And push back upstream!
-#git push $
+git push https://github.com/KiCad/kicad.github.io master
