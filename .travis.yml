@@ -1,18 +1,18 @@
 before_install:
-- openssl aes-256-cbc -K $encrypted_21da1cd8bdb1_key -iv $encrypted_21da1cd8bdb1_iv -in .id_rsa.enc -out .id_rsa -d
+  - openssl aes-256-cbc -K $encrypted_21da1cd8bdb1_key -iv $encrypted_21da1cd8bdb1_iv -in .id_rsa.enc -out .id_rsa -d
+  # 7z is required to create library archives
+  - sudo apt-get -qq update
+  - sudo apt-get install -y p7zip-full
 env:
   global:
   - ENCRYPTION_LABEL: "21da1cd8bdb1"
   - COMMIT_AUTHOR_EMAIL: "kicad.klc.bot@gmail.com"
 script:
+  # Download kicad-library-utils scripts
   - git clone --depth 1 https://github.com/KiCad/kicad-library-utils /home/travis/build/utils
+  # Download KiCad symbols and 3D data
   - git clone --depth 1 https://github.com/KiCad/kicad-library /home/travis/build/kicad-library
-#  - python /home/travis/build/utils/download_pretty_libs.py -p /home/travis/build/footprints --shallow > /dev/null
+  # Download footprint libraries using script
+  - python /home/travis/build/utils/download_pretty_libs.py -p /home/travis/build/footprints --shallow > /dev/null
+  # Run!
   - bash $TRAVIS_BUILD_DIR/build.sh
-#  - rm $TRAVIS_BUILD_DIR/_footprints/*.md
-#  - rm $TRAVIS_BUILD_DIR/_symbols/*.md
-#  - rm $TRAVIS_BUILD_DIR/_packages3d/*.md
-#  - bash $TRAVIS_BUILD_DIR/_scripts/gen_symbols.sh
-#  - bash $TRAVIS_BUILD_DIR/_scripts/gen_footprints.sh
-#  - bash $TRAVIS_BUILD_DIR/_scripts/gen_models.sh
-  - echo "Travis completio"
