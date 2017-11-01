@@ -62,6 +62,8 @@ if args.csv:
             lib_desc = row['Description']
             descriptions[lib_name] = lib_desc
 
+print("args.libs:", args.libs)
+
 # Read in list of symbol libraries to parse
 for lib in args.libs:
 
@@ -73,6 +75,10 @@ for lib in args.libs:
             print("Lib:", l)
         else:
             print("Err:", l)
+
+if len(src_libs) == 0:
+    print("No libraries provided")
+    sys.exit(1)
 
 def create_output_file(sym_list):
     if not args.output:

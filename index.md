@@ -23,4 +23,9 @@ The following library files are available:
 Users who wish to keep up to date with the latest libraries should clone the KiCad libraries using Git or SVN. Cloning the library repositories means that users only need to download _updates_ to the libraries, rather than re-downloading library files multiple times. This can significantly save on bandwith usage and allows users to control which library versions they use.
 
 ---
+
+_This site is automatically generated and mirrors the latest library data available on the [KiCad GitHub page](https://github.com/kicad). Library updates may take up to 48 hours to appear._
+
+---
+
 {% include render_date.html %}
