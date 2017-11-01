@@ -24,12 +24,15 @@ git add _packages3d
 git add download
 
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
-if git diff origin/master--quiet; then
+if git diff origin/master --quiet; then
     echo "No changes found; exiting."
     exit 0
 fi
 
 git commit -m "Autobuild by Travis: ${SHA}"
+
+chmod 600 .id_rsa
+eval `ssh-agent -s`
 
 ssh-add .id_rsa
 
