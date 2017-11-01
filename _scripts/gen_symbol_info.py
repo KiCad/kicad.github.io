@@ -30,6 +30,8 @@ parser.add_argument('--download', help='Path to store generated archive files fo
 
 args = parser.parse_args()
 
+print("Reading symbol libraries")
+
 if args.output:
     args.output = os.path.abspath(args.output)
 
