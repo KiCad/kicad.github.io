@@ -33,5 +33,3 @@ defaults:
       path: ""
       type: "packages3d"
       layout: "symlib"
-
-exclude: [kicad-library-utils, footprints, kicad-library]
