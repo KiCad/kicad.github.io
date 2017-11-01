@@ -1,9 +1,13 @@
 before_install:
 - openssl aes-256-cbc -K $encrypted_21da1cd8bdb1_key -iv $encrypted_21da1cd8bdb1_iv -in .id_rsa.enc -out .id_rsa -d
 - git clone --depth 1 https://github.com/KiCad/kicad-library-utils /home/travis/build/utils
+- git clone --depth 1 https://github.com/KiCad/kicad-library /home/travis/build/kicad-library
 env:
   global:
   - ENCRYPTION_LABEL: "21da1cd8bdb1"
   - COMMIT_AUTHOR_EMAIL: "kicad.klc.bot@gmail.com"
 script:
-  - bash ./deploy.sh
+  - python /home/travis/build/kicad-library/download_pretty_libs.py -p /home/travis/build/footprints --shallow
+  - bash _scripts/gen_footprints.sh
+  - bash _scripts/gen_symbols.sh
+  - bash _scripts/gen_models.sh
