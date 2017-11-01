@@ -16,6 +16,8 @@ if git diff origin/master --quiet; then
     exit 0
 fi
 
+echo "Pushing changes to origin master"
+
 git commit -m "Autobuild by Travis: ${SHA}"
 
 chmod 600 .id_rsa
