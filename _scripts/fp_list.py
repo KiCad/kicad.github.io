@@ -88,6 +88,7 @@ class FootprintList:
         md += 'title: "' + self.name + '"\n'
         md += 'descr: "' + self.description + '"\n'
         md += 'footprintcount: "{n}"\n'.format(n=self.count)
+        md += 'layout: fplib\n'
 
         if self.archive_size:
             md += 'archivesize: "{n}"\n'.format(n=self.archive_size)

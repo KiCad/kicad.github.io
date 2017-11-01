@@ -101,6 +101,7 @@ class SymbolList:
         md += 'title: "{t}"\n'.format(t=self.name)
         md += 'descr: "{d}"\n'.format(d=self.description)
         md += 'symbolcount: "{n}"\n'.format(n=self.count)
+        md += 'layout: symlib\n'
 
         if self.archive_size:
             md += 'archivesize: "{n}"\n'.format(n=self.archive_size)

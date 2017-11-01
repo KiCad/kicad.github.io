@@ -3,8 +3,7 @@
   <div class="wrapper">
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
-    <a class="site-title" href="{{ "/" | relative_url }}">
-        <img height="60" src="/assets/img/kicad_logo_small.png"/> {{ site.title | escape }}</a>
+    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
     {% if page_paths %}
       <nav class="site-nav">

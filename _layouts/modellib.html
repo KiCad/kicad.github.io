@@ -9,18 +9,18 @@
 
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
-        <h2>Symbol Library - {{ page.title }}</h1>
+        <h2>3D Model Library - {{ page.title }}</h1>
         <p>Description: {{ page.descr }}</p>
-        <p>Symbols: {{ page.symbolcount }}</p>
-        <p>Download: <a href="/download/symbols/{{ page.title }}.7z">{{ page.title }}.7z | {{ page.archivesize }}</a></p>
+        <p>Models: {{ page.symbolcount }}</p>
+        <p>Download: <a href="/download/packages3d/{{ page.title }}.7z">{{ page.title }}.7z | {{ page.archivesize }}</a></p>
         <hr>
         {{ content }}
         <hr>
         <br>
         {% include render_date.html %}
         <br>
-        <a href="/symbols">Back</a
-    </div>
+        <a href="/packages3d">Back</a
+        </div>
   </main>
 
 </body>
