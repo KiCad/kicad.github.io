@@ -5,8 +5,8 @@ env:
   - ENCRYPTION_LABEL: "21da1cd8bdb1"
   - COMMIT_AUTHOR_EMAIL: "kicad.klc.bot@gmail.com"
 script:
-    - git clone --depth 1 https://github.com/KiCad/kicad-library-utils /home/travis/build/utils
-    - git clone --depth 1 https://github.com/KiCad/kicad-library /home/travis/build/kicad-library
+  - git clone --depth 1 https://github.com/KiCad/kicad-library-utils /home/travis/build/utils
+  - git clone --depth 1 https://github.com/KiCad/kicad-library /home/travis/build/kicad-library
 #  - python /home/travis/build/utils/download_pretty_libs.py -p /home/travis/build/footprints --shallow > /dev/null
   - bash $TRAVIS_BUILD_DIR/build.sh
 #  - rm $TRAVIS_BUILD_DIR/_footprints/*.md
