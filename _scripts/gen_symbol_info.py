@@ -70,6 +70,9 @@ for lib in args.libs:
     for l in libs:
         if os.path.exists(l) and l.endswith('.lib'):
             src_libs.append(l)
+            print("Lib:", l)
+        else:
+            print("Err:", l)
 
 def create_output_file(sym_list):
     if not args.output:
