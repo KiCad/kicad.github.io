@@ -6,9 +6,9 @@ layout: home
 
 This site serves the latest KiCad libraries which are community contributed on the [KiCad github page](https://github.com/kicad).
 
-If you would like to contribute to the libraries, refer to the library contributing guide at (http://kicad-pcb.org/libraries/contributing).
+If you would like to contribute to the libraries, refer to the library contributing guide at [http://kicad-pcb.org/libraries/contributing](http://kicad-pcb.org/libraries/contributing).
 
-Library licensing information is available at (http://kicad-pcb.org/libraries/license).
+Library licensing information is available at [http://kicad-pcb.org/libraries/license](http://kicad-pcb.org/libraries/license).
 
 ## Available Libraries
 
@@ -22,9 +22,16 @@ The following library files are available:
 
 Users who wish to keep up to date with the latest libraries should clone the KiCad libraries using Git or SVN. Cloning the library repositories means that users only need to download _updates_ to the libraries, rather than re-downloading library files multiple times. This can significantly save on bandwith usage and allows users to control which library versions they use.
 
+# External Links
+
+* [Official KiCad Website](http://kicad-pcb.org)
+* [KiCad GitHub Page](https://github.com/kicad)
+
 ---
 
-_This site is automatically generated and mirrors the latest library data available on the [KiCad GitHub page](https://github.com/kicad). Library updates may take up to 48 hours to appear._
+_This site is automatically generated and mirrors the latest library data available on the [KiCad GitHub page](https://github.com/kicad)._
+
+_Library updates may take up to 48 hours to appear._
 
 ---
 

@@ -69,6 +69,8 @@ for lib in args.libs:
 
     libs = glob.glob(lib)
 
+    print(lib, libs)
+
     for l in libs:
         if os.path.exists(l) and l.endswith('.lib'):
             src_libs.append(l)
