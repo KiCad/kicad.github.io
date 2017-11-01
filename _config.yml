@@ -1,6 +1,7 @@
 title: KiCad Libraries
 url: "http://kicad-pcb.org"
 github_username:  KiCad
+description: KiCad Libraries
 
 # Build settings
 theme: minima

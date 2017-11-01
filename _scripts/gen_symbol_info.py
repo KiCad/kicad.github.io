@@ -62,21 +62,14 @@ if args.csv:
             lib_desc = row['Description']
             descriptions[lib_name] = lib_desc
 
-print("args.libs:", args.libs)
-
 # Read in list of symbol libraries to parse
 for lib in args.libs:
 
     libs = glob.glob(lib)
 
-    print(lib, libs)
-
     for l in libs:
         if os.path.exists(l) and l.endswith('.lib'):
             src_libs.append(l)
-            print("Lib:", l)
-        else:
-            print("Err:", l)
 
 if len(src_libs) == 0:
     print("No libraries provided")
@@ -115,7 +108,7 @@ for lib_file in src_libs:
         archive_dir = os.path.abspath(os.path.join(args.download, 'symbols'))
 
         if not os.path.exists(archive_dir):
-            os.mkdir(archive_dir)
+            os.mkdirs(archive_dir)
 
         archive = os.path.join(archive_dir, lib_name + '.7z')
 

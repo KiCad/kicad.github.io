@@ -54,6 +54,9 @@ def create_output_file(model_list):
     if not args.output:
         return
 
+    if not os.path.exists(args.output):
+        ok.mkdirs(args.output)
+
     output_file = os.path.join(args.output, model_list.name + '.md')
 
     with open(output_file, 'w') as md_file:
@@ -97,7 +100,7 @@ for lib_dir in src_dirs:
         archive_dir = os.path.abspath(os.path.join(args.download, 'packages3d'))
 
         if not os.path.exists(archive_dir):
-            os.mkdir(archive_dir)
+            os.mkdirs(archive_dir)
 
         archive = os.path.join(archive_dir, lib_name + '.7z')
 
