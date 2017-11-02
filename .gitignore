@@ -4,6 +4,8 @@ _site/
 
 
 # Ignore local unencrypted keys
+deploy_key
+deploy_key.pub
 .id_rsa
 .id_rsa.pub
 
