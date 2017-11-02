@@ -10,6 +10,9 @@ git add _footprints
 git add _packages3d
 git add download
 
+# Debug info
+git status
+
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
 if git diff origin/master --quiet; then
     echo "No changes found; exiting."
