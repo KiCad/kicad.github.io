@@ -20,10 +20,10 @@ echo "Pushing changes to origin master"
 
 git commit -m "Autobuild by Travis: ${SHA}"
 
-chmod 600 deploy_key
+chmod 600 travis_key
 eval `ssh-agent -s`
 
-ssh-add deploy_key
+ssh-add travis_key
 
 # And push back upstream!
 git push https://github.com/KiCad/kicad.github.io master
