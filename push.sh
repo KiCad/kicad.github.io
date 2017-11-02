@@ -30,4 +30,4 @@ export GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChec
 git remote set-url --push origin git@github.com:KiCad/kicad.github.io.git
 
 # And push back upstream (must use SSH repo URL)
-git push origin master -f
+git push origin master
