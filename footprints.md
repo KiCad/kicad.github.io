@@ -18,4 +18,5 @@ Stable releases of the footprint libraries can be found [here](https://github.co
 {% include fptable.html %}
 
 ---
+
 {% include render_date.html %}

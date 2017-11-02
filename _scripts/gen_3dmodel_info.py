@@ -110,7 +110,9 @@ for lib_dir in src_dirs:
     # TODO - Extract the name of the library from... somewhere?
     model_list = ModelList(lib_name, 'blank description', archive_size)
 
+    continue
     # TODO
+    """
     for fp in footprints:
         fp_list.add_footprint(fp)
 
@@ -120,6 +122,8 @@ for lib_dir in src_dirs:
 
     if args.json:
         json_data.append(fp_list.encode_json())
+
+    """
 
 if args.json:
     with open(args.json, 'w') as json_file:

@@ -6,7 +6,7 @@ layout: default
 
 ## {{ page.title }}
 
-The KiCad symbol libraries are the individual `.lib` files.
+The KiCad symbol libraries are the individual `.lib` files, with the corresponding `.dcm` files contain symbol metadata.
 
 The latest set of KiCad symbol libraries can be downloaded:
 
@@ -18,4 +18,5 @@ Stable releases of the symbol libraries can be found [here](https://github.com/k
 {% include symtable.html %}
 
 ---
+
 {% include render_date.html %}
