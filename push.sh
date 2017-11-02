@@ -28,4 +28,4 @@ ssh-add travis_key
 export GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
 
 # And push back upstream (must use SSH repo URL)
-git push git@github.com:KiCad/kicad.github.io.git master -f
+git push git@github.com:KiCad/kicad.github.io.git gh-pages -f

@@ -2,7 +2,6 @@
 _site/
 .sass-cache/
 
-
 # Ignore local unencrypted keys
 deploy_key
 deploy_key.pub
