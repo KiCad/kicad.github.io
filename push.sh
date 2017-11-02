@@ -3,7 +3,7 @@ cd $TRAVIS_BUILD_DIR
 SHA=`git rev-parse --verify HEAD`
 
 git config user.name "Travis CI"
-git config user.email "$COMMIT_AUTHOR_EMAIL"
+git config user.email "kicad.klc.bot@gmail.com"
 
 git add _symbols
 git add _footprints
@@ -30,4 +30,4 @@ export GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChec
 git remote set-url --push origin git@github.com:KiCad/kicad.github.io.git
 
 # And push back upstream (must use SSH repo URL)
-git push origin master
+git push origin master -v --progress

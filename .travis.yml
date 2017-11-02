@@ -2,10 +2,6 @@ before_install:
   # 7z is required to create library archives
   - sudo apt-get -qq update
   - sudo apt-get install -y p7zip-full
-env:
-  global:
-  - ENCRYPTION_LABEL: "21da1cd8bdb1"
-  - COMMIT_AUTHOR_EMAIL: "kicad.klc.bot@gmail.com"
 script:
   # Download kicad-library-utils scripts
   - git clone --depth 1 https://github.com/KiCad/kicad-library-utils /home/travis/build/utils

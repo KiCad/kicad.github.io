@@ -1,5 +1,8 @@
 # Remove old generated data
 cd $TRAVIS_BUILD_DIR
+
+git checkout master
+
 rm ./_symbols/*.md
 rm ./_footprints/*.md
 rm ./_packages3d/*.md
