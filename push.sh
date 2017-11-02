@@ -25,5 +25,7 @@ eval `ssh-agent -s`
 
 ssh-add travis_key
 
+export GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
+
 # And push back upstream!
 git push https://github.com/KiCad/kicad.github.io master
