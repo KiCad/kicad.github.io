@@ -11,7 +11,7 @@ class ModelList:
 
     def add_model(self, model_name, model_archive_size):
         data = {}
-        data['name'] = model_name
+        data['name'] = make_ascii(model_name)
 
         self.data.append(data)
         self.count += 1

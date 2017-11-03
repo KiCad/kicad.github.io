@@ -1,5 +1,5 @@
 import json
-from helpers import datasheet_link
+from helpers import datasheet_link, make_ascii
 
 class FootprintList:
     def __init__(self, lib_name, lib_description, archive_size):
@@ -12,10 +12,10 @@ class FootprintList:
 
     def add_footprint(self, fp):
         data = {}
-        data['name'] = fp.name
+        data['name'] = make_ascii(fp.name)
 
-        data['tags'] = fp.tags
-        data['desc'] = fp.description
+        data['tags'] = make_ascii(fp.tags)
+        data['desc'] = make_ascii(fp.description)
 
         self.data.append(data)
         self.count += 1
