@@ -35,26 +35,7 @@ class ModelList:
         json_data['models'] = model_data
 
         return json_data
-
-    def datasheet_link(self, ds):
-        links = ['http', 'www', 'ftp']
-
-        if not ds:
-            ds = ''
-
-        link = False
-
-        if any([ds.startswith(i) for i in links]):
-            link = True
-
-        elif ds.endswith('.pdf') or '.htm' in ds:
-            link = True
-
-        if link:
-            return "[{ds}]({ds})".format(ds=ds)
-        else:
-            return ds
-
+        
     def symbol_md(self, symbol):
         md = "### {name}\n".format(name=symbol['name'])
         """

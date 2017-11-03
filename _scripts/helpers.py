@@ -16,16 +16,28 @@ def datasheet_link(text):
     for element in text.split():
         link = False
 
-        el = element.lower()
+        el = element
 
-        if any([el.startswith(i) for i in links]):
+        # Strip quote characters
+        start = ['"', "'", "[", "(", "{", ":"]
+        end = ['"', "'", "]", ")", "}", ".", ","]
+
+        for s in start:
+            if el.startswith(s):
+                el = el[1:]
+
+        for e in end:
+            if el.endswith(e):
+                el = el[:-1]
+
+        if any([el.lower().startswith(i) for i in links]):
             link = True
 
         elif el.endswith('.pdf') or '.htm' in el:
             link = True
 
         if link:
-            element = '<a href="{el}">{el}</a>'.format(el=element)
+            element = '<a href="{link}">{text}</a>'.format(link=el, text=element)
 
         out.append(element)
 
