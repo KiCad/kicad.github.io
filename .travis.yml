@@ -1,5 +1,5 @@
 git:
-  - depth: 3
+  depth: 3
 before_install:
   # 7z is required to create library archives
   - sudo apt-get -qq update
