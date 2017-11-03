@@ -17,7 +17,7 @@ def file_md5(file):
     else:
         return None
 
-def archive_7z(archive, files, silent=True):
+def archive_7z(archive, files):
 
     # Archive to a temp location first
     # Only copy to output path if it is different
@@ -27,13 +27,11 @@ def archive_7z(archive, files, silent=True):
     if os.path.exists(tmp_file):
         call(['rm', tmp_file])
 
-    # Add each file to the archive individually
-    for f in files:
-        args = ['7z', 'a', '-t7z', '-mx=9', os.path.abspath(tmp_file), f]
-        if silent:
-            args.append('>')
-            args.append('/dev/null')
-        call(args)
+    args = ['7z', 'a', '-t7z', '-mx=9', os.path.abspath(tmp_file)] + files
+
+    print("Creating archive '{name}'".format(name=os.path.basename(archive)))
+    p = Popen(args, stdin=PIPE, stdout=PIPE, stderr=PIPE)
+    output, err = p.communicate()
 
     p = Popen(['ls', '-lh', tmp_file], stdin=PIPE, stdout=PIPE, stderr=PIPE)
 
@@ -44,6 +42,8 @@ def archive_7z(archive, files, silent=True):
 
     copy = True
 
+    # If an archive already exists in the target location,
+    # do not copy the temp file there if the MD5 sums are identical
     if os.path.exists(archive):
         md5_archive = file_md5(archive)
         md5_tmp = file_md5(tmp_file)

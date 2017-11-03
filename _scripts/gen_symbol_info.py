@@ -88,15 +88,13 @@ def create_output_file(sym_list):
     with open(output_file, 'w') as html_file:
         html_file.write(sym_list.encode_html())
 
-lib_names = []
+archive_files = []
 
 # Iterate through each provided library
 for lib_file in src_libs:
     lib_name = ''.join(os.path.basename(lib_file).split('.lib')[:-1])
 
     lib_path = os.path.dirname(lib_file)
-
-    lib_names.append(lib_name)
 
     dcm_file = os.path.join(lib_path, lib_name + '.dcm')
 
@@ -118,7 +116,11 @@ for lib_file in src_libs:
         if not os.path.exists(archive_dir):
             os.makedirs(archive_dir)
 
-        archive = os.path.join(archive_dir, lib_name + '.7z')
+        archive_file = lib_name + '.7z'
+
+        archive = os.path.join(archive_dir, archive_file)
+
+        archive_files.append(archive_file)
 
         archive_size = zipper.archive_7z(archive, files)
     else:
@@ -145,4 +147,4 @@ if args.json:
 
 if args.download:
     archive_dir = os.path.abspath(os.path.join(args.download, 'symbols'))
-    helpers.purge_old_archives(archive_dir, lib_names)
+    helpers.purge_old_archives(archive_dir, archive_files)
