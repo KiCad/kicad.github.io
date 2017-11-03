@@ -43,7 +43,7 @@ def datasheet_link(text):
 
     return make_ascii(' '.join(out))
 
-def purge_old_archives(directory, names):
+def purge_old_archives(directory, archives):
     """
     Purge old archive files from a directory
     """
@@ -55,13 +55,7 @@ def purge_old_archives(directory, names):
 
     for fn in files:
 
-        f = fn
-        if f.endswith('.7z'):
-            f = f[:-3]
-        else:
-            continue
-
-        if f in names:
+        if fn in archives:
             continue
 
         # Delete!

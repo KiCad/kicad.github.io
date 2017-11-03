@@ -87,14 +87,12 @@ def create_output_file(fp_list):
     with open(output_file, 'w') as html_file:
         html_file.write(fp_list.encode_html())
 
-lib_names = []
+archive_files = []
 
 # Iterate through each provided library
 for lib_dir in src_libs:
 
     lib_name = ''.join(os.path.basename(lib_dir).split('.pretty')[:-1])
-
-    lib_names.append(lib_name)
 
     if args.verbose > 0:
         print("Encoding library '{l}'".format(l=lib_name))
@@ -131,7 +129,10 @@ for lib_dir in src_libs:
         if not os.path.exists(archive_dir):
             os.makedirs(archive_dir)
 
-        archive = os.path.join(archive_dir, lib_name + '.7z')
+        archive_file = lib_name + '.pretty.7z'
+        archive_files.append(archive_file)
+
+        archive = os.path.join(archive_dir, archive_file)
 
         archive_size = zipper.archive_7z(archive, files)
     else:
@@ -158,4 +159,4 @@ if args.json:
 # Remove old symbol library archives
 if args.download:
     archive_dir = os.path.abspath(os.path.join(args.download, 'footprints'))
-    helpers.purge_old_archives(archive_dir, lib_names)
+    helpers.purge_old_archives(archive_dir, archive_files)
