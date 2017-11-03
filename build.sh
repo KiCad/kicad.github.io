@@ -12,7 +12,6 @@ git checkout master
 rm ./_symbols/*.md
 rm ./_footprints/*.md
 rm ./_packages3d/*.md
-rm -rf ./download/*
 
 # Run generator scripts
 cd ./_scripts
