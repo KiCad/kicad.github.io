@@ -97,6 +97,12 @@ table, th, td {
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+table {
+    max-width: 100%;
 }
 
 tr:nth-child(even) {
@@ -180,8 +186,9 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  //max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  //max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: 70%;
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit;

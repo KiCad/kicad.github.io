@@ -75,40 +75,62 @@ class SymbolList:
             link = True
 
         if link:
-            return "[{ds}]({ds})".format(ds=ds)
+            return '<a href="{ds}">{ds}</a>'.format(ds=ds)
         else:
             return ds
 
-    def symbol_md(self, symbol):
-        md = "### {name}\n".format(name=symbol['name'])
-        md += "{desc}\n".format(desc=symbol['desc'])
-        md += "\n\nKeywords: *{keys}*".format(keys=symbol['keys'])
+    def symbol_html(self, symbol):
 
-        ds = self.datasheet_link(symbol['data'])
-        if len(ds) > 2:
-            md += "\n\nDatasheet: *{data}*".format(data=ds)
+        desc = symbol['desc']
+        keys = symbol['keys']
+        ds = str(self.datasheet_link(symbol['data']))
 
-        md += "\n"
+        elements = []
 
-        return md
+        if desc:
+            elements.append('Description: ' + desc)
+        else:
+            elements.append('<i>Description missing</i>')
 
-    def encode_md(self):
+        if keys:
+            elements.append('Keys: ' + keys)
+
+        if ds and len(ds) > 2:
+            elements.append('Datasheet: ' + ds)
+
+        html = "<tr>\n"
+        html += "<td>{name}</td><td>{description}</td>\n".format(
+            name = symbol['name'],
+            description = '<br>'.join(elements))
+        html += "</tr>\n"
+
+        return html
+
+    def encode_html(self):
         """
         Encode a markdown file to display all items in the library
         """
 
-        md = "---\n"
-        md += 'title: "{t}"\n'.format(t=self.name)
-        md += 'descr: "{d}"\n'.format(d=self.description)
-        md += 'symbolcount: "{n}"\n'.format(n=self.count)
-        md += 'layout: symlib\n'
+        html = "---\n"
+        html += 'title: "{t}"\n'.format(t=self.name)
+        html += 'descr: "{d}"\n'.format(d=self.description)
+        html += 'symbolcount: "{n}"\n'.format(n=self.count)
+        html += 'layout: symlib\n'
 
         if self.archive_size:
-            md += 'archivesize: "{n}"\n'.format(n=self.archive_size)
+            html += 'archivesize: "{n}"\n'.format(n=self.archive_size)
 
-        md += "---\n\n"
+        html += "---\n\n"
+
+        html += "<table>\n"
+
+        html += "<tr>\n"
+        html += "<th>Symbol</th>\n"
+        html += "<th>Description</th>\n"
+        html += "</tr>\n"
 
         for d in self.data:
-            md += self.symbol_md(d) + "\n"
+            html += self.symbol_html(d)
 
-        return md
+        html += "</table>\n"
+        return html

@@ -82,10 +82,10 @@ def create_output_file(sym_list):
     if not os.path.exists(args.output):
         os.makedirs(args.output)
 
-    output_file = os.path.join(args.output, sym_list.name + '.md')
+    output_file = os.path.join(args.output, sym_list.name + '.html')
 
-    with open(output_file, 'w') as md_file:
-        md_file.write(sym_list.encode_md())
+    with open(output_file, 'w') as html_file:
+        html_file.write(sym_list.encode_html())
 
 # Iterate through each provided library
 for lib_file in src_libs:
