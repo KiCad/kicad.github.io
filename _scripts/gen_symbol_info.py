@@ -14,6 +14,7 @@ import glob
 from symbol_list import SymbolList
 import zipper
 import csv
+import helpers
 
 """
 Script defines
@@ -87,11 +88,15 @@ def create_output_file(sym_list):
     with open(output_file, 'w') as html_file:
         html_file.write(sym_list.encode_html())
 
+lib_names = []
+
 # Iterate through each provided library
 for lib_file in src_libs:
     lib_name = ''.join(os.path.basename(lib_file).split('.lib')[:-1])
 
     lib_path = os.path.dirname(lib_file)
+
+    lib_names.append(lib_name)
 
     dcm_file = os.path.join(lib_path, lib_name + '.dcm')
 
@@ -119,8 +124,6 @@ for lib_file in src_libs:
     else:
         archive_size = None
 
-    # TODO - Extract the name of the library from... somewhere?
-
     description = descriptions.get(lib_name, '')
 
     sym_list = SymbolList(lib_name, description, archive_size)
@@ -139,3 +142,7 @@ if args.json:
     with open(args.json, 'w') as json_file:
         json_output = json.dumps(json_data, separators=(',',':'))
         json_file.write(json_output)
+
+if args.download:
+    archive_dir = os.path.abspath(os.path.join(args.download, 'symbols'))
+    helpers.purge_old_archives(archive_dir, lib_names)

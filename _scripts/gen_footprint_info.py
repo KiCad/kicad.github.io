@@ -13,6 +13,7 @@ import json
 import glob
 from fp_list import FootprintList
 import zipper
+import helpers
 
 """
 Script defines
@@ -23,6 +24,7 @@ parser.add_argument('libs', nargs='+', help="List of footprint libraries (.prett
 parser.add_argument('--script', help='Path to kicad utils scripts (if not already in python path)', action='store')
 parser.add_argument('--output', help='Path to store output markdown files. If blank, no output will be generated')
 parser.add_argument('--json', help='Path to store generated JSON file. If blank, no JSON output will be generated')
+parser.add_argument('--csv', help='Path to .csv file containing footprint library description information')
 parser.add_argument('-v', '--verbose', help='Verbosity level', action='count')
 parser.add_argument('--download', help='Path to store generated archive files for download. If blank, no archives will be generated')
 
@@ -52,6 +54,18 @@ src_libs = []
 
 json_data = []
 
+# Read library descriptions
+descriptions = {}
+
+if args.csv:
+    with open(args.csv, 'r') as csv_file:
+        reader = csv.DictReader(csv_file)
+
+        for row in reader:
+            lib_name = row['Library']
+            lib_desc = row['Description']
+            descriptions[lib_name] = lib_desc
+
 # Read in list of symbol libraries to parse
 for lib in args.libs:
 
@@ -68,17 +82,19 @@ def create_output_file(fp_list):
     if not os.path.exists(args.output):
         os.makedirs(args.output)
 
-    output_file = os.path.join(args.output, fp_list.name + '.md')
+    output_file = os.path.join(args.output, fp_list.name + '.html')
 
-    with open(output_file, 'w') as md_file:
-        md_file.write(fp_list.encode_md())
+    with open(output_file, 'w') as html_file:
+        html_file.write(fp_list.encode_html())
+
+lib_names = []
 
 # Iterate through each provided library
 for lib_dir in src_libs:
 
     lib_name = ''.join(os.path.basename(lib_dir).split('.pretty')[:-1])
 
-    print(lib_name)
+    lib_names.append(lib_name)
 
     if args.verbose > 0:
         print("Encoding library '{l}'".format(l=lib_name))
@@ -94,7 +110,6 @@ for lib_dir in src_libs:
 
         if not any([f.lower().endswith(x) for x in allowed]):
             continue
-
 
         fp_file = os.path.join(lib_dir, f)
 
@@ -122,9 +137,8 @@ for lib_dir in src_libs:
     else:
         archive_size = None
 
-
-    # TODO - Extract the name of the library from... somewhere?
-    fp_list = FootprintList(lib_name, 'blank description', archive_size)
+    description = descriptions.get(lib_name, '')
+    fp_list = FootprintList(lib_name, description, archive_size)
 
     for fp in footprints:
         fp_list.add_footprint(fp)
@@ -140,3 +154,8 @@ if args.json:
     with open(args.json, 'w') as json_file:
         json_output = json.dumps(json_data, separators=(',',':'))
         json_file.write(json_output)
+
+# Remove old symbol library archives
+if args.download:
+    archive_dir = os.path.abspath(os.path.join(args.download, 'footprints'))
+    helpers.purge_old_archives(archive_dir, lib_names)

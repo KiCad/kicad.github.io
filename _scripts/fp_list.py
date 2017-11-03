@@ -1,4 +1,5 @@
 import json
+from helpers import datasheet_link
 
 class FootprintList:
     def __init__(self, lib_name, lib_description, archive_size):
@@ -21,7 +22,7 @@ class FootprintList:
 
     # Ensure data are sorted by name
     def reorder(self):
-        self.data = sorted(self.data, key=lambda item: item['name'].lower())
+        self.data = sorted(self.data, key=lambda item: str(item['name']).lower())
 
     def encode_json(self):
         json_data = {}
@@ -39,63 +40,39 @@ class FootprintList:
 
         return json_data
 
-    def datasheet_link(self, ds):
+    def footprint_html(self, fp):
 
-        output = []
+        html = "<tr><td>{name}</td><td>{description}</td></tr>\n".format(
+            name = fp['name'],
+            description = datasheet_link(fp['desc'])
+            )
 
-        for el in ds.split():
+        return html
 
-            links = ['http', 'www', 'ftp']
-
-            if not el:
-                el = ''
-
-            link = False
-
-            if any([el.startswith(i) for i in links]):
-                link = True
-
-            elif el.endswith('.pdf') or '.htm' in el:
-                link = True
-
-            if link:
-                el = "[{ds}]({ds})".format(ds=el)
-
-            output.append(el)
-
-        return " ".join(output)
-
-    def footprint_md(self, fp):
-        md = "### {name}\n".format(name=fp['name'])
-
-        desc = self.datasheet_link(fp['desc'])
-
-        md += "{desc}\n".format(desc=desc)
-
-        #md += "{desc}\n".format(desc=fp['desc'])
-        md += "\n\nTags: *{tags}*".format(tags=fp['tags'])
-
-        md += "\n"
-
-        return md
-
-    def encode_md(self):
+    def encode_html(self):
         """
-        Encode a markdown file to display all items in the library
+        Encode a html file to display all items in the library
         """
 
-        md = "---\n"
-        md += 'title: "' + self.name + '"\n'
-        md += 'descr: "' + self.description + '"\n'
-        md += 'footprintcount: "{n}"\n'.format(n=self.count)
-        md += 'layout: fplib\n'
+        html = "---\n"
+        html += 'title: "' + self.name + '"\n'
+        html += 'descr: "' + self.description + '"\n'
+        html += 'footprintcount: "{n}"\n'.format(n=self.count)
+        html += 'layout: fplib\n'
 
         if self.archive_size:
-            md += 'archivesize: "{n}"\n'.format(n=self.archive_size)
+            html += 'archivesize: "{n}"\n'.format(n=self.archive_size)
 
-        md += "---\n\n"
+        html += "---\n\n"
+
+        html += "<table>\n"
+        html += "<tr>\n"
+        html += "<th>Footprint</th>\n"
+        html += "<th>Description</th>\n"
+        html += "</tr>\n"
 
         for d in self.data:
-            md += self.footprint_md(d) + "\n"
+            html += self.footprint_html(d)
 
-        return md
+        html += "</table>\n"
+        return html

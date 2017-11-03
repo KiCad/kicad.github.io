@@ -1,4 +1,5 @@
 import json
+from helpers import datasheet_link
 
 class SymbolList:
     def __init__(self, lib_name, lib_description, archive_size):
@@ -42,7 +43,7 @@ class SymbolList:
 
     # Ensure data are sorted by name
     def reorder(self):
-        self.data = sorted(self.data, key=lambda item: item['name'].lower())
+        self.data = sorted(self.data, key=lambda item: str(item['name']).lower())
 
     def encode_json(self):
         json_data = {}
@@ -60,30 +61,11 @@ class SymbolList:
 
         return json_data
 
-    def datasheet_link(self, ds):
-        links = ['http', 'www', 'ftp']
-
-        if not ds:
-            ds = ''
-
-        link = False
-
-        if any([ds.startswith(i) for i in links]):
-            link = True
-
-        elif ds.endswith('.pdf') or '.htm' in ds:
-            link = True
-
-        if link:
-            return '<a href="{ds}">{ds}</a>'.format(ds=ds)
-        else:
-            return ds
-
     def symbol_html(self, symbol):
 
         desc = symbol['desc']
         keys = symbol['keys']
-        ds = str(self.datasheet_link(symbol['data']))
+        ds = str(datasheet_link(symbol['data']))
 
         elements = []
 

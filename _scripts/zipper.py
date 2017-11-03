@@ -46,7 +46,7 @@ def archive_7z(archive, files):
         md5_tmp = file_md5(tmp_file)
 
         if md5_tmp == md5_archive:
-            print("No changed to archive {f} - skipping".format(f=os.path.basename(archive)))
+            print("No changes to archive {f} - skipping".format(f=os.path.basename(archive)))
             copy = False
 
     if copy:
