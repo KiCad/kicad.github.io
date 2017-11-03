@@ -17,7 +17,7 @@ def file_md5(file):
     else:
         return None
 
-def archive_7z(archive, files):
+def archive_7z(archive, files, silent=True):
 
     # Archive to a temp location first
     # Only copy to output path if it is different
@@ -30,6 +30,9 @@ def archive_7z(archive, files):
     # Add each file to the archive individually
     for f in files:
         args = ['7z', 'a', '-t7z', '-mx=9', os.path.abspath(tmp_file), f]
+        if silent:
+            args.append('>')
+            args.append('/dev/null')
         call(args)
 
     p = Popen(['ls', '-lh', tmp_file], stdin=PIPE, stdout=PIPE, stderr=PIPE)
