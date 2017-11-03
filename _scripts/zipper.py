@@ -45,6 +45,10 @@ def archive_7z(archive, files):
         md5_archive = file_md5(archive)
         md5_tmp = file_md5(tmp_file)
 
+        print("Comparing MD5:")
+        print("Old: " + md5_archive)
+        print("New: " + md5_tmp)
+
         if md5_tmp == md5_archive:
             print("No changes to archive {f} - skipping".format(f=os.path.basename(archive)))
             copy = False
