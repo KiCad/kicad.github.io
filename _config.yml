@@ -3,6 +3,8 @@ url: "http://kicad-pcb.org"
 github_username:  KiCad
 description: KiCad Libraries
 
+encoding: UTF-8
+
 # Build settings
 theme: minima
 
