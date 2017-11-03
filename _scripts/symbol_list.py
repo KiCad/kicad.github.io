@@ -1,5 +1,5 @@
 import json
-from helpers import datasheet_link
+from helpers import datasheet_link, make_ascii
 
 class SymbolList:
     def __init__(self, lib_name, lib_description, archive_size):
@@ -17,9 +17,9 @@ class SymbolList:
         doc = cmp.documentation
 
         keys = doc.keys()
-        data['desc'] = doc.get('description', '')
-        data['keys'] = doc.get('keywords', '')
-        data['data'] = doc.get('datasheet', '')
+        data['desc'] = make_ascii(doc.get('description', ''))
+        data['keys'] = make_ascii(doc.get('keywords', ''))
+        data['data'] = make_ascii(doc.get('datasheet', ''))
 
         self.data.append(data)
         self.count += 1

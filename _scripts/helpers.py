@@ -1,6 +1,9 @@
 import os
 from subprocess import call
 
+def make_ascii(text):
+    return ''.join([c for c in str(text) if ord(c) < 127])
+
 def datasheet_link(text):
     links = ['http', 'www', 'ftp']
 
@@ -26,7 +29,7 @@ def datasheet_link(text):
 
         out.append(element)
 
-    return ' '.join(out)
+    return make_ascii(' '.join(out))
 
 def purge_old_archives(directory, names):
     """
