@@ -1,3 +1,5 @@
+git:
+  - depth: 3
 before_install:
   # 7z is required to create library archives
   - sudo apt-get -qq update
@@ -8,7 +10,7 @@ script:
   # Download KiCad symbols and 3D data
   - git clone --depth 1 https://github.com/KiCad/kicad-library /home/travis/build/kicad-library
   # Download footprint libraries using script
-  - python /home/travis/build/utils/download_pretty_libs.py -p /home/travis/build/footprints --shallow > /dev/null
+  - python /home/travis/build/utils/download_pretty_libs.py -p /home/travis/build/footprints --shallow
   # Run!
   - bash $TRAVIS_BUILD_DIR/build.sh
   # Make a deploy key

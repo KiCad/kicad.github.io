@@ -33,10 +33,13 @@ def purge_old_archives(directory, names):
     Purge old archive files from a directory
     """
 
+    if not os.path.exists(directory) or not os.path.isdir(directory):
+        return
+
     files = os.listdir(directory)
 
     for fn in files:
-        
+
         f = fn
         if f.endswith('.7z'):
             f = f[:-3]
