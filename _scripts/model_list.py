@@ -1,4 +1,5 @@
 import json
+from helpers import make_ascii
 
 class ModelList:
     def __init__(self, lib_name, lib_description, archive_size):
@@ -12,6 +13,7 @@ class ModelList:
     def add_model(self, model_name, model_archive_size):
         data = {}
         data['name'] = make_ascii(model_name)
+        data['size'] = model_archive_size
 
         self.data.append(data)
         self.count += 1
@@ -35,38 +37,46 @@ class ModelList:
         json_data['models'] = model_data
 
         return json_data
-        
-    def symbol_md(self, symbol):
-        md = "### {name}\n".format(name=symbol['name'])
-        """
-        md += "{desc}\n".format(desc=symbol['desc'])
-        md += "\n\nKeywords: *{keys}*".format(keys=symbol['keys'])
-        """
-        ds = self.datasheet_link(symbol['data'])
-        if len(ds) > 2:
-            md += "\n\nDatasheet: *{data}*".format(data=ds)
 
-        md += "\n"
+    def model_html(self, model):
 
-        return md
+        name = model['name']
+        size = model['size']
 
-    def encode_md(self):
+        if not size:
+            size = ''
+
+        html = '<tr><td>{name}</td><td><a href="/download/packages3d/{lib}.3dshapes/{model}.7z">{size}</a></td></tr>\n'.format(
+            name = name,
+            size = size,
+            model = name,
+            lib = self.name
+        )
+
+        return html
+
+    def encode_html(self):
         """
-        Encode a markdown file to display all items in the library
+        Encode a html file to display all items in the library
         """
 
-        md = "---\n"
-        md += 'title: "{t}"\n'.format(t=self.name)
-        md += 'descr: "{d}"\n'.format(d=self.description)
-        md += 'modelcount: "{n}"\n'.format(n=self.count)
-        md += 'layout: modellib\n'
+        html = "---\n"
+        html += 'title: "{t}"\n'.format(t=self.name)
+        # html += 'descr: "{d}"\n'.format(d=self.description)
+        html += 'modelcount: "{n}"\n'.format(n=self.count)
+        html += 'layout: modellib\n'
 
         if self.archive_size:
-            md += 'archivesize: "{n}"\n'.format(n=self.archive_size)
+            html += 'archivesize: "{n}"\n'.format(n=self.archive_size)
 
-        md += "---\n\n"
+        html += "---\n\n"
+
+        html += "<table><tr>\n"
+        html += "<th>Model</th>\n"
+        html += "<th>Download</th>\n"
+        html += "</tr>\n"
 
         for d in self.data:
-            md += self.symbol_md(d) + "\n"
+            html += self.model_html(d) + "\n"
 
-        return md
+        return html
