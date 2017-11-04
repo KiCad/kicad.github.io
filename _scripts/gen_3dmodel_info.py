@@ -54,7 +54,7 @@ def create_output_file(model_list):
         return
 
     if not os.path.exists(args.output):
-        ok.makedirs(args.output)
+        os.makedirs(args.output)
 
     output_file = os.path.join(args.output, model_list.name + '.md')
 
