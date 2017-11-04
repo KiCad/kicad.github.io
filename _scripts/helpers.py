@@ -43,6 +43,24 @@ def datasheet_link(text):
 
     return make_ascii(' '.join(out))
 
+def purge_old_folders(parent, dirnames):
+
+    if not os.path.exists(parent) or not os.path.isdir(parent):
+        return
+
+    for d in os.listdir(parent):
+
+        if d in dirnames:
+            continue
+
+        d = os.path.join(parent, d)
+
+        if not os.path.exists(d) or not os.path.isdir(d):
+            continue
+
+        call(['rm', '-rf', d])
+
+
 def purge_old_archives(directory, archives):
     """
     Purge old archive files from a directory
@@ -54,6 +72,11 @@ def purge_old_archives(directory, archives):
     files = os.listdir(directory)
 
     for fn in files:
+
+        f = os.path.join(directory, fn)
+
+        if not os.path.exists(f) or os.path.isdir(f):
+            continue
 
         if fn in archives:
             continue

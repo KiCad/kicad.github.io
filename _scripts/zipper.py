@@ -57,6 +57,9 @@ def archive_7z(archive, files):
             copy = False
 
     if copy:
+        archive_dir = os.path.dirname(archive)
+        if not os.path.exists(archive_dir):
+            os.makedirs(archive_dir)
         call(['mv', tmp_file, archive])
 
     return str(sz)
