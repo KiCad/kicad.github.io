@@ -2,9 +2,8 @@ import json
 from helpers import datasheet_link, make_ascii
 
 class SymbolList:
-    def __init__(self, lib_name, lib_description, archive_size):
+    def __init__(self, lib_name, archive_size):
         self.name = lib_name
-        self.description = lib_description
         self.archive_size = archive_size
         self.data = []
 
@@ -95,7 +94,6 @@ class SymbolList:
 
         html = "---\n"
         html += 'title: "{t}"\n'.format(t=self.name)
-        html += 'descr: "{d}"\n'.format(d=self.description)
         html += 'symbolcount: "{n}"\n'.format(n=self.count)
         html += 'layout: symlib\n'
 

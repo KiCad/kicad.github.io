@@ -60,7 +60,6 @@ def purge_old_folders(parent, dirnames):
 
         call(['rm', '-rf', d])
 
-
 def purge_old_archives(directory, archives):
     """
     Purge old archive files from a directory

@@ -24,7 +24,6 @@ parser.add_argument('libs', nargs='+', help="List of footprint libraries (.prett
 parser.add_argument('--script', help='Path to kicad utils scripts (if not already in python path)', action='store')
 parser.add_argument('--output', help='Path to store output markdown files. If blank, no output will be generated')
 parser.add_argument('--json', help='Path to store generated JSON file. If blank, no JSON output will be generated')
-parser.add_argument('--csv', help='Path to .csv file containing footprint library description information')
 parser.add_argument('-v', '--verbose', help='Verbosity level', action='count')
 parser.add_argument('--download', help='Path to store generated archive files for download. If blank, no archives will be generated')
 
@@ -53,18 +52,6 @@ fp_list = []
 src_libs = []
 
 json_data = []
-
-# Read library descriptions
-descriptions = {}
-
-if args.csv:
-    with open(args.csv, 'r') as csv_file:
-        reader = csv.DictReader(csv_file)
-
-        for row in reader:
-            lib_name = row['Library']
-            lib_desc = row['Description']
-            descriptions[lib_name] = lib_desc
 
 # Read in list of symbol libraries to parse
 for lib in args.libs:
@@ -138,8 +125,7 @@ for lib_dir in src_libs:
     else:
         archive_size = None
 
-    description = descriptions.get(lib_name, '')
-    fp_list = FootprintList(lib_name, description, archive_size)
+    fp_list = FootprintList(lib_name, archive_size)
 
     for fp in footprints:
         fp_list.add_footprint(fp)

@@ -10,14 +10,27 @@ def file_md5(file):
 
     if os.path.exists(file):
         p = Popen(['md5sum', file], stdin=PIPE, stdout=PIPE, stderr=PIPE)
+
         output, err = p.communicate()
 
-        return output.split()[0]
+        return output.split(' ')[0]
 
     else:
         return None
 
+def get_file_size(f):
+    f = os.path.abspath(f)
+    p = Popen(['ls', '-lh', f], stdin=PIPE, stdout=PIPE, stderr=PIPE)
+
+    output, err = p.communicate()
+
+    return output.split(' ')[4]
+
 def archive_7z(archive, files):
+
+    if len(files) == 0:
+        print("Empty archive - " + str(archive))
+        return
 
     # Archive to a temp location first
     # Only copy to output path if it is different
@@ -33,12 +46,7 @@ def archive_7z(archive, files):
     p = Popen(args, stdin=PIPE, stdout=PIPE, stderr=PIPE)
     output, err = p.communicate()
 
-    p = Popen(['ls', '-lh', tmp_file], stdin=PIPE, stdout=PIPE, stderr=PIPE)
-
-    output, err = p.communicate()
-
-    # Calculate archive size
-    sz = output.split(' ')[4]
+    sz = get_file_size(tmp_file)
 
     copy = True
 

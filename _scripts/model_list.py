@@ -2,9 +2,8 @@ import json
 from helpers import make_ascii
 
 class ModelList:
-    def __init__(self, lib_name, lib_description, archive_size):
+    def __init__(self, lib_name, archive_size):
         self.name = lib_name
-        self.description = lib_description
         self.archive_size = archive_size
         self.data = []
 
@@ -46,12 +45,18 @@ class ModelList:
         if not size:
             size = ''
 
+        html = '<tr><td>{name}</td><td>{size}</td></tr>'.format(
+            name = name,
+            size = size)
+
+        """
         html = '<tr><td>{name}</td><td><a href="/download/packages3d/{lib}.3dshapes/{model}.7z">{size}</a></td></tr>\n'.format(
             name = name,
             size = size,
             model = name,
             lib = self.name
         )
+        """
 
         return html
 
@@ -62,9 +67,9 @@ class ModelList:
 
         html = "---\n"
         html += 'title: "{t}"\n'.format(t=self.name)
-        # html += 'descr: "{d}"\n'.format(d=self.description)
         html += 'modelcount: "{n}"\n'.format(n=self.count)
         html += 'layout: modellib\n'
+        html += 'model: {t}\n'.format(t=self.name)
 
         if self.archive_size:
             html += 'archivesize: "{n}"\n'.format(n=self.archive_size)
@@ -73,7 +78,7 @@ class ModelList:
 
         html += "<table><tr>\n"
         html += "<th>Model</th>\n"
-        html += "<th>Download</th>\n"
+        html += "<th>Size</th>\n"
         html += "</tr>\n"
 
         for d in self.data:
