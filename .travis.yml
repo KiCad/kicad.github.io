@@ -15,7 +15,7 @@ script:
   - python /home/travis/build/utils/download_pretty_libs.py --shallow
   - cd $TRAVIS_BUILD_DIR
   # Run!
-  - travis_wait 120 bash $TRAVIS_BUILD_DIR/build.sh
+  - travis_wait 60 bash $TRAVIS_BUILD_DIR/build.sh
   # Make a deploy key
   - openssl aes-256-cbc -K $encrypted_21da1cd8bdb1_key -iv $encrypted_21da1cd8bdb1_iv -in travis_key.enc -out travis_key -d
-  - travis_wait 120 bash $TRAVIS_BUILD_DIR/push.sh
+  - travis_wait 60 bash $TRAVIS_BUILD_DIR/push.sh
