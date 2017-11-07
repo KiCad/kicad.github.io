@@ -54,7 +54,7 @@ def create_output_file(model_list):
         return
 
     if not os.path.exists(args.output):
-        ok.makedirs(args.output)
+        os.makedirs(args.output)
 
     output_file = os.path.join(args.output, model_list.name + '.md')
 
@@ -163,5 +163,5 @@ for lib_dir in src_dirs:
 if args.download:
     archive_dir = os.path.abspath(os.path.join(args.download, 'packages3d'))
     helpers.purge_old_archives(archive_dir, archive_files)
-
+    
     #helpers.purge_old_folders(archive_dir, model_dirs)
