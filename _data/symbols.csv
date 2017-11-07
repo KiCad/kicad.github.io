@@ -1,4 +1,4 @@
-Library,Description
+library,description
 Altera,A thing that is a thing
 Battery_Management,Battery management ICs
 Bosch,Assorted Bosch ICs
@@ -57,8 +57,8 @@ cypress,??
 dc-dc,DC to DC switching converters
 device,Common generic symbols
 digital-audio,??
-driver_gate,MOSFET gate drivers, bridge driver ICs
-dsp,Digital signal processors, unassigned
+driver_gate,MOSFET gate drivers and bridge driver ICs
+dsp,Digital signal processors - unassigned
 elec-unifil,?
 ftdi,FTDI parts (unassigned)
 gennum,?
