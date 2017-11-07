@@ -77,30 +77,26 @@ for lib_dir in src_dirs:
     # Extract all footprint information
     footprints = []
     files = []
+    models  = []
 
     for f in os.listdir(lib_dir):
 
-        models = ['.step', '.stp', '.wrl']
+        allowed_models = ['.step', '.stp', '.wrl']
 
         # File types to copy across
-        allowed = ['.md', '.txt'] + models
+        allowed = ['.md', '.txt'] + allowed_models
 
         if not any([f.lower().endswith(x) for x in allowed]):
             continue
 
-        fp_file = os.path.join(lib_dir, f)
+        filename = os.path.join(lib_dir, f)
 
-        files.append(fp_file)
+        files.append(filename)
 
         # Group models together (e.g. download .step and .wrl in same archive)
-        if any([f.lower().endswith(x) for x in models]):
+        if any([f.lower().endswith(x) for x in allowed_models]):
 
-            model = '.'.join(f.split(".")[:-1])
-
-            if model in model_groups:
-                model_groups[model].append(f)
-            else:
-                model_groups[model] = [f]
+            models.append(filename)
 
     if args.download:
 
@@ -120,15 +116,24 @@ for lib_dir in src_dirs:
         archive_size = None
 
     # TODO - Extract the name of the library from... somewhere?
-    model_list = ModelList(lib_name, 'blank description', archive_size)
+    model_list = ModelList(lib_name, archive_size)
+
+    for model in models:
+
+        model_name = os.path.split(model)[-1]
+
+        model_list.add_model(model_name, zipper.get_file_size(model))
+
+    model_list.reorder()
 
     # Create an individual zip file for each 3D model in this library
-    group_archives = []
+    #group_archives = []
 
-    model_dirs.append(lib_name + '.3dshapes')
+    #model_dirs.append(lib_name + '.3dshapes')
 
-    model_archive_dir = os.path.join(args.download, 'packages3d', lib_name + '.3dshapes')
+    #model_archive_dir = os.path.join(args.download, 'packages3d', lib_name + '.3dshapes')
 
+    """
     for group in model_groups:
         group_files = model_groups[group]
         group_models = [os.path.join(lib_dir, f) for f in group_files]
@@ -150,11 +155,13 @@ for lib_dir in src_dirs:
     if args.download:
         helpers.purge_old_archives(model_archive_dir, group_archives)
 
+    """
+
     create_output_file(model_list)
 
 # Remove old model library archives
 if args.download:
     archive_dir = os.path.abspath(os.path.join(args.download, 'packages3d'))
     helpers.purge_old_archives(archive_dir, archive_files)
-
-    helpers.purge_old_folders(archive_dir, model_dirs)
+    
+    #helpers.purge_old_folders(archive_dir, model_dirs)

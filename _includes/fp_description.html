@@ -1,0 +1,5 @@
+{% for fp in site.data.footprints %}
+{% if fp.library == include.name %}
+{{ fp.description }}
+{% endif %}
+{% endfor %}

@@ -13,7 +13,6 @@ import json
 import glob
 from symbol_list import SymbolList
 import zipper
-import csv
 import helpers
 
 """
@@ -25,7 +24,6 @@ parser.add_argument('libs', nargs='+', help="List of symbol libraries (.lib file
 parser.add_argument('--schlib', help='Path to schlib scripts (if not already in python path)', action='store')
 parser.add_argument('--output', help='Path to store output markdown files. If blank, no output will be generated')
 parser.add_argument('--json', help='Path to store generated JSON file. If blank, no JSON output will be generated')
-parser.add_argument('--csv', help='Path to .csv file containing symbol library description information')
 parser.add_argument('-v', '--verbose', help='Verbosity level', action='count')
 parser.add_argument('--download', help='Path to store generated archive files for download. If blank, no archives will be generated')
 
@@ -50,18 +48,6 @@ symbol_list = []
 src_libs = []
 
 json_data = []
-
-# Read library descriptions
-descriptions = {}
-
-if args.csv:
-    with open(args.csv, 'r') as csv_file:
-        reader = csv.DictReader(csv_file)
-
-        for row in reader:
-            lib_name = row['Library']
-            lib_desc = row['Description']
-            descriptions[lib_name] = lib_desc
 
 # Read in list of symbol libraries to parse
 for lib in args.libs:
@@ -126,9 +112,7 @@ for lib_file in src_libs:
     else:
         archive_size = None
 
-    description = descriptions.get(lib_name, '')
-
-    sym_list = SymbolList(lib_name, description, archive_size)
+    sym_list = SymbolList(lib_name, archive_size)
 
     for c in library.components:
         sym_list.add_component(c, True)

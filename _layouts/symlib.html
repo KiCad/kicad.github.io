@@ -10,7 +10,10 @@
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
         <h2>Symbol Library - {{ page.title }}</h1>
-        <p>Description: {{ page.descr }}</p>
+        <p>Description:
+        {% capture sym_lib %}{{ page.title }}{% endcapture %}
+        {% include sym_description.html name=sym_lib %}
+        </p>
         <p>Symbols: {{ page.symbolcount }}</p>
         <p>Download: <a href="/download/symbols/{{ page.title }}.7z">{{ page.title }}.7z - {{ page.archivesize }}</a></p>
         <br>

@@ -2,9 +2,8 @@ import json
 from helpers import datasheet_link, make_ascii
 
 class FootprintList:
-    def __init__(self, lib_name, lib_description, archive_size):
+    def __init__(self, lib_name, archive_size):
         self.name = lib_name
-        self.description = lib_description
         self.archive_size = archive_size
         self.data = []
 
@@ -56,7 +55,6 @@ class FootprintList:
 
         html = "---\n"
         html += 'title: "' + self.name + '"\n'
-        html += 'descr: "' + self.description + '"\n'
         html += 'footprintcount: "{n}"\n'.format(n=self.count)
         html += 'layout: fplib\n'
 

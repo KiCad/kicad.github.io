@@ -8,9 +8,10 @@
 {% for lib in site.packages3d %}
   <tr>
     <td><a href="/packages3d/{{ lib.title }}">{{ lib.title }}</a></td>
-    <td>{{ lib.descr }}</td>
+    {% capture model_lib %}{{ lib.title }}{% endcapture %}
+    <td>{% include fp_description.html name=model_lib %}</td>
     <td align="center">{{ lib.modelcount }}</td>
-    <td><a href="/download/packages3d/{{ lib.title }}.7z">{{ lib.archivesize }}</a></td>
+    <td><a href="/download/packages3d/{{ lib.title }}.3dshapes.7z">{{ lib.archivesize }}</a></td>
   </tr>
 {% endfor %}
 </table>
