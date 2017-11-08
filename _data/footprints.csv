@@ -1,3 +1,5 @@
 library,description
+Buttons_Switches_SMD,Surface mount buttons and switches
+Buttons_Switches_THT,Through hole buttons and switches
 LED_SMD,Surface mount LED (Light Emitting Diode)
 LED_THT,Through hole LED (Light Emitting Diode)
