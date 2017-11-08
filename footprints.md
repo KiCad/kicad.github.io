@@ -10,7 +10,7 @@ The KiCad footprint libraries are the individual `.pretty` directories. Each `.p
 
 ## Updating via Git
 
-Users who wish to keep footprint libraries up to date can track the [https://github.com/kicad/kicad-footprints](kicad-footprints) GitHub repository. 
+Users who wish to keep footprint libraries up to date can track the [https://github.com/kicad/kicad-footprints](https://github.com/kicad/kicad-footprints) GitHub repository. 
 
 ## Contributing
 
