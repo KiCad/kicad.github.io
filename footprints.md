@@ -6,14 +6,15 @@ layout: default
 
 ## {{ page.title }}
 
-The KiCad footprint libraries are the individual `.pretty` directories. Each `.pretty` directory contains multiple `.kicad_mod` footprint files.
+KiCad footprint libraries are arraned primarily by function. The KiCad footprint libraries are the individual `.pretty` directories. Each `.pretty` directory contains multiple `.kicad_mod` footprint files.
 
-The latest set of KiCad symbol libraries can be downloaded:
+## Updating via Git
 
-[.zip](https://github.com/kicad/kicad-footprints/archive/master.zip)
-[.tar.gz](https://github.com/kicad-footprints/archive/master.tar.gz)
+Users who wish to keep footprint libraries up to date can track the [https://github.com/kicad/kicad-footprints](kicad-footprints) GitHub repository. 
 
-Stable releases of the footprint libraries can be found [here](https://github.com/kicad/kicad-footprints/releases)
+## Contributing
+
+Users who wish to contribute to the footprint libraries can submit a pull request at [http://github.com/kicad/kicad-footprints](https://github.com/kicad/kicad-footprints)
 
 {% include fptable.html %}
 
