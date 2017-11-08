@@ -7,12 +7,12 @@ DSP_Microchip_DSPIC33,Microchip dsPIC33 DSP IC
 Diode,Diodes
 Display,Display modules
 ESD_Protection,ESD protection devices
-Espressif,?
+Espressif,
 FPGA_Actel,Actel FPGAs
 Graphic,Graphical symbols
 LED,Light emitting diodes
 LEM,Current sensors?
-Lattice,?
+Lattice,
 Logic_74xgxx,74xGxx series logic devices
 Logic_74xx,74xx series logic devices
 Logic_CMOS_4000,CMOS 4000 series logic devices
@@ -31,19 +31,19 @@ MCU_Parallax,Parallax microcontrollers
 MCU_ST_STM32,ST STM32 series microcontrollers
 MCU_ST_STM8,ST STM8 series microcontrollers
 MCU_Texas_MSP430,Texas Instruments MSP430 series microcontrollers
-Mechanical,??
+Mechanical,
 Motor,Motor symbols
 Oscillators,Oscillators
 Power_Management,Power management and distribution devices
-RFSolutions,??
+RFSolutions,
 Relay,Relays
 Sensor_Current,Current sensor devices
 Switch,Switches and buttons
 Transformer,Transformers
 Transistor,Transistors
 Valve,Valves
-Worldsemi,??
-Zilog,??
+Worldsemi,
+Zilog,
 ac-dc,AC to DC converter modules
 adc-dac,Analog to digital (ADC) and digital to analog (DAC) converters
 analog_devices,??
@@ -52,17 +52,17 @@ atmel,Various unassigned Atmel components
 audio,Audio devices
 bbd,Various unassigned BBD components
 brooktre,Various unassigned Brooktre components
-contrib,??
-cypress,??
+contrib,
+cypress,
 dc-dc,DC to DC switching converters
 device,Common generic symbols
-digital-audio,??
+digital-audio,
 driver_gate,MOSFET gate drivers and bridge driver ICs
 dsp,Digital signal processors - unassigned
-elec-unifil,?
+elec-unifil,
 ftdi,FTDI parts (unassigned)
-gennum,?
-hc11,?
+gennum,
+hc11,
 infineon,Unassigned Infineon parts
 intel,Unassigned Intel parts
 interface,Interface parts, unassigned
@@ -74,7 +74,7 @@ maxim,Unassigned Maxim parts
 memory,Memory
 Microchip,Unassigned Microchip parts
 microcontrollers,Microcontrollers
-modules,??
+modules,
 motor_drivers,Motor driver ICs
 motorola,Unassigned Motorolla parts
 nordicsemi,Unassigned Nordic parts
@@ -83,18 +83,18 @@ onsemi,Unassigned ON Semiconductor parts
 opto,Opto devices
 philips,Unassigned Philips parts
 power,Power symbols
-powerint,??
+powerint,
 pspice,Spice symbols for simulation
 references,Voltage references
 regul,DC to DC linear regulators
 rfcom,RF and wireless devices
 sensors,Sensors, various
 silabs,Unassigned SiLabs parts
-siliconi,?
-supertex,?
+siliconi,
+supertex,
 texas,Unassigned Texas Instruments parts
-triac_thyristor,??
-video,?
-wiznet,?
-xilinx, ?
+triac_thyristor,
+video,
+wiznet,
+xilinx, 
 zetex, ?
