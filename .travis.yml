@@ -12,13 +12,13 @@ script:
   # Download footprint libraries using script
   - mkdir /home/travis/build/footprints
   - cd /home/travis/build/footprints
-  - python /home/travis/build/utils/download_pretty_libs.py --shallow
+  #- python /home/travis/build/utils/download_pretty_libs.py --shallow
   - cd $TRAVIS_BUILD_DIR
   - git checkout master
   # Run!
   - travis_wait 30 bash $TRAVIS_BUILD_DIR/build_symbols.sh
-  - travis_wait 30 bash $TRAVIS_BUILD_DIR/build_footprints.sh
-  - travis_wait 60 bash $TRAVIS_BUILD_DIR/build_models.sh
+  #- travis_wait 30 bash $TRAVIS_BUILD_DIR/build_footprints.sh
+  #- travis_wait 60 bash $TRAVIS_BUILD_DIR/build_models.sh
   # Make a deploy key
   - openssl aes-256-cbc -K $encrypted_21da1cd8bdb1_key -iv $encrypted_21da1cd8bdb1_iv -in travis_key.enc -out travis_key -d
   - travis_wait 60 bash $TRAVIS_BUILD_DIR/push.sh
