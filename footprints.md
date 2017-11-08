@@ -6,7 +6,7 @@ layout: default
 
 ## {{ page.title }}
 
-KiCad footprint libraries are arraned primarily by function. The KiCad footprint libraries are the individual `.pretty` directories. Each `.pretty` directory contains multiple `.kicad_mod` footprint files.
+The KiCad footprint libraries are the individual `.pretty` directories. Each `.pretty` directory contains multiple `.kicad_mod` footprint files.
 
 ## Updating via Git
 
