@@ -1,69 +1,70 @@
 ---
 title: "Displays"
-modelcount: "29"
+modelcount: "58"
 layout: modellib
+model: Displays
 archivesize: "1.3M"
 ---
 
 <table><tr>
 <th>Model</th>
-<th>Download</th>
+<th>Size</th>
 </tr>
-<tr><td>HDSP-48xx</td><td><a href="/download/packages3d/Displays.3dshapes/HDSP-48xx.7z">39K</a></td></tr>
-
-<tr><td>EA_eDIP240-XXX</td><td><a href="/download/packages3d/Displays.3dshapes/EA_eDIP240-XXX.7z">45K</a></td></tr>
-
-<tr><td>WC1602A</td><td><a href="/download/packages3d/Displays.3dshapes/WC1602A.7z">52K</a></td></tr>
-
-<tr><td>EA_DOGS104X-A</td><td><a href="/download/packages3d/Displays.3dshapes/EA_DOGS104X-A.7z">48K</a></td></tr>
-
-<tr><td>HLCP-J100</td><td><a href="/download/packages3d/Displays.3dshapes/HLCP-J100.7z">39K</a></td></tr>
-
-<tr><td>EA_eDIPTFT70-ATC</td><td><a href="/download/packages3d/Displays.3dshapes/EA_eDIPTFT70-ATC.7z">71K</a></td></tr>
-
-<tr><td>EA_eDIPTFT43-ATC</td><td><a href="/download/packages3d/Displays.3dshapes/EA_eDIPTFT43-ATC.7z">62K</a></td></tr>
-
-<tr><td>HDSM-441B_HDSM-443B</td><td><a href="/download/packages3d/Displays.3dshapes/HDSM-441B_HDSM-443B.7z">47K</a></td></tr>
-
-<tr><td>EA_eDIP160-XXX</td><td><a href="/download/packages3d/Displays.3dshapes/EA_eDIP160-XXX.7z">58K</a></td></tr>
-
-<tr><td>EA_eDIPTFT43-XXX</td><td><a href="/download/packages3d/Displays.3dshapes/EA_eDIPTFT43-XXX.7z">63K</a></td></tr>
-
-<tr><td>HDSP-4832</td><td><a href="/download/packages3d/Displays.3dshapes/HDSP-4832.7z">39K</a></td></tr>
-
-<tr><td>HDSP-4830</td><td><a href="/download/packages3d/Displays.3dshapes/HDSP-4830.7z">39K</a></td></tr>
-
-<tr><td>LM16255</td><td><a href="/download/packages3d/Displays.3dshapes/LM16255.7z">50K</a></td></tr>
-
-<tr><td>HDSP-4836</td><td><a href="/download/packages3d/Displays.3dshapes/HDSP-4836.7z">39K</a></td></tr>
-
-<tr><td>EA_eDIPTFT70-XXX</td><td><a href="/download/packages3d/Displays.3dshapes/EA_eDIPTFT70-XXX.7z">70K</a></td></tr>
-
-<tr><td>RC1602A</td><td><a href="/download/packages3d/Displays.3dshapes/RC1602A.7z">84K</a></td></tr>
-
-<tr><td>EA_DOGXL160-7_Backlight</td><td><a href="/download/packages3d/Displays.3dshapes/EA_DOGXL160-7_Backlight.7z">126K</a></td></tr>
-
-<tr><td>HY1602E</td><td><a href="/download/packages3d/Displays.3dshapes/HY1602E.7z">45K</a></td></tr>
-
-<tr><td>CR2013-MI2120</td><td><a href="/download/packages3d/Displays.3dshapes/CR2013-MI2120.7z">29K</a></td></tr>
-
-<tr><td>EA_eDIP320X-XXX</td><td><a href="/download/packages3d/Displays.3dshapes/EA_eDIP320X-XXX.7z">57K</a></td></tr>
-
-<tr><td>EA_DOGXL160-7</td><td><a href="/download/packages3d/Displays.3dshapes/EA_DOGXL160-7.7z">108K</a></td></tr>
-
-<tr><td>HDSP-4850</td><td><a href="/download/packages3d/Displays.3dshapes/HDSP-4850.7z">39K</a></td></tr>
-
-<tr><td>EA_eDIPTFT57-XXX</td><td><a href="/download/packages3d/Displays.3dshapes/EA_eDIPTFT57-XXX.7z">80K</a></td></tr>
-
-<tr><td>HDSP-4840</td><td><a href="/download/packages3d/Displays.3dshapes/HDSP-4840.7z">39K</a></td></tr>
-
-<tr><td>LCD-016N002L</td><td><a href="/download/packages3d/Displays.3dshapes/LCD-016N002L.7z">68K</a></td></tr>
-
-<tr><td>AG12864E</td><td><a href="/download/packages3d/Displays.3dshapes/AG12864E.7z">77K</a></td></tr>
-
-<tr><td>EA_eDIPTFT32-XXX</td><td><a href="/download/packages3d/Displays.3dshapes/EA_eDIPTFT32-XXX.7z">77K</a></td></tr>
-
-<tr><td>EA-eDIP128B-XXX</td><td><a href="/download/packages3d/Displays.3dshapes/EA-eDIP128B-XXX.7z">50K</a></td></tr>
-
-<tr><td>EA_T123X-I2C</td><td><a href="/download/packages3d/Displays.3dshapes/EA_T123X-I2C.7z">59K</a></td></tr>
-
+<tr><td>AG12864E.step</td><td>611K</td></tr>
+<tr><td>AG12864E.wrl</td><td>301K</td></tr>
+<tr><td>CR2013-MI2120.step</td><td>193K</td></tr>
+<tr><td>CR2013-MI2120.wrl</td><td>78K</td></tr>
+<tr><td>EA-eDIP128B-XXX.step</td><td>429K</td></tr>
+<tr><td>EA-eDIP128B-XXX.wrl</td><td>120K</td></tr>
+<tr><td>EA_DOGS104X-A.step</td><td>414K</td></tr>
+<tr><td>EA_DOGS104X-A.wrl</td><td>86K</td></tr>
+<tr><td>EA_DOGXL160-7.step</td><td>922K</td></tr>
+<tr><td>EA_DOGXL160-7.wrl</td><td>354K</td></tr>
+<tr><td>EA_DOGXL160-7_Backlight.step</td><td>1019K</td></tr>
+<tr><td>EA_DOGXL160-7_Backlight.wrl</td><td>430K</td></tr>
+<tr><td>EA_eDIP160-XXX.step</td><td>518K</td></tr>
+<tr><td>EA_eDIP160-XXX.wrl</td><td>140K</td></tr>
+<tr><td>EA_eDIP240-XXX.step</td><td>374K</td></tr>
+<tr><td>EA_eDIP240-XXX.wrl</td><td>92K</td></tr>
+<tr><td>EA_eDIP320X-XXX.step</td><td>473K</td></tr>
+<tr><td>EA_eDIP320X-XXX.wrl</td><td>112K</td></tr>
+<tr><td>EA_eDIPTFT32-XXX.step</td><td>643K</td></tr>
+<tr><td>EA_eDIPTFT32-XXX.wrl</td><td>158K</td></tr>
+<tr><td>EA_eDIPTFT43-ATC.step</td><td>543K</td></tr>
+<tr><td>EA_eDIPTFT43-ATC.wrl</td><td>118K</td></tr>
+<tr><td>EA_eDIPTFT43-XXX.step</td><td>546K</td></tr>
+<tr><td>EA_eDIPTFT43-XXX.wrl</td><td>128K</td></tr>
+<tr><td>EA_eDIPTFT57-XXX.step</td><td>669K</td></tr>
+<tr><td>EA_eDIPTFT57-XXX.wrl</td><td>160K</td></tr>
+<tr><td>EA_eDIPTFT70-ATC.step</td><td>648K</td></tr>
+<tr><td>EA_eDIPTFT70-ATC.wrl</td><td>178K</td></tr>
+<tr><td>EA_eDIPTFT70-XXX.step</td><td>631K</td></tr>
+<tr><td>EA_eDIPTFT70-XXX.wrl</td><td>169K</td></tr>
+<tr><td>EA_T123X-I2C.step</td><td>374K</td></tr>
+<tr><td>EA_T123X-I2C.wrl</td><td>159K</td></tr>
+<tr><td>HDSM-441B_HDSM-443B.step</td><td>335K</td></tr>
+<tr><td>HDSM-441B_HDSM-443B.wrl</td><td>107K</td></tr>
+<tr><td>HDSP-4830.step</td><td>309K</td></tr>
+<tr><td>HDSP-4830.wrl</td><td>72K</td></tr>
+<tr><td>HDSP-4832.step</td><td>309K</td></tr>
+<tr><td>HDSP-4832.wrl</td><td>73K</td></tr>
+<tr><td>HDSP-4836.step</td><td>309K</td></tr>
+<tr><td>HDSP-4836.wrl</td><td>73K</td></tr>
+<tr><td>HDSP-4840.step</td><td>309K</td></tr>
+<tr><td>HDSP-4840.wrl</td><td>72K</td></tr>
+<tr><td>HDSP-4850.step</td><td>309K</td></tr>
+<tr><td>HDSP-4850.wrl</td><td>72K</td></tr>
+<tr><td>HDSP-48xx.step</td><td>309K</td></tr>
+<tr><td>HDSP-48xx.wrl</td><td>72K</td></tr>
+<tr><td>HLCP-J100.step</td><td>309K</td></tr>
+<tr><td>HLCP-J100.wrl</td><td>72K</td></tr>
+<tr><td>HY1602E.step</td><td>299K</td></tr>
+<tr><td>HY1602E.wrl</td><td>205K</td></tr>
+<tr><td>LCD-016N002L.step</td><td>320K</td></tr>
+<tr><td>LCD-016N002L.wrl</td><td>378K</td></tr>
+<tr><td>LM16255.step</td><td>313K</td></tr>
+<tr><td>LM16255.wrl</td><td>239K</td></tr>
+<tr><td>RC1602A.step</td><td>489K</td></tr>
+<tr><td>RC1602A.wrl</td><td>410K</td></tr>
+<tr><td>WC1602A.step</td><td>317K</td></tr>
+<tr><td>WC1602A.wrl</td><td>280K</td></tr>

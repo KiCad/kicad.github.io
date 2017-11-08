@@ -2,24 +2,18 @@
 title: "Buzzers_Beepers"
 modelcount: "7"
 layout: modellib
+model: Buzzers_Beepers
 archivesize: "71K"
 ---
 
 <table><tr>
 <th>Model</th>
-<th>Download</th>
+<th>Size</th>
 </tr>
-<tr><td>MagneticBuzzer_ProjectsUnlimited_AI-4228-TWT-R</td><td><a href="/download/packages3d/Buzzers_Beepers.3dshapes/MagneticBuzzer_ProjectsUnlimited_AI-4228-TWT-R.7z">20K</a></td></tr>
-
-<tr><td>MagneticBuzzer_Kingstate_KCG0601</td><td><a href="/download/packages3d/Buzzers_Beepers.3dshapes/MagneticBuzzer_Kingstate_KCG0601.7z">17K</a></td></tr>
-
-<tr><td>MagneticBuzzer_ProSignal_ABI-010-RC</td><td><a href="/download/packages3d/Buzzers_Beepers.3dshapes/MagneticBuzzer_ProSignal_ABI-010-RC.7z">13K</a></td></tr>
-
-<tr><td>MagneticBuzzer_StarMicronics_HMB-06_HMB-12</td><td><a href="/download/packages3d/Buzzers_Beepers.3dshapes/MagneticBuzzer_StarMicronics_HMB-06_HMB-12.7z">13K</a></td></tr>
-
-<tr><td>Buzzer_12x9.5RM7.6</td><td><a href="/download/packages3d/Buzzers_Beepers.3dshapes/Buzzer_12x9.5RM7.6.7z">2.9K</a></td></tr>
-
-<tr><td>MagneticBuzzer_ProSignal_ABI-009-RC</td><td><a href="/download/packages3d/Buzzers_Beepers.3dshapes/MagneticBuzzer_ProSignal_ABI-009-RC.7z">13K</a></td></tr>
-
-<tr><td>MagneticBuzzer_ProSignal_ABT-410-RC</td><td><a href="/download/packages3d/Buzzers_Beepers.3dshapes/MagneticBuzzer_ProSignal_ABT-410-RC.7z">13K</a></td></tr>
-
+<tr><td>Buzzer_12x9.5RM7.6.wrl</td><td>29K</td></tr>
+<tr><td>MagneticBuzzer_Kingstate_KCG0601.wrl</td><td>159K</td></tr>
+<tr><td>MagneticBuzzer_ProjectsUnlimited_AI-4228-TWT-R.wrl</td><td>247K</td></tr>
+<tr><td>MagneticBuzzer_ProSignal_ABI-009-RC.wrl</td><td>140K</td></tr>
+<tr><td>MagneticBuzzer_ProSignal_ABI-010-RC.wrl</td><td>140K</td></tr>
+<tr><td>MagneticBuzzer_ProSignal_ABT-410-RC.wrl</td><td>159K</td></tr>
+<tr><td>MagneticBuzzer_StarMicronics_HMB-06_HMB-12.wrl</td><td>152K</td></tr>

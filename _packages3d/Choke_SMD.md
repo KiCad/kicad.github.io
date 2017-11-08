@@ -2,20 +2,16 @@
 title: "Choke_SMD"
 modelcount: "5"
 layout: modellib
+model: Choke_SMD
 archivesize: "5.2K"
 ---
 
 <table><tr>
 <th>Model</th>
-<th>Download</th>
+<th>Size</th>
 </tr>
-<tr><td>Choke_SMD_Taiyo_NRS50XX-Handsoldering</td><td><a href="/download/packages3d/Choke_SMD.3dshapes/Choke_SMD_Taiyo_NRS50XX-Handsoldering.7z">1.9K</a></td></tr>
-
-<tr><td>Choke_SMD_12x12mm_h4.5mm</td><td><a href="/download/packages3d/Choke_SMD.3dshapes/Choke_SMD_12x12mm_h4.5mm.7z">2.3K</a></td></tr>
-
-<tr><td>Choke_SMD_12x12mm_h8mm</td><td><a href="/download/packages3d/Choke_SMD.3dshapes/Choke_SMD_12x12mm_h8mm.7z">2.3K</a></td></tr>
-
-<tr><td>Choke_SMD_Taiyo_NRS50XX</td><td><a href="/download/packages3d/Choke_SMD.3dshapes/Choke_SMD_Taiyo_NRS50XX.7z">1.9K</a></td></tr>
-
-<tr><td>Choke_SMD_12x12mm_h6mm</td><td><a href="/download/packages3d/Choke_SMD.3dshapes/Choke_SMD_12x12mm_h6mm.7z">2.4K</a></td></tr>
-
+<tr><td>Choke_SMD_12x12mm_h4.5mm.wrl</td><td>20K</td></tr>
+<tr><td>Choke_SMD_12x12mm_h6mm.wrl</td><td>20K</td></tr>
+<tr><td>Choke_SMD_12x12mm_h8mm.wrl</td><td>20K</td></tr>
+<tr><td>Choke_SMD_Taiyo_NRS50XX-Handsoldering.wrl</td><td>16K</td></tr>
+<tr><td>Choke_SMD_Taiyo_NRS50XX.wrl</td><td>16K</td></tr>

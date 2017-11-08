@@ -2,12 +2,12 @@
 title: "Connect"
 modelcount: "1"
 layout: modellib
+model: Connect
 archivesize: "5.6K"
 ---
 
 <table><tr>
 <th>Model</th>
-<th>Download</th>
+<th>Size</th>
 </tr>
-<tr><td>Grove_1x04</td><td><a href="/download/packages3d/Connect.3dshapes/Grove_1x04.7z">5.6K</a></td></tr>
-
+<tr><td>Grove_1x04.wrl</td><td>52K</td></tr>

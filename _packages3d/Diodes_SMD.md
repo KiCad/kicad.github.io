@@ -1,55 +1,56 @@
 ---
 title: "Diodes_SMD"
-modelcount: "22"
+modelcount: "44"
 layout: modellib
+model: Diodes_SMD
 archivesize: "134K"
 ---
 
 <table><tr>
 <th>Model</th>
-<th>Download</th>
+<th>Size</th>
 </tr>
-<tr><td>D_SOD-123</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_SOD-123.7z">16K</a></td></tr>
-
-<tr><td>D_0603</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_0603.7z">14K</a></td></tr>
-
-<tr><td>D_SOD-323F</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_SOD-323F.7z">7.5K</a></td></tr>
-
-<tr><td>D_MELF</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_MELF.7z">8.8K</a></td></tr>
-
-<tr><td>D_1206</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_1206.7z">13K</a></td></tr>
-
-<tr><td>D_SMA</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_SMA.7z">12K</a></td></tr>
-
-<tr><td>D_SMB</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_SMB.7z">12K</a></td></tr>
-
-<tr><td>D_SMC</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_SMC.7z">12K</a></td></tr>
-
-<tr><td>D_PowerDI-123</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_PowerDI-123.7z">8.9K</a></td></tr>
-
-<tr><td>D_MicroMELF</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_MicroMELF.7z">10K</a></td></tr>
-
-<tr><td>D_SOT-23</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_SOT-23.7z">18K</a></td></tr>
-
-<tr><td>D_0805</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_0805.7z">13K</a></td></tr>
-
-<tr><td>D_SOD-323</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_SOD-323.7z">16K</a></td></tr>
-
-<tr><td>D_SOD-523</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_SOD-523.7z">7.5K</a></td></tr>
-
-<tr><td>D_SOD-110</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_SOD-110.7z">16K</a></td></tr>
-
-<tr><td>D_MiniMELF</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_MiniMELF.7z">8.8K</a></td></tr>
-
-<tr><td>D_2010</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_2010.7z">13K</a></td></tr>
-
-<tr><td>D_2114</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_2114.7z">13K</a></td></tr>
-
-<tr><td>D_3220</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_3220.7z">13K</a></td></tr>
-
-<tr><td>D_SOD-123F</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_SOD-123F.7z">7.5K</a></td></tr>
-
-<tr><td>D_TUMD2</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_TUMD2.7z">8.0K</a></td></tr>
-
-<tr><td>D_SC-80</td><td><a href="/download/packages3d/Diodes_SMD.3dshapes/D_SC-80.7z">7.5K</a></td></tr>
-
+<tr><td>D_0603.step</td><td>72K</td></tr>
+<tr><td>D_0603.wrl</td><td>25K</td></tr>
+<tr><td>D_0805.step</td><td>68K</td></tr>
+<tr><td>D_0805.wrl</td><td>25K</td></tr>
+<tr><td>D_1206.step</td><td>68K</td></tr>
+<tr><td>D_1206.wrl</td><td>25K</td></tr>
+<tr><td>D_2010.step</td><td>68K</td></tr>
+<tr><td>D_2010.wrl</td><td>25K</td></tr>
+<tr><td>D_2114.step</td><td>68K</td></tr>
+<tr><td>D_2114.wrl</td><td>25K</td></tr>
+<tr><td>D_3220.step</td><td>68K</td></tr>
+<tr><td>D_3220.wrl</td><td>25K</td></tr>
+<tr><td>D_MELF.step</td><td>19K</td></tr>
+<tr><td>D_MELF.wrl</td><td>42K</td></tr>
+<tr><td>D_MicroMELF.step</td><td>19K</td></tr>
+<tr><td>D_MicroMELF.wrl</td><td>45K</td></tr>
+<tr><td>D_MiniMELF.step</td><td>19K</td></tr>
+<tr><td>D_MiniMELF.wrl</td><td>43K</td></tr>
+<tr><td>D_PowerDI-123.step</td><td>52K</td></tr>
+<tr><td>D_PowerDI-123.wrl</td><td>11K</td></tr>
+<tr><td>D_SC-80.step</td><td>42K</td></tr>
+<tr><td>D_SC-80.wrl</td><td>9.1K</td></tr>
+<tr><td>D_SMA.step</td><td>70K</td></tr>
+<tr><td>D_SMA.wrl</td><td>16K</td></tr>
+<tr><td>D_SMB.step</td><td>69K</td></tr>
+<tr><td>D_SMB.wrl</td><td>16K</td></tr>
+<tr><td>D_SMC.step</td><td>70K</td></tr>
+<tr><td>D_SMC.wrl</td><td>16K</td></tr>
+<tr><td>D_SOD-110.step</td><td>81K</td></tr>
+<tr><td>D_SOD-110.wrl</td><td>39K</td></tr>
+<tr><td>D_SOD-123.step</td><td>103K</td></tr>
+<tr><td>D_SOD-123.wrl</td><td>26K</td></tr>
+<tr><td>D_SOD-123F.step</td><td>42K</td></tr>
+<tr><td>D_SOD-123F.wrl</td><td>9.0K</td></tr>
+<tr><td>D_SOD-323.step</td><td>103K</td></tr>
+<tr><td>D_SOD-323.wrl</td><td>26K</td></tr>
+<tr><td>D_SOD-323F.step</td><td>43K</td></tr>
+<tr><td>D_SOD-323F.wrl</td><td>8.8K</td></tr>
+<tr><td>D_SOD-523.step</td><td>43K</td></tr>
+<tr><td>D_SOD-523.wrl</td><td>9.0K</td></tr>
+<tr><td>D_SOT-23.step</td><td>118K</td></tr>
+<tr><td>D_SOT-23.wrl</td><td>31K</td></tr>
+<tr><td>D_TUMD2.step</td><td>46K</td></tr>
+<tr><td>D_TUMD2.wrl</td><td>9.5K</td></tr>
