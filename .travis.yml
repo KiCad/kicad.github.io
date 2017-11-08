@@ -14,6 +14,7 @@ script:
   - cd /home/travis/build/footprints
   - python /home/travis/build/utils/download_pretty_libs.py --shallow
   - cd $TRAVIS_BUILD_DIR
+  - git checkout master . -f
   # Run!
   - travis_wait 30 bash $TRAVIS_BUILD_DIR/build_symbols.sh
   - travis_wait 30 bash $TRAVIS_BUILD_DIR/build_footprints.sh
