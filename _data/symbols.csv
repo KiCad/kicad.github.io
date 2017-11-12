@@ -1,100 +1,101 @@
 library,description
-Altera,A thing that is a thing
+Altera,Legacy Altera symbol library
 Battery_Management,Battery management ICs
 Bosch,Assorted Bosch ICs
 Connector,Generic connector symbols
-DSP_Microchip_DSPIC33,Microchip dsPIC33 DSP IC
+DSP_Microchip_DSPIC33,Microchip DSPIC33
 Diode,Diodes
 Display,Display modules
 ESD_Protection,ESD protection devices
-Espressif,
-FPGA_Actel,Actel FPGAs
+Espressif,Assorted Espressif ICs
+FPGA_Actel,Actel FPGA symbols
 Graphic,Graphical symbols
-LED,Light emitting diodes
-LEM,Current sensors?
-Lattice,
-Logic_74xgxx,74xGxx series logic devices
-Logic_74xx,74xx series logic devices
-Logic_CMOS_4000,CMOS 4000 series logic devices
-Logic_CMOS_IEEE,IEEE 4000 series logic devices
-Logic_TTL_IEEE,IEEE TTL series logic devices
-MCU_Microchip_PIC10,Microchip PIC10 series microcontrollers
-MCU_Microchip_PIC12,Microchip PIC12 series microcontrollers
-MCU_Microchip_PIC16,Microchip PIC16 series microcontrollers
-MCU_Microchip_PIC18,Microchip PIC18 series microcontrollers
-MCU_Microchip_PIC24,Microchip PIC24 series microcontrollers
-MCU_Microchip_PIC32,Microchip PIC32 series microcontrollers
-MCU_NXP_Kinetic,NXP Kinetis microcontrollers
+LED,Light Emitting Diode (LED
+LEM,LEM current sensors
+Lattice,Assorted Lattice ICs
+Logic_74xgxx,74xgxx logic symbols
+Logic_74xx,74xx logic symbols
+Logic_CMOS_4000,4000 series CMOS logic symbols
+Logic_CMOS_IEEE,4000 series IEEE logic symbols
+Logic_TTL_IEEE,4000 series TTL_IEEE logic symbols
+MCU_Microchip_PIC10,Microchip PIC10 microcontrollers
+MCU_Microchip_PIC12,Microchip PIC12 microcontrollers
+MCU_Microchip_PIC16,Microchip PIC16 microcontrollers
+MCU_Microchip_PIC18,Microchip PIC18 microcontrollers
+MCU_Microchip_PIC24,Microchip PIC24 microcontrollers
+MCU_Microchip_PIC32,Microchip PIC32 microcontrollers
+MCU_NXP_Kinetis,NXP Kinetis microcontrollers
 MCU_NXP_LPC,NXP LPC microcontrollers
 MCU_NXP_S08,NXP S08 microcontrollers
 MCU_Parallax,Parallax microcontrollers
-MCU_ST_STM32,ST STM32 series microcontrollers
-MCU_ST_STM8,ST STM8 series microcontrollers
-MCU_Texas_MSP430,Texas Instruments MSP430 series microcontrollers
-Mechanical,
+MCU_ST_STM32,ST STM32 microcontrollers
+MCU_ST_STM8,ST STM8 microcontrollers
+MCU_Texas_MSP430,Texas Instruments MSP430 microcontrollers
+Mechanical,Mechanical symbols
 Motor,Motor symbols
-Oscillators,Oscillators
-Power_Management,Power management and distribution devices
-RFSolutions,
-Relay,Relays
-Sensor_Current,Current sensor devices
-Switch,Switches and buttons
-Transformer,Transformers
-Transistor,Transistors
-Valve,Valves
-Worldsemi,
-Zilog,
-ac-dc,AC to DC converter modules
-adc-dac,Analog to digital (ADC) and digital to analog (DAC) converters
-analog_devices,??
+Oscillators,Oscillator symbols
+Power_Management,Power management and distribution ICs
+RFSolutions,RFSolutions wireless modules
+Relay,Relay symbols
+Sensor_Current,Current sensors
+Switch,Switch symbols
+Transformer,Transformer symbols
+Transistor,Transistor symbols
+Valve,Valve symbols
+Worldsemi,Assorted Worldsemi symbols
+Xicor,Xicor symbols
+Zilog,Zilog symbols
+ac-dc,AC to DC converters
+adc-dac,ADC (analog to digital converter
+analog_devices,Assorted Analog Devices symbols
 analog_switches,Analog switches
-atmel,Various unassigned Atmel components
+atmel,Assorted Atmel symbols
 audio,Audio devices
-bbd,Various unassigned BBD components
-brooktre,Various unassigned Brooktre components
-contrib,
-cypress,
+bbd,Assorted BBD symbols
+brooktre,Assorted brooktre symbols
+contrib,Legacy contrib symbol library
+cypress,Assorted Cypress symbols
 dc-dc,DC to DC switching converters
-device,Common generic symbols
-digital-audio,
-driver_gate,MOSFET gate drivers and bridge driver ICs
-dsp,Digital signal processors - unassigned
-elec-unifil,
-ftdi,FTDI parts (unassigned)
-gennum,
-hc11,
-infineon,Unassigned Infineon parts
-intel,Unassigned Intel parts
-interface,Interface parts, unassigned
-intersil,Unnasigned Intersil parts
-ir,Unassigned International Rectifier parts
-linear,Op amps etc
+device,Generic simple symbols
+digital-audio,Digital audio devices
+driver_gate,Gate driver symbols
+dsp,Digital symbol processors
+elec-unifil,Legacy elec-unifil symbol library
+ftdi,Assorted FTDI symbols
+gennum,Legacy gennum symbol library
+hc11,Legacy hc11 symbol library
+infineon,Assorted Infineon symbols
+intel,Assorted Intel symbols
+interface,Interface and I/O symbols
+intersil,Assorted Intersil symbols
+ir,Legacy ir symbol library
+linear,"Linear devices, op-amps"
 logic_programmable,Programmable logic devices
-maxim,Unassigned Maxim parts
-memory,Memory
-Microchip,Unassigned Microchip parts
-microcontrollers,Microcontrollers
-modules,
+maxim,Assorted Maxim symbols
+memory,Memory ICs
+microchip,Assorted Microchip symbols
+microcontrollers,Assorted microcontrollers
+modules,SOC modules
 motor_drivers,Motor driver ICs
-motorola,Unassigned Motorolla parts
-nordicsemi,Unassigned Nordic parts
-nxp,Unassigned NXP parts
-onsemi,Unassigned ON Semiconductor parts
-opto,Opto devices
-philips,Unassigned Philips parts
-power,Power symbols
-powerint,
-pspice,Spice symbols for simulation
-references,Voltage references
-regul,DC to DC linear regulators
-rfcom,RF and wireless devices
-sensors,Sensors, various
-silabs,Unassigned SiLabs parts
-siliconi,
-supertex,
-texas,Unassigned Texas Instruments parts
-triac_thyristor,
-video,
-wiznet,
-xilinx, 
-zetex, ?
+motorola,Assorted Motorola symbols
+nordicsemi,Nordic Semiconductor symbols
+nxp,Assorted NXP symbols
+onsemi,Assorted ON semiconductor symbols
+opto,Optocouplers and assorted opto devices
+philips,Assorted Philips symbols
+power,"Power symbols, special power flags"
+powerint,Legacy powerint symbol library
+pspice,Legacy pspice symbol library
+references,Reference symbols
+regul,Linear regulators
+rfcom,RF communication symbols
+sensors,Sensor symbols
+silabs,Assorted SILabs symbols
+siliconi,Legacy siliconi symbol library
+supertex,Legacy supertex symbol library
+texas,Assorted Texas Instruments symbols
+triac_thyristor,Triacs and thyristors
+video,Legacy video symbol library
+wiznet,Legacy wiznet symbol library
+xilinx,Legacy xilinx symbol library
+zetex,Legacy zetex symbol library

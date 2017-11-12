@@ -1,12 +1,12 @@
 library,description
 Battery_Holders,Batteries and battery holders
 Buttons_Switches_Keyboard,Buttons and switches for keyboard applications
-Buttons_Switches_SMD,Buttons and switches, surface mount
-Buttons_Switches_THT,Buttons and switches, through hole
+Buttons_Switches_SMD,"Buttons and switches, surface mount"
+Buttons_Switches_THT,"Buttons and switches, through hole"
 Buzzers_Beepers,Audio signalling devices
-Capacitors_SMD,Capacitors, surface mount
-Capacitors_Tantalum_SMD,Tantalum capacitors, surface mount
-Capacitors_THT,Capacitors, through hole
+Capacitors_SMD,"Capacitors, surface mount"
+Capacitors_Tantalum_SMD,"Tantalum capacitors, surface mount"
+Capacitors_THT,"Capacitors, through hole"
 Connectors_Card,Footprints for cards and card holders
 Connectors_DSub,Footprints for DB connectors
 Connectors_Harwin,Harwin connector footprints www.harwin.com
@@ -23,14 +23,14 @@ Connectors_Phoenix,Phoenix connector footprints
 Connectors_Samtec,Samtec connector footprints
 Connectors_TE-Connectivity,TE Connectivity connector footprints www.te.com
 Connectors_Terminal_Blocks,Terminal block connectors
-Connectors_TestPoints,Test points, measurement points, probe connection points
+Connectors_TestPoints,"Test points, measurement points, probe connection points"
 Connectors_WAGO,WAGO connector footprints www.wago.com
 Connectors_USB,USB connector footprints
 Connectors,Assorted connector footprints
 Converters_DCDC_ACDC,DC-DC and AC-DC convertor modules
 Crystals,Crystals and oscillators
-Diodes_SMD,Diodes, surface mount
-Diodes_THT,Diodes, through hole
+Diodes_SMD,"Diodes, surface mount"
+Diodes_THT,"Diodes, through hole"
 Displays_7-Segment,Seven segment displays
 Displays,Display modules
 Enclosures,Electronics enclosures and housings
@@ -39,26 +39,26 @@ Fiducials,Fiducial markings
 Fuse_Holders_and_Fuses,Fuses and fuse holders
 Hall-Effect_Transducers_LEM,LEM hall effect transducers
 Heatsinks,Heatsinks and thermal products
-Housings_BGA,Ball Grid Array (BGA)
-Housings_CSP,Chip Scale Packages (CSP)
-Housings_DFN_QFN,Surface mount IC packages, DFN / LGA / QFN
-Housings_DIP,Through hole IC packages, DIP
-Housings_LCC,Leaded Chip Carriers (LCC)
-Housings_LGA,Land Grid Array (LGA)
-Housings_PGA,Pin Grid Array (PGA)
-Housings_QFP,Quad Flat Package (QFP)
-Housings_SIP,Single Inline Package (SIP)
-Housings_SOIC,Small Outline Integrated Circuits (SOIC)
-Housings_SON,Small Outline No-Lead (SON)
-Housings_SSOP,SSOP, TSSOP, MSOP, QSOP, VSO packages
-Inductors_SMD,Inductors, surface mount
-Inductors_THT,Inductors, through hole
-LEDs,Light emitting diodes (LEDs)
+Housings_BGA,Ball Grid Array (BGA
+Housings_CSP,Chip Scale Packages (CSP
+Housings_DFN_QFN,"Surface mount IC packages, DFN / LGA / QFN"
+Housings_DIP,"Through hole IC packages, DIP"
+Housings_LCC,Leaded Chip Carriers (LCC
+Housings_LGA,Land Grid Array (LGA
+Housings_PGA,Pin Grid Array (PGA
+Housings_QFP,Quad Flat Package (QFP
+Housings_SIP,Single Inline Package (SIP
+Housings_SOIC,Small Outline Integrated Circuits (SOIC
+Housings_SON,Small Outline No-Lead (SON
+Housings_SSOP,"SSOP, TSSOP, MSOP, QSOP, VSO packages"
+Inductors_SMD,"Inductors, surface mount"
+Inductors_THT,"Inductors, through hole"
+LEDs,Light emitting diodes (LEDs
 Measurement_Scales,Measurement scales and gauges
 Microwave,Microwave
 Modules,Board-level devices integrating system functionality into a single module
 Mounting_Holes,Mechanical fasteners
-Opto-Devices,Optocouplers, light sensors, and other optical devices
+Opto-Devices,"Optocouplers, light sensors, and other optical devices"
 Oscillators,Precicision oscillator modules
 Package_DirectFET,DirectFet packages from International Rectifier
 Pin_Headers,Male pin headers
@@ -66,97 +66,8 @@ Potentiometers,Potentiometers / variable resistors
 Power_Integrations,Power Integrations footprints
 Relays_SMD,Surface mount relay packages
 Relays_THT,Through hole relay packages
-Resistors_SMD,Resistors, surface mount
-Resistors_THT,Resistors, through hole
-Resistors_Universal,Experimental
-RF_Antennas,Radio-frequency / wireless antenna footprints
-RF_Modules,Radio-frequency / wireless modules
-Shielding_Cabinets,RF / EMI shields
-Socket_Strips,Female socket strips
-Sockets,IC sockets
-Symbols,PCB symbols
-TerminalBlock_4UCON,4UCON terminal blocks
-TerminalBlock_MetzConnect,Metz Connect terminal blocks
-TerminalBlock_Philmore,Philmore terminal blocks
-TerminalBlock_Phoenix,Phoenix Contact terminal blocks
-TerminalBlock_RND,RND terminal blocks
-TerminalBlock_WAGO,WAGO terminal blocks
-TO_SOT_Packages_SMD,Surface mount transistor packages
-TO_SOT_Packages_THT,Through hole transistor packages
-Transformers_SMD,Surface mount transformers
-Transformers_THT,Through hole transformers
-Valves,Valves
-Varistors,Varistors
-Wire_Pads,Direct wire-to-board connection points
-Battery_Holders,Batteries and battery holders
-Buttons_Switches_Keyboard,Buttons and switches for keyboard applications
-Buttons_Switches_SMD,Buttons and switches - surface mount
-Buttons_Switches_THT,Buttons and switches - through hole
-Buzzers_Beepers,Audio signalling devices
-Capacitors_SMD,Capacitors - surface mount
-Capacitors_Tantalum_SMD,Tantalum capacitors - surface mount
-Capacitors_THT,Capacitors - through hole
-Connectors_Card,Footprints for cards and card holders
-Connectors_DSub,Footprints for DB connectors
-Connectors_Harwin,Harwin connector footprints www.harwin.com
-Connectors_HDMI,HDMI connector footprints
-Connectors_Hirose,Hirose connector footprints www.hirose.com
-Connectors_IDC,IDC connector footprints
-Connectors_IEC_DIN,DIN connector footprints
-Connectors_JAE,JAE connector footprints http://www.jae.com/jccom/en/connectors
-Connectors_JST,JST connector footprints www.jst.com
-Connectors_Mini-Universal,Mate-N-Lok
-Connectors_Molex,Molex connector foottprints www.molex.com
-Connectors_Multicomp,Multicomp connector footprints
-Connectors_Phoenix,Phoenix connector footprints
-Connectors_Samtec,Samtec connector footprints
-Connectors_TE-Connectivity,TE Connectivity connector footprints www.te.com
-Connectors_Terminal_Blocks,Terminal block connectors
-Connectors_TestPoints,Test points - measurement points - probe connection points
-Connectors_WAGO,WAGO connector footprints www.wago.com
-Connectors_USB,USB connector footprints
-Connectors,Assorted connector footprints
-Converters_DCDC_ACDC,DC-DC and AC-DC convertor modules
-Crystals,Crystals and oscillators
-Diodes_SMD,Diodes - surface mount
-Diodes_THT,Diodes - through hole
-Displays_7-Segment,Seven segment displays
-Displays,Display modules
-Enclosures,Electronics enclosures and housings
-EuroBoard_Outline,Deprecated - will be removed
-Fiducials,Fiducial markings
-Fuse_Holders_and_Fuses,Fuses and fuse holders
-Hall-Effect_Transducers_LEM,LEM hall effect transducers
-Heatsinks,Heatsinks and thermal products
-Housings_BGA,Ball Grid Array (BGA)
-Housings_CSP,Chip Scale Packages (CSP)
-Housings_DFN_QFN,Surface mount IC packages - DFN / LGA / QFN
-Housings_DIP,Through hole IC packages - DIP
-Housings_LCC,Leaded Chip Carriers (LCC)
-Housings_LGA,Land Grid Array (LGA)
-Housings_PGA,Pin Grid Array (PGA)
-Housings_QFP,Quad Flat Package (QFP)
-Housings_SIP,Single Inline Package (SIP)
-Housings_SOIC,Small Outline Integrated Circuits (SOIC)
-Housings_SON,Small Outline No-Lead (SON)
-Housings_SSOP,SSOP - TSSOP - MSOP - QSOP - VSO packages
-Inductors_SMD,Inductors - surface mount
-Inductors_THT,Inductors - through hole
-LEDs,Light emitting diodes (LEDs)
-Measurement_Scales,Measurement scales and gauges
-Microwave,Microwave
-Modules,Board-level devices integrating system functionality into a single module
-Mounting_Holes,Mechanical fasteners
-Opto-Devices,Optocouplers - light sensors - and other optical devices
-Oscillators,Precicision oscillator modules
-Package_DirectFET,DirectFet packages from International Rectifier
-Pin_Headers,Male pin headers
-Potentiometers,Potentiometers / variable resistors
-Power_Integrations,Power Integrations footprints
-Relays_SMD,Surface mount relay packages
-Relays_THT,Through hole relay packages
-Resistors_SMD,Resistors - surface mount
-Resistors_THT,Resistors - through hole
+Resistors_SMD,"Resistors, surface mount"
+Resistors_THT,"Resistors, through hole"
 Resistors_Universal,Experimental
 RF_Antennas,Radio-frequency / wireless antenna footprints
 RF_Modules,Radio-frequency / wireless modules
