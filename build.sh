@@ -25,5 +25,9 @@ python gen_footprint_info.py /home/travis/build/footprints/*.pretty --script /ho
 # Generate 3D model data
 python gen_3dmodel_info.py /home/travis/build/kicad-library/modules/packages3d/*.3dshapes --output $TRAVIS_BUILD_DIR/_packages3d --download $TRAVIS_BUILD_DIR/download -v
 
+# Generate library description information
+python make_descriptions.py --table /home/travis/build/kicad-library/template/sym-lib-table --csv $TRAVIS_BUILD_DIR/_data/symbols.csv
+python make_descriptions.py --table /home/travis/build/kicad-library/template/fp-lib-table.for-github --csv $TRAVIS_BUILD_DIR/_data/footprints.csv
+
 # And back to the build dir
 cd $TRAVIS_BUILD_DIR
