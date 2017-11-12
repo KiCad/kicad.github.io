@@ -1,8 +1,44 @@
 import os
 from subprocess import call
+import re
 
 def make_ascii(text):
     return ''.join([c for c in str(text) if ord(c) < 127])
+
+
+def read_lib_table(lib_table_file):
+
+    entries = []
+
+    s_name = r'\(name "?([^"\)]*)"?\)'
+    s_descr = r'\(descr "?([^"\)]*)"?\)'
+
+    def cleanse(txt):
+        txt = txt.strip()
+
+        ends = [',', '.']
+
+        for e in ends:
+            if txt.endswith(e):
+                txt = txt[:-1]
+
+        return txt
+
+    with open(lib_table_file, 'r') as f:
+        for line in f:
+
+            f_name = re.search(s_name, line)
+            f_descr = re.search(s_descr, line)
+
+
+            if f_name and f_descr:
+                name = cleanse(f_name.groups()[0])
+                desc = cleanse(f_descr.groups()[0])
+
+                entries.append({'name': name, 'desc': desc})
+
+    return entries
+
 
 def datasheet_link(text):
     links = ['http', 'www', 'ftp']
