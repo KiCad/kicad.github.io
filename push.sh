@@ -9,6 +9,7 @@ git add _symbols
 git add _footprints
 git add _packages3d
 git add download
+git add _data
 
 # Debug info
 git status
