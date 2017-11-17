@@ -12,5 +12,5 @@ archivesize: "58K"
 </tr>
 <tr><td>BladeFuse-CarType.wrl</td><td>52K</td></tr>
 <tr><td>BladeFuse-Mini.wrl</td><td>8.5K</td></tr>
-<tr><td>Fuseholder_Schruter_FUP_horiz_closed_5x20mm_or_6.3x32mm.step</td><td>243K</td></tr>
-<tr><td>Fuseholder_Schruter_FUP_horiz_closed_5x20mm_or_6.3x32mm.wrl</td><td>158K</td></tr>
+<tr><td>Fuseholder_Cylinder-5x20mm-or-6.3x32mm_Schurter_FUP_0031.25x0_Horizontal_Closed.step</td><td>243K</td></tr>
+<tr><td>Fuseholder_Cylinder-5x20mm-or-6.3x32mm_Schurter_FUP_0031.25x0_Horizontal_Closed.wrl</td><td>158K</td></tr>
