@@ -1,9 +1,9 @@
 ---
 title: "Connectors"
-modelcount: "74"
+modelcount: "52"
 layout: modellib
 model: Connectors
-archivesize: "475K"
+archivesize: "489K"
 ---
 
 <table><tr>
@@ -15,37 +15,15 @@ archivesize: "475K"
 <tr><td>Banana_Jack_3Pin.wrl</td><td>138K</td></tr>
 <tr><td>bnc-ci.wrl</td><td>27K</td></tr>
 <tr><td>bnc.wrl</td><td>21K</td></tr>
-<tr><td>bornier2.wrl</td><td>5.7K</td></tr>
-<tr><td>bornier3.wrl</td><td>7.8K</td></tr>
-<tr><td>bornier4.wrl</td><td>9.9K</td></tr>
-<tr><td>bornier5.wrl</td><td>23K</td></tr>
-<tr><td>bornier6.wrl</td><td>15K</td></tr>
 <tr><td>c64abfd.wrl</td><td>132K</td></tr>
 <tr><td>c64abmd.wrl</td><td>133K</td></tr>
 <tr><td>c64acfd.wrl</td><td>131K</td></tr>
 <tr><td>C96ABCFD.wrl</td><td>198K</td></tr>
 <tr><td>C96ABCMD.wrl</td><td>199K</td></tr>
-<tr><td>DB15F_CI.wrl</td><td>35K</td></tr>
-<tr><td>DB15FC.wrl</td><td>80K</td></tr>
-<tr><td>DB15FD.wrl</td><td>35K</td></tr>
-<tr><td>DB15M_CI.wrl</td><td>37K</td></tr>
-<tr><td>DB15MC.wrl</td><td>82K</td></tr>
-<tr><td>DB15MD.wrl</td><td>37K</td></tr>
-<tr><td>DB25F_CI.wrl</td><td>55K</td></tr>
-<tr><td>DB25FC.wrl</td><td>128K</td></tr>
-<tr><td>DB25FD.wrl</td><td>55K</td></tr>
-<tr><td>DB25M_CI.wrl</td><td>58K</td></tr>
-<tr><td>DB25MC.wrl</td><td>130K</td></tr>
-<tr><td>DB25MD.wrl</td><td>58K</td></tr>
-<tr><td>DB37FC.wrl</td><td>185K</td></tr>
-<tr><td>DB9F_CI.wrl</td><td>23K</td></tr>
-<tr><td>DB9F_CI_INVERT.wrl</td><td>23K</td></tr>
-<tr><td>DB9FC.wrl</td><td>49K</td></tr>
-<tr><td>DB9FD.wrl</td><td>23K</td></tr>
-<tr><td>DB9M_CI.wrl</td><td>25K</td></tr>
-<tr><td>DB9M_CI_INVERT.wrl</td><td>25K</td></tr>
-<tr><td>DB9MC.wrl</td><td>52K</td></tr>
-<tr><td>DB9MD.wrl</td><td>25K</td></tr>
+<tr><td>Fan_Pin_Header_Straight_1x03.step</td><td>171K</td></tr>
+<tr><td>Fan_Pin_Header_Straight_1x03.wrl</td><td>45K</td></tr>
+<tr><td>Fan_Pin_Header_Straight_1x04.step</td><td>244K</td></tr>
+<tr><td>Fan_Pin_Header_Straight_1x04.wrl</td><td>74K</td></tr>
 <tr><td>Grove_1x04.wrl</td><td>52K</td></tr>
 <tr><td>he10-10d.wrl</td><td>50K</td></tr>
 <tr><td>HE10_20D.wrl</td><td>89K</td></tr>
