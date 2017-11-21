@@ -8,6 +8,7 @@ fi
 cd $TRAVIS_BUILD_DIR
 
 rm _footprints/*.md
+rm _footprints/*.html
 
 # Generate footprint data
 python _scripts/gen_footprint_info.py /home/travis/build/footprints/*.pretty --script /home/travis/build/utils -v --download $TRAVIS_BUILD_DIR/download --output $TRAVIS_BUILD_DIR/_footprints

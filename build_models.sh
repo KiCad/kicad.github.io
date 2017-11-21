@@ -9,6 +9,7 @@ fi
 cd $TRAVIS_BUILD_DIR
 
 rm _packages3d/*.md
+rm _packages3d/*.html
 
 # Generate 3D model data
 python _scripts/gen_3dmodel_info.py /home/travis/build/kicad-library/modules/packages3d/*.3dshapes --output $TRAVIS_BUILD_DIR/_packages3d --download $TRAVIS_BUILD_DIR/download -v
