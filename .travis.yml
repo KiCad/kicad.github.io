@@ -17,6 +17,9 @@ script:
   - travis_wait 30 bash $TRAVIS_BUILD_DIR/build_symbols.sh
   - travis_wait 30 bash $TRAVIS_BUILD_DIR/build_footprints.sh
   - travis_wait 60 bash $TRAVIS_BUILD_DIR/build_models.sh
+  # Build description data from lib-table
+  - python _scripts/make_descriptions.py --table /home/travis/build/kicad-library/template/sym-lib-table --csv $TRAVIS_BUILD_DIR/_data/symbols.csv
+  - python _scripts/make_descriptions.py --table /home/travis/build/footprints/fp-lib-table --csv $TRAVIS_BUILD_DIR/_data/footprints.csv
   # Make a deploy key
   - openssl aes-256-cbc -K $encrypted_21da1cd8bdb1_key -iv $encrypted_21da1cd8bdb1_iv -in travis_key.enc -out travis_key -d
   - travis_wait 60 bash $TRAVIS_BUILD_DIR/push.sh
