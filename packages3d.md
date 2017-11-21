@@ -18,20 +18,23 @@ STEP files are required for integration with MCAD software.
 
 ## Updating via Git
 
-Users who wish to keep 3D model libraries up to date can track the [https://github.com/kicad/kicad-packages3d] GitHub repository. 
+Users who wish to keep 3D model libraries up to date can track the [https://github.com/kicad/kicad-packages3d](https://github.com/kicad/kicad-packages3d) GitHub repository.
 
 ## Contributing
 
-Users who wish to contribute to the 3D model libraries can submit a pull request at [https://github.com/kicad/kicad-packages-3d].
+Users who wish to contribute to the 3D model libraries can submit a pull request at [https://github.com/kicad/kicad-packages3d](https://github.com/kicad/kicad-packages3d).
+
+Source files for 3D models can be found at [https://github.com/kicad/kicad-packages3d-source](https://github.com/kicad/kicad-packages3d-source).
 
 ## Library Releases
 
-The latest complete set of KiCad footprint libraries can be downloaded from the following links:
+The latest complete set of KiCad 3D model libraries can be downloaded from the following link:
 
-* [kicad-packages3d.zip](https://github.com/kicad/kicad-packages3d/archive/master.zip)
-* [kicad-packages3d.tar.gz](https://github.com/kicad-packages3d/archive/master.tar.gz)
+[https://github.com/kicad/kicad-packages3d/archive/master.zip](https://github.com/kicad/kicad-packages3d/archive/master.zip)
 
-Stable releases of the footprint libraries can be found [here](https://github.com/kicad/kicad-packages3d/releases)
+Stable releases of the 3D model libraries can be found at:
+
+[https://github.com/kicad/kicad-packages3d/releases](https://github.com/kicad/kicad-packages3d/releases)
 
 {% include pkg3dtable.html %}
 
