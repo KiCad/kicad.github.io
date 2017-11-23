@@ -7,8 +7,10 @@ before_install:
 script:
   # Download kicad-library-utils scripts
   - git clone --depth 1 https://github.com/KiCad/kicad-library-utils /home/travis/build/utils
-  # Download KiCad symbols and 3D data
+  # Download KiCad symbols
   - git clone --depth 1 https://github.com/KiCad/kicad-library /home/travis/build/kicad-library
+  # Download KiCad 3D models
+  - git clone --depth 1 https://github.com/KiCad/kicad-packages3d
   # Download KiCad footprints
   - git clone --depth 1 https://github.com/KiCad/kicad-footprints /home/travis/build/footprints
   - cd $TRAVIS_BUILD_DIR
