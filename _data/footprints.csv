@@ -5,6 +5,8 @@ Button_Switch_THT,"Buttons and switches, through hole"
 Buzzer_Beeper,Audio signalling devices
 Capacitor_SMD,"Capacitor, surface mount"
 Capacitor_Tantalum_SMD,"Tantalum Capacitor, surface mount"
+Conn_Card,Card and card holder footprints
+Capacitor_THT,"Capacitor, through hole"
 Conn_Dsub,Footprints for DSub footprints
 Conn_IDC,IDC connector footprints
 Conn_JST,JST connector footprints www.jst.com
@@ -18,12 +20,15 @@ Conn_PinSocket_2.00mm,"Pin sockets, 2.0mm pitch"
 Conn_PinSocket_2.54mm,"Pin sockets, 2.54mm pitch"
 Conn_Phoenix_MC,Phoenix MC connector footprints
 Conn_Phoenix_MSTB,Phoenix MSTB connector footprints
+Conn_USB,USB connector footprints
 Crystal,Crystal footprints
-Diode_SMD,"Diodes, surface mount"
+Diode_SMD,"Diode footprints, surface mount"
+Diode_THT,"Diode footprints, through hole"
 Display_7Segment,Seven segment Display
 Display,Display modules
 Fiducial,Fiducial markings
-Inductor_SMD,"Inductor, surface mount"
+Inductor_SMD,"Inductor footprints, surface mount"
+Inductor_THT,"Inductor footprints, through hole"
 LED_SMD,Light emitting diodes (LED
 LED_THT,Light emitting diodes (LED
 MountingHole,Mechanical fasteners
@@ -43,9 +48,11 @@ Package_TO_SOT_SMD,Surface mount transistor packages
 Package_TO_SOT_THT,Through hole transistor packages
 Relay_SMD,Surface mount relay packages
 Relay_THT,Through hole relay packages
-Resistor_SMD,"Resistor, surface mount"
+Resistor_SMD,"Resistor footprints, surface mount (SMD"
+Resistor_THT,"Resistor footprints, through hole (THT"
 RF_Antenna,Radio-frequency / wireless antenna footprints
 RF_Module,Radio-frequency / wireless modules
+RF_Shielding,Specialied footprints for EMI shields and covers
 Sensor_Current,Specialied footprints for hall effect current sensors
 Symbol,PCB symbols
 TerminalBlock_4Ucon,4UCON terminal blocks
