@@ -10,6 +10,7 @@ git add _footprints
 git add _packages3d
 git add download
 git add _data
+git add _includes
 
 # Debug info
 git status
