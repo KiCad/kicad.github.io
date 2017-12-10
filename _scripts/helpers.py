@@ -1,6 +1,44 @@
 import os
-from subprocess import call
+from subprocess import call, Popen, PIPE
 import re
+
+def git_old_hash(hash_file):
+
+    if os.path.exists(hash_file):
+        with open(hash_file) as f:
+            return f.read().strip()
+
+    return None
+
+def git_hash(path):
+
+    os.chdir(path)
+
+    cmd = ['git', 'rev-parse', 'HEAD']
+
+    p = Popen(cmd, stdin=PIPE, stdout=PIPE, stderr=PIPE)
+
+    output, err = p.communicate()
+
+    return output
+
+def git_diff(path, commit):
+    os.chdir(path)
+
+    cmd = ['git', 'diff', '--name-status', str(commit)]
+
+    p = Popen(cmd, stdin=PIPE, stdout=PIPE, stderr=PIPE)
+
+    output, err = p.communicate()
+
+    return output
+
+
+def write_hash(hash_file, hash):
+
+    with open(hash_file, 'w') as f:
+        f.write(hash)
+
 
 def make_ascii(text):
     return ''.join([c for c in str(text) if ord(c) < 127])
