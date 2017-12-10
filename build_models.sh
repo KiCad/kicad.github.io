@@ -8,8 +8,5 @@ fi
 # Remove old generated data
 cd $TRAVIS_BUILD_DIR
 
-rm _packages3d/*.md
-rm _packages3d/*.html
-
 # Generate 3D model data
 python _scripts/gen_3dmodel_info.py /home/travis/build/kicad-packages3d/*.3dshapes --output $TRAVIS_BUILD_DIR/_packages3d --download $TRAVIS_BUILD_DIR/download --hash $TRAVIS_BUILD_DIR/_includes/commit_3d.html -v
