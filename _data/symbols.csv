@@ -3,6 +3,7 @@ Altera,Legacy Altera symbol library
 Battery_Management,Battery management ICs
 Bosch,Assorted Bosch ICs
 Connector,Generic connector symbols
+Decawave,Decawave symbols
 DSP_Microchip_DSPIC33,Microchip DSPIC33
 Diode,Diodes
 Display,Display modules
@@ -36,8 +37,10 @@ Motor,Motor symbols
 Oscillators,Oscillator symbols
 Power_Management,Power management and distribution ICs
 RFSolutions,RFSolutions wireless modules
+RF_Bluetooth,RF Bluetooth wireless modules
 Relay,Relay symbols
 Sensor_Current,Current sensors
+Sensor_Humidity,Humidity sensors
 Switch,Switch symbols
 Transformer,Transformer symbols
 Transistor,Transistor symbols
