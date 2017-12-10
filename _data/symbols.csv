@@ -1,24 +1,39 @@
 library,description
 Altera,Legacy Altera symbol library
+Analog_Switch,Analog switches
+Audio,Audio devices
 Battery_Management,Battery management ICs
-Bosch,Assorted Bosch ICs
-Connector,Generic connector symbols
-Decawave,Decawave symbols
-DSP_Microchip_DSPIC33,Microchip DSPIC33
+Connector_Generic,Generic connector symbols
+Connector_Generic_Shielded,Generic shielded connector symbols
+Connector_Specialized,"Specialized connector symbols (Examples: Terminal Block, D-SUB, Din, .."
+CPLD_Altera,Altera CPLD symbols
+DSP_Freescale,Freescale DSP symbols
+DSP_Microchip_DSPIC33,Microchip DSPIC33 symbols
+DSP_Texas,Texas Instruments DSP symbols
 Diode,Diodes
 Display,Display modules
+Driver_FET,MOSFET and gate drivers
+Driver_LED,LED drivers
 ESD_Protection,ESD protection devices
-Espressif,Assorted Espressif ICs
 FPGA_Actel,Actel FPGA symbols
 Graphic,Graphical symbols
+Interface_Ethernet,Ethernet interface symbols
+Interface_USB,USB interface symbols
+Interface_Telecom,Telecom interface symbols
 LED,Light Emitting Diode (LED
-LEM,LEM current sensors
 Lattice,Assorted Lattice ICs
 Logic_74xgxx,74xgxx logic symbols
 Logic_74xx,74xx logic symbols
 Logic_CMOS_4000,4000 series CMOS logic symbols
 Logic_CMOS_IEEE,4000 series IEEE logic symbols
+Logic_Programmable,Programmable logic symbols
 Logic_TTL_IEEE,4000 series TTL_IEEE logic symbols
+Memory_EEPROM,EEPROM memory
+Memory_Flash,Flash memory
+Memory_NVRAM,Non volatile RAM (NVRAM
+Memory_RAM,Volatile RAM
+MCU_AnalogDevices,Analog Devices microcontrollers
+MCU_Infineon,Infineon microcontrollers
 MCU_Microchip_PIC10,Microchip PIC10 microcontrollers
 MCU_Microchip_PIC12,Microchip PIC12 microcontrollers
 MCU_Microchip_PIC16,Microchip PIC16 microcontrollers
@@ -29,18 +44,39 @@ MCU_NXP_Kinetis,NXP Kinetis microcontrollers
 MCU_NXP_LPC,NXP LPC microcontrollers
 MCU_NXP_S08,NXP S08 microcontrollers
 MCU_Parallax,Parallax microcontrollers
+MCU_SiFive,SiFive microcontrollers
+MCU_SiliconLabs,Silicon Labs (SiLabs
 MCU_ST_STM32,ST STM32 microcontrollers
 MCU_ST_STM8,ST STM8 microcontrollers
 MCU_Texas_MSP430,Texas Instruments MSP430 microcontrollers
 Mechanical,Mechanical symbols
 Motor,Motor symbols
-Oscillators,Oscillator symbols
+Oscillator,Oscillator symbols
 Power_Management,Power management and distribution ICs
+Power_Protection,Power protection devices
+Regulator_Current,Current regulators
+Regulator_Linear,Linear regulators
 RFSolutions,RFSolutions wireless modules
 RF_Bluetooth,RF Bluetooth wireless modules
+RF_AM_FM,AM / FM wireless devices
+RF_Module,RF module symbols
+RF_WiFi,WiFi symbols
+Reference_Current,Precision current references
+Reference_Voltage,Precision voltage references
 Relay,Relay symbols
+Sensor,"Multi-function sensors, assorted sensors"
+Sensor_Audio,Audio / sound / microphone sensors
 Sensor_Current,Current sensors
+Sensor_Gas,Gas sensors
 Sensor_Humidity,Humidity sensors
+Sensor_Magnetic,Magnetic field and hall-effect sensors
+Sensor_Motion,"Accelerometers, gyroscopic sensors"
+Sensor_MultiFunction,Multi-function sensors
+Sensor_Optical,Light and color sensors
+Sensor_Pressure,Fluid and mechanical pressure sensors
+Sensor_Temperature,Temperature sensors
+Sensor_Touch,Touch sensors
+Sensor_Voltage,Voltage sensors
 Switch,Switch symbols
 Transformer,Transformer symbols
 Transistor,Transistor symbols
@@ -53,35 +89,22 @@ adc-dac,ADC (analog to digital converter
 analog_devices,Assorted Analog Devices symbols
 analog_switches,Analog switches
 atmel,Assorted Atmel symbols
-audio,Audio devices
 bbd,Assorted BBD symbols
-brooktre,Assorted brooktre symbols
-contrib,Legacy contrib symbol library
 cypress,Assorted Cypress symbols
 dc-dc,DC to DC switching converters
 device,Generic simple symbols
-digital-audio,Digital audio devices
-driver_gate,Gate driver symbols
-dsp,Digital symbol processors
-elec-unifil,Legacy elec-unifil symbol library
 ftdi,Assorted FTDI symbols
-gennum,Legacy gennum symbol library
-hc11,Legacy hc11 symbol library
 infineon,Assorted Infineon symbols
 intel,Assorted Intel symbols
 interface,Interface and I/O symbols
 intersil,Assorted Intersil symbols
 ir,Legacy ir symbol library
 linear,"Linear devices, op-amps"
-logic_programmable,Programmable logic devices
 maxim,Assorted Maxim symbols
-memory,Memory ICs
 microchip,Assorted Microchip symbols
-microcontrollers,Assorted microcontrollers
 modules,SOC modules
 motor_drivers,Motor driver ICs
 motorola,Assorted Motorola symbols
-nordicsemi,Nordic Semiconductor symbols
 nxp,Assorted NXP symbols
 onsemi,Assorted ON semiconductor symbols
 opto,Optocouplers and assorted opto devices
@@ -89,16 +112,9 @@ philips,Assorted Philips symbols
 power,"Power symbols, special power flags"
 powerint,Legacy powerint symbol library
 pspice,Legacy pspice symbol library
-references,Reference symbols
 regul,Linear regulators
 rfcom,RF communication symbols
-sensors,Sensor symbols
-silabs,Assorted SILabs symbols
-siliconi,Legacy siliconi symbol library
-supertex,Legacy supertex symbol library
 texas,Assorted Texas Instruments symbols
 triac_thyristor,Triacs and thyristors
 video,Legacy video symbol library
-wiznet,Legacy wiznet symbol library
 xilinx,Legacy xilinx symbol library
-zetex,Legacy zetex symbol library
