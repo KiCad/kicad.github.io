@@ -19,6 +19,7 @@ import glob
 from model_list import ModelList
 import zipper
 import helpers
+import subprocess
 
 """
 Script defines
