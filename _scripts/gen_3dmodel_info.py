@@ -43,10 +43,14 @@ if not args.verbose:
 # Extract hash information
 if args.hash:
     git_hash_old = helpers.git_old_hash(args.hash)
+    print("Old git hash - " + str(git_hash_old))
 else:
     git_hash_old = None
+    print("No previous git hash found - rebuilding everything!")
 
 git_hash_new = helpers.git_hash(args.libs)
+
+print("New git hash - " + str(git_hash_new))
 
 model_list = []
 
