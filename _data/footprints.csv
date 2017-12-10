@@ -1,37 +1,67 @@
 library,description
+Battery,battery and battery holder footprints
 Button_Switch_Keyboard,Buttons and switches for keyboard applications
 Button_Switch_SMD,"Buttons and switches, surface mount"
 Button_Switch_THT,"Buttons and switches, through hole"
 Buzzer_Beeper,Audio signalling devices
+Calibration_Scale,Scales and grids intended for calibration and measurement
 Capacitor_SMD,"Capacitor, surface mount"
-Capacitor_Tantalum_SMD,"Tantalum Capacitor, surface mount"
-Conn_Card,Card and card holder footprints
 Capacitor_THT,"Capacitor, through hole"
-Conn_Dsub,Footprints for DSub footprints
-Conn_IDC,IDC connector footprints
-Conn_JST,JST connector footprints www.jst.com
-Conn_Molex,Molex connector foottprints www.molex.com
-Conn_PinHeader_1.00mm,"Pin headers, 1.0mm pitch"
-Conn_PinHeader_1.27mm,"Pin headers, 1.27mm pitch"
-Conn_PinHeader_2.00mm,"Pin headers, 2.0mm pitch"
-Conn_PinHeader_2.54mm,"Pin headers, 2.54mm pitch"
-Conn_PinSocket_1.27mm,"Pin sockets, 1.27mm pitch"
-Conn_PinSocket_2.00mm,"Pin sockets, 2.0mm pitch"
-Conn_PinSocket_2.54mm,"Pin sockets, 2.54mm pitch"
-Conn_Phoenix_MC,Phoenix MC connector footprints
-Conn_Phoenix_MSTB,Phoenix MSTB connector footprints
-Conn_USB,USB connector footprints
+Capacitor_Tantalum_SMD,"Tantalum Capacitor, surface mount"
+Connector,generic/unsorted connector footprints
+Connector_Audio,Audio connector footprints
+Connector_BarrelJack,(DC
+Connector_Card,Card and card holder footprints
+Connector_Coaxial,Coaxial and RF connector footprints
+Connector_Dsub,Footprints for DSub footprints
+Connector_FFC-FPC,FFC (Flexible Flat Cable
+Connector_HDMI,HDMI connector footprints
+Connector_Harwin,Harwin connector footprints
+Connector_Hirose,Hirose connector footprints
+Connector_IDC,IDC connector footprints
+Connector_JAE,JAE connector footprints
+Connector_JST,JST connector footprints www.jst.com
+Connector_Molex,Molex connector foottprints www.molex.com
+Connector_Multicomp,Multicomp connector foottprints
+Connector_PCBEdge,"PCB edge connectors (e.g. PCI, ISA, PCIe, .."
+Connector_Pin,Single (solder
+Connector_PinHeader_1.00mm,"Pin headers, 1.0mm pitch"
+Connector_PinHeader_1.27mm,"Pin headers, 1.27mm pitch"
+Connector_PinHeader_2.00mm,"Pin headers, 2.0mm pitch"
+Connector_PinHeader_2.54mm,"Pin headers, 2.54mm pitch"
+Connector_PinSocket_1.00mm,"Pin sockets, 1.00mm pitch"
+Connector_PinSocket_1.27mm,"Pin sockets, 1.27mm pitch"
+Connector_PinSocket_2.00mm,"Pin sockets, 2.0mm pitch"
+Connector_PinSocket_2.54mm,"Pin sockets, 2.54mm pitch"
+Connector_Phoenix_MC,Phoenix MC connector footprints
+Connector_Phoenix_MSTB,Phoenix MSTB connector footprints
+Connector_RJ,Registered Jack (RJ
+Connector_SATA_SAS,SATA/SAS connector footprints
+Connector_TE-Connectivity,Footprints for connectors by TE Connectivity
+Connector_USB,USB connector footprints
+Connector_Wago,Wago connector footprints
+Connector_Wire,Footprints for solder wire pads
+Connector_Samtec,Samtec connector footprints
+Converter_ACDC,AC/DC converter footprints
+Converter_DCDC,DC/DC converter footprints
 Crystal,Crystal footprints
 Diode_SMD,"Diode footprints, surface mount"
 Diode_THT,"Diode footprints, through hole"
 Display_7Segment,Seven segment Display
 Display,Display modules
 Fiducial,Fiducial markings
+Fuse,Fuse and fuse holder footprints
+Heatsink,Heatsinks and thermal products
 Inductor_SMD,"Inductor footprints, surface mount"
 Inductor_THT,"Inductor footprints, through hole"
+Jumper,"Jumpers, solder jumpers, ... footprints"
 LED_SMD,Light emitting diodes (LED
 LED_THT,Light emitting diodes (LED
+Module,Footprints for SoM (System on Module
 MountingHole,Mechanical fasteners
+NetTie,Net ties
+OptoDevice,"Optical devices (light sensors, opto isolators/interrupters, laser diodes, fiber optical components .."
+Oscillator,Footprints for oscillator devices
 Package_BGA,Ball Grid Array (BGA
 Package_CSP,Chip Scale Packages (CSP
 Package_DFN_QFN,"Surface mount IC packages, DFN / LGA / QFN"
@@ -54,7 +84,10 @@ RF_Antenna,Radio-frequency / wireless antenna footprints
 RF_Module,Radio-frequency / wireless modules
 RF_Shielding,Specialied footprints for EMI shields and covers
 Sensor_Current,Specialied footprints for hall effect current sensors
+Sensor_Pressure,Specialied footprints for pressure sensors
+Socket,Sockets
 Symbol,PCB symbols
+TerminalBlock,Footprints for terminal blocks that do not have their own manufacturer specific library
 TerminalBlock_4Ucon,4UCON terminal blocks
 TerminalBlock_MetzConnect,Metz Connect terminal blocks
 TerminalBlock_Philmore,Philmore terminal blocks
