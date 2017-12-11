@@ -1,5 +1,4 @@
 library,description
-Altera,Legacy Altera symbol library
 Analog_Switch,Analog switches
 Audio,Audio devices
 Battery_Management,Battery management ICs
@@ -11,7 +10,9 @@ DSP_Freescale,Freescale DSP symbols
 DSP_Microchip_DSPIC33,Microchip DSPIC33 symbols
 DSP_Texas,Texas Instruments DSP symbols
 Diode,Diodes
-Display,Display modules
+Display_Character,"Character displays. (n-Segment, dot-matrix, .."
+Display_Graphic,Graphic displays. (Pixel based color or monchrome displays
+Driver_Display,Drivers for displays. (For graphic and character based displays
 Driver_FET,MOSFET and gate drivers
 Driver_LED,LED drivers
 ESD_Protection,ESD protection devices
@@ -21,7 +22,6 @@ Interface_Ethernet,Ethernet interface symbols
 Interface_USB,USB interface symbols
 Interface_Telecom,Telecom interface symbols
 LED,Light Emitting Diode (LED
-Lattice,Assorted Lattice ICs
 Logic_74xgxx,74xgxx logic symbols
 Logic_74xx,74xx logic symbols
 Logic_CMOS_4000,4000 series CMOS logic symbols
@@ -56,7 +56,6 @@ Power_Management,Power management and distribution ICs
 Power_Protection,Power protection devices
 Regulator_Current,Current regulators
 Regulator_Linear,Linear regulators
-RFSolutions,RFSolutions wireless modules
 RF_Bluetooth,RF Bluetooth wireless modules
 RF_AM_FM,AM / FM wireless devices
 RF_Module,RF module symbols
@@ -81,40 +80,5 @@ Switch,Switch symbols
 Transformer,Transformer symbols
 Transistor,Transistor symbols
 Valve,Valve symbols
-Worldsemi,Assorted Worldsemi symbols
-Xicor,Xicor symbols
-Zilog,Zilog symbols
-ac-dc,AC to DC converters
-adc-dac,ADC (analog to digital converter
-analog_devices,Assorted Analog Devices symbols
-analog_switches,Analog switches
-atmel,Assorted Atmel symbols
-bbd,Assorted BBD symbols
-cypress,Assorted Cypress symbols
-dc-dc,DC to DC switching converters
-device,Generic simple symbols
-ftdi,Assorted FTDI symbols
-infineon,Assorted Infineon symbols
-intel,Assorted Intel symbols
-interface,Interface and I/O symbols
-intersil,Assorted Intersil symbols
-ir,Legacy ir symbol library
-linear,"Linear devices, op-amps"
-maxim,Assorted Maxim symbols
-microchip,Assorted Microchip symbols
-modules,SOC modules
-motor_drivers,Motor driver ICs
-motorola,Assorted Motorola symbols
-nxp,Assorted NXP symbols
-onsemi,Assorted ON semiconductor symbols
-opto,Optocouplers and assorted opto devices
-philips,Assorted Philips symbols
 power,"Power symbols, special power flags"
-powerint,Legacy powerint symbol library
 pspice,Legacy pspice symbol library
-regul,Linear regulators
-rfcom,RF communication symbols
-texas,Assorted Texas Instruments symbols
-triac_thyristor,Triacs and thyristors
-video,Legacy video symbol library
-xilinx,Legacy xilinx symbol library
