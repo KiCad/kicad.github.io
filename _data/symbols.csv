@@ -5,6 +5,7 @@ Battery_Management,Battery management ICs
 Connector_Generic,Generic connector symbols
 Connector_Generic_Shielded,Generic shielded connector symbols
 Connector_Specialized,"Specialized connector symbols (Examples: Terminal Block, D-SUB, Din, .."
+Converter_DCDC,DC to DC converter modules
 CPLD_Altera,Altera CPLD symbols
 DSP_Freescale,Freescale DSP symbols
 DSP_Microchip_DSPIC33,Microchip DSPIC33 symbols
@@ -54,8 +55,12 @@ Motor,Motor symbols
 Oscillator,Oscillator symbols
 Power_Management,Power management and distribution ICs
 Power_Protection,Power protection devices
+Regulator_Controller,Power regulator controllers
 Regulator_Current,Current regulators
 Regulator_Linear,Linear regulators
+Regulator_SwitchedCapacitor,Switched capacitor / charge pump regulators
+Regulator_Switching,Switch-mode regulators
+RFSolutions,RFSolutions wireless modules
 RF_Bluetooth,RF Bluetooth wireless modules
 RF_AM_FM,AM / FM wireless devices
 RF_Module,RF module symbols
@@ -78,7 +83,9 @@ Sensor_Touch,Touch sensors
 Sensor_Voltage,Voltage sensors
 Switch,Switch symbols
 Transformer,Transformer symbols
-Transistor,Transistor symbols
+Transistor_BJT,BJT transistor symbols
+Transistor_FET,FET transistor symbols
+Transistor_IGBT,IGBT transistor symbols
 Valve,Valve symbols
 power,"Power symbols, special power flags"
 pspice,Legacy pspice symbol library
