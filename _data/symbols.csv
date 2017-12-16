@@ -16,12 +16,13 @@ Display_Graphic,Graphic displays. (Pixel based color or monchrome displays
 Driver_Display,Drivers for displays. (For graphic and character based displays
 Driver_FET,MOSFET and gate drivers
 Driver_LED,LED drivers
-ESD_Protection,ESD protection devices
 FPGA_Actel,Actel FPGA symbols
 Graphic,Graphical symbols
+Interface_CAN_LIN,CAN / LIN interface symbols
 Interface_Ethernet,Ethernet interface symbols
 Interface_USB,USB interface symbols
 Interface_Telecom,Telecom interface symbols
+Jumper,(Solder
 LED,Light Emitting Diode (LED
 Logic_74xgxx,74xgxx logic symbols
 Logic_74xx,74xx logic symbols
@@ -53,6 +54,7 @@ MCU_Texas_MSP430,Texas Instruments MSP430 microcontrollers
 Mechanical,Mechanical symbols
 Motor,Motor symbols
 Oscillator,Oscillator symbols
+Potentiometer_Digital,Digital potentiometers
 Power_Management,Power management and distribution ICs
 Power_Protection,Power protection devices
 Regulator_Controller,Power regulator controllers
@@ -60,7 +62,6 @@ Regulator_Current,Current regulators
 Regulator_Linear,Linear regulators
 Regulator_SwitchedCapacitor,Switched capacitor / charge pump regulators
 Regulator_Switching,Switch-mode regulators
-RFSolutions,RFSolutions wireless modules
 RF_Bluetooth,RF Bluetooth wireless modules
 RF_AM_FM,AM / FM wireless devices
 RF_Module,RF module symbols
@@ -82,6 +83,7 @@ Sensor_Temperature,Temperature sensors
 Sensor_Touch,Touch sensors
 Sensor_Voltage,Voltage sensors
 Switch,Switch symbols
+Timer,Timers
 Transformer,Transformer symbols
 Transistor_BJT,BJT transistor symbols
 Transistor_FET,FET transistor symbols
