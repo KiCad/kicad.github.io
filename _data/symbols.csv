@@ -1,4 +1,6 @@
 library,description
+Amplifier_Video,Video amplifiers
+Analog_ADC,Analog to digital converters
 Analog_Switch,Analog switches
 Audio,Audio devices
 Battery_Management,Battery management ICs
@@ -7,6 +9,7 @@ Connector_Generic_Shielded,Generic shielded connector symbols
 Connector_Specialized,"Specialized connector symbols (Examples: Terminal Block, D-SUB, Din, .."
 Converter_DCDC,DC to DC converter modules
 CPLD_Altera,Altera CPLD symbols
+Device,"Generic devices, common symbols"
 DSP_Freescale,Freescale DSP symbols
 DSP_Microchip_DSPIC33,Microchip DSPIC33 symbols
 DSP_Texas,Texas Instruments DSP symbols
@@ -20,6 +23,7 @@ FPGA_Actel,Actel FPGA symbols
 Graphic,Graphical symbols
 Interface_CAN_LIN,CAN / LIN interface symbols
 Interface_Ethernet,Ethernet interface symbols
+Interface_Expansion,"I/O expansion devices, shift registers, etc"
 Interface_USB,USB interface symbols
 Interface_Telecom,Telecom interface symbols
 Jumper,(Solder
@@ -42,6 +46,7 @@ MCU_Microchip_PIC16,Microchip PIC16 microcontrollers
 MCU_Microchip_PIC18,Microchip PIC18 microcontrollers
 MCU_Microchip_PIC24,Microchip PIC24 microcontrollers
 MCU_Microchip_PIC32,Microchip PIC32 microcontrollers
+MCU_NXP_HC11,NXP HC11 microcontrollers
 MCU_NXP_Kinetis,NXP Kinetis microcontrollers
 MCU_NXP_LPC,NXP LPC microcontrollers
 MCU_NXP_S08,NXP S08 microcontrollers
@@ -57,6 +62,7 @@ Oscillator,Oscillator symbols
 Potentiometer_Digital,Digital potentiometers
 Power_Management,Power management and distribution ICs
 Power_Protection,Power protection devices
+Power_Supervisor,Power supervisory devices
 Regulator_Controller,Power regulator controllers
 Regulator_Current,Current regulators
 Regulator_Linear,Linear regulators
@@ -83,7 +89,8 @@ Sensor_Temperature,Temperature sensors
 Sensor_Touch,Touch sensors
 Sensor_Voltage,Voltage sensors
 Switch,Switch symbols
-Timer,Timers
+Timer,Assorted timer devices
+Timer_RTC,Real time clock (RTC
 Transformer,Transformer symbols
 Transistor_BJT,BJT transistor symbols
 Transistor_FET,FET transistor symbols
