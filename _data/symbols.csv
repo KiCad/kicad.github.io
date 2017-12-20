@@ -1,1 +1,112 @@
 library,description
+Amplifier_Buffer,Buffer amplifiers
+Amplifier_Video,Video amplifiers
+Analog,Miscellaneous analog devices
+Analog_ADC,Analog to digital converters
+Analog_DAC,Digital to analog converters
+Analog_Switch,Analog switches
+Audio,Audio devices
+Battery_Management,Battery management ICs
+Connector_Generic,Generic connector symbols
+Connector_Generic_Shielded,Generic shielded connector symbols
+Connector_Specialized,"Specialized connector symbols (Examples: Terminal Block, D-SUB, Din, ...)"
+Converter_DCDC,DC to DC converter modules
+CPLD_Altera,Altera CPLD symbols
+Device,"Generic devices, common symbols"
+DSP_Freescale,Freescale DSP symbols
+DSP_Microchip_DSPIC33,Microchip DSPIC33 symbols
+DSP_Texas,Texas Instruments DSP symbols
+Diode,Diodes
+Display_Character,"Character displays. (n-Segment, dot-matrix, ...)"
+Display_Graphic,Graphic displays. (Pixel based color or monchrome displays.)
+Driver_Display,Drivers for displays. (For graphic and character based displays.)
+Driver_FET,MOSFET and gate drivers
+Driver_LED,LED drivers
+FPGA_Actel,Actel FPGA symbols
+Graphic,Graphical symbols
+Interface,Assorted interface symbols
+Interface_CAN_LIN,CAN / LIN interface symbols
+Interface_CurrentLoop,Current loop interface devices
+Interface_Ethernet,Ethernet interface symbols
+Interface_Expansion,"I/O expansion devices, shift registers, etc"
+Interface_HID,Human Interface Device (HID) symbols
+Interface_LineDriver,Line driver interface symbols
+Interface_Telecom,Telecom interface symbols
+Interface_UART,UART interface symbols
+Interface_USB,USB interface symbols
+Isolator,Isolator devices
+Jumper,(Solder) jumper symbols
+LED,Light Emitting Diode (LED) symbols
+Logic_74xgxx,74xgxx logic symbols
+Logic_74xx,74xx logic symbols
+Logic_CMOS_4000,4000 series CMOS logic symbols
+Logic_CMOS_IEEE,4000 series IEEE logic symbols
+Logic_Programmable,Programmable logic symbols
+Logic_TTL_IEEE,4000 series TTL_IEEE logic symbols
+Memory_Controller,Memory controller devices
+Memory_EEPROM,EEPROM memory
+Memory_Flash,Flash memory
+Memory_NVRAM,Non volatile RAM (NVRAM)
+Memory_RAM,Volatile RAM
+MCU_AnalogDevices,Analog Devices microcontrollers
+MCU_Infineon,Infineon microcontrollers
+MCU_Microchip_PIC10,Microchip PIC10 microcontrollers
+MCU_Microchip_PIC12,Microchip PIC12 microcontrollers
+MCU_Microchip_PIC16,Microchip PIC16 microcontrollers
+MCU_Microchip_PIC18,Microchip PIC18 microcontrollers
+MCU_Microchip_PIC24,Microchip PIC24 microcontrollers
+MCU_Microchip_PIC32,Microchip PIC32 microcontrollers
+MCU_NXP_HC11,NXP HC11 microcontrollers
+MCU_NXP_Kinetis,NXP Kinetis microcontrollers
+MCU_NXP_LPC,NXP LPC microcontrollers
+MCU_NXP_S08,NXP S08 microcontrollers
+MCU_Parallax,Parallax microcontrollers
+MCU_SiFive,SiFive microcontrollers
+MCU_SiliconLabs,Silicon Labs (SiLabs) microcontrollers
+MCU_ST_STM32,ST STM32 microcontrollers
+MCU_ST_STM8,ST STM8 microcontrollers
+MCU_Texas_MSP430,Texas Instruments MSP430 microcontrollers
+Mechanical,Mechanical symbols
+Motor,Motor symbols
+Oscillator,Oscillator symbols
+Potentiometer_Digital,Digital potentiometers
+Power_Management,Power management and distribution ICs
+Power_Protection,Power protection devices
+Power_Supervisor,Power supervisory devices
+Regulator_Controller,Power regulator controllers
+Regulator_Current,Current regulators
+Regulator_Linear,Linear regulators
+Regulator_SwitchedCapacitor,Switched capacitor / charge pump regulators
+Regulator_Switching,Switch-mode regulators
+RF_Bluetooth,RF Bluetooth wireless modules
+RF_AM_FM,AM / FM wireless devices
+RF_Module,RF module symbols
+RF_WiFi,WiFi symbols
+Reference_Current,Precision current references
+Reference_Voltage,Precision voltage references
+Relay,Relay symbols
+Sensor,"Multi-function sensors, assorted sensors"
+Sensor_Audio,Audio / sound / microphone sensors
+Sensor_Current,Current sensors
+Sensor_Gas,Gas sensors
+Sensor_Humidity,Humidity sensors
+Sensor_Magnetic,Magnetic field and hall-effect sensors
+Sensor_Motion,"Accelerometers, gyroscopic sensors"
+Sensor_MultiFunction,Multi-function sensors
+Sensor_Optical,Light and color sensors
+Sensor_Pressure,Fluid and mechanical pressure sensors
+Sensor_Temperature,Temperature sensors
+Sensor_Touch,Touch sensors
+Sensor_Voltage,Voltage sensors
+Switch,Switch symbols
+Timer,Assorted timer devices
+Timer_RTC,Real time clock (RTC) devices
+Transformer,Transformer symbols
+Transistor_Array,Specialized transistor arrays
+Transistor_BJT,BJT transistor symbols
+Transistor_FET,FET transistor symbols
+Transistor_IGBT,IGBT transistor symbols
+Valve,Valve symbols
+Video,Video symbols
+power,"Power symbols, special power flags"
+pspice,Legacy pspice symbol library
