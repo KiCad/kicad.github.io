@@ -48,7 +48,7 @@ def read_lib_table(lib_table_file):
 
     entries = []
 
-    s_name = r'\(name "([^"]*)"'
+    s_name = r'\(name ([^"]*?)\)'
     s_descr = r'\(descr "([^"]*)"'
 
     def cleanse(txt):
