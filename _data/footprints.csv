@@ -76,6 +76,8 @@ Package_SON,Small Outline No-Lead (SON)
 Package_SSOP,"SSOP, TSSOP, MSOP, QSOP, VSO packages"
 Package_TO_SOT_SMD,Surface mount transistor packages
 Package_TO_SOT_THT,Through hole transistor packages
+Potentiometer_SMD,"Potentiometer footprints, surface mount (SMD)"
+Potentiometer_THT,"Potentiometer footprints, through hole (THT)"
 Relay_SMD,Surface mount relay packages
 Relay_THT,Through hole relay packages
 Resistor_SMD,"Resistor footprints, surface mount (SMD)"

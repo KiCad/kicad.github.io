@@ -1,5 +1,6 @@
 library,description
 Amplifier_Buffer,Buffer amplifiers
+Amplifier_Instrumentation,Instrumentation amplitifers
 Amplifier_Video,Video amplifiers
 Analog,Miscellaneous analog devices
 Analog_ADC,Analog to digital converters
@@ -23,6 +24,7 @@ Display_Graphic,Graphic displays. (Pixel based color or monchrome displays.)
 Driver_Display,Drivers for displays. (For graphic and character based displays.)
 Driver_FET,MOSFET and gate drivers
 Driver_LED,LED drivers
+Driver_Motor,Integrated motor driver and controller ICs
 FPGA_Actel,Actel FPGA symbols
 Graphic,Graphical symbols
 Interface,Assorted interface symbols
@@ -51,6 +53,7 @@ Memory_NVRAM,Non volatile RAM (NVRAM)
 Memory_RAM,Volatile RAM
 Memory_UniqueID,UID and serial number memory devices
 MCU_AnalogDevices,Analog Devices microcontrollers
+MCU_Cypress,Cypress microcontrollers
 MCU_Infineon,Infineon microcontrollers
 MCU_Microchip_PIC10,Microchip PIC10 microcontrollers
 MCU_Microchip_PIC12,Microchip PIC12 microcontrollers
