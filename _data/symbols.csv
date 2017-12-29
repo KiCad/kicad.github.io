@@ -25,6 +25,7 @@ Driver_Display,Drivers for displays. (For graphic and character based displays.)
 Driver_FET,MOSFET and gate drivers
 Driver_LED,LED drivers
 Driver_Motor,Integrated motor driver and controller ICs
+Driver_Relay,Relay drivers and controllers
 FPGA_Actel,Actel FPGA symbols
 Graphic,Graphical symbols
 Interface,Assorted interface symbols
@@ -44,6 +45,7 @@ Logic_74xgxx,74xgxx logic symbols
 Logic_74xx,74xx logic symbols
 Logic_CMOS_4000,4000 series CMOS logic symbols
 Logic_CMOS_IEEE,4000 series IEEE logic symbols
+Logic_LevelTranslator,Logic level translators and level shifters
 Logic_Programmable,Programmable logic symbols
 Logic_TTL_IEEE,4000 series TTL_IEEE logic symbols
 Memory_Controller,Memory controller devices
@@ -70,6 +72,7 @@ MCU_SiFive,SiFive microcontrollers
 MCU_SiliconLabs,Silicon Labs (SiLabs) microcontrollers
 MCU_ST_STM32,ST STM32 microcontrollers
 MCU_ST_STM8,ST STM8 microcontrollers
+MCU_Texas,Texas Instruments microcontrollers (assorted)
 MCU_Texas_MSP430,Texas Instruments MSP430 microcontrollers
 Mechanical,Mechanical symbols
 Motor,Motor symbols
@@ -86,6 +89,7 @@ Regulator_Switching,Switch-mode regulators
 RF_Bluetooth,RF Bluetooth wireless modules
 RF_AM_FM,AM / FM wireless devices
 RF_Module,RF module symbols
+RF_RFID,Radio Frequency ID (RFID)
 RF_WiFi,WiFi symbols
 Reference_Current,Precision current references
 Reference_Voltage,Precision voltage references
