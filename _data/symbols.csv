@@ -1,5 +1,9 @@
 library,description
+Amplifier_Audio,Amplifier for audio applications
 Amplifier_Buffer,Buffer amplifiers
+Amplifier_Current,Amplifiers for current sensors (shunt)
+Amplifier_Difference,Amplifiers for analog differencial signals
+Amplifier_Operational,General operational amplifiers
 Amplifier_Instrumentation,Instrumentation amplitifers
 Amplifier_Video,Video amplifiers
 Analog,Miscellaneous analog devices
@@ -8,6 +12,7 @@ Analog_DAC,Digital to analog converters
 Analog_Switch,Analog switches
 Audio,Audio devices
 Battery_Management,Battery management ICs
+Comparator,Comperator symbols
 Connector_Generic,Generic connector symbols
 Connector_Generic_Shielded,Generic shielded connector symbols
 Connector_Specialized,"Specialized connector symbols (Examples: Terminal Block, D-SUB, Din, ...)"
@@ -19,6 +24,7 @@ DSP_Freescale,Freescale DSP symbols
 DSP_Microchip_DSPIC33,Microchip DSPIC33 symbols
 DSP_Texas,Texas Instruments DSP symbols
 Diode,Diodes
+Diode_Laser,Laser diodes
 Display_Character,"Character displays. (n-Segment, dot-matrix, ...)"
 Display_Graphic,Graphic displays. (Pixel based color or monchrome displays.)
 Driver_Display,Drivers for displays. (For graphic and character based displays.)
@@ -35,10 +41,12 @@ Interface_Ethernet,Ethernet interface symbols
 Interface_Expansion,"I/O expansion devices, shift registers, etc"
 Interface_HID,Human Interface Device (HID) symbols
 Interface_LineDriver,Line driver interface symbols
+Interface_Optical,Optical interfaces (IR receivers)
 Interface_Telecom,Telecom interface symbols
 Interface_UART,UART interface symbols
 Interface_USB,USB interface symbols
 Isolator,Isolator devices
+Isolator_Analog,Analog isolator devices
 Jumper,(Solder) jumper symbols
 LED,Light Emitting Diode (LED) symbols
 Logic_74xgxx,74xgxx logic symbols
@@ -88,12 +96,14 @@ Regulator_SwitchedCapacitor,Switched capacitor / charge pump regulators
 Regulator_Switching,Switch-mode regulators
 RF_Bluetooth,RF Bluetooth wireless modules
 RF_AM_FM,AM / FM wireless devices
+RF_Mixer,RF mixer symbols
 RF_Module,RF module symbols
 RF_RFID,Radio Frequency ID (RFID)
 RF_WiFi,WiFi symbols
 Reference_Current,Precision current references
 Reference_Voltage,Precision voltage references
 Relay,Relay symbols
+Relay_SolidState,Solid state relays (Transistor and Triac based)
 Sensor,"Multi-function sensors, assorted sensors"
 Sensor_Audio,Audio / sound / microphone sensors
 Sensor_Current,Current sensors
@@ -104,6 +114,7 @@ Sensor_Motion,"Accelerometers, gyroscopic sensors"
 Sensor_MultiFunction,Multi-function sensors
 Sensor_Optical,Light and color sensors
 Sensor_Pressure,Fluid and mechanical pressure sensors
+Sensor_Proximity,"Optical interuption and proximity (optical, inductive, capacitve, ...) sensors"
 Sensor_Temperature,Temperature sensors
 Sensor_Touch,Touch sensors
 Sensor_Voltage,Voltage sensors
