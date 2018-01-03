@@ -2,7 +2,7 @@ library,description
 Amplifier_Audio,Amplifier for audio applications
 Amplifier_Buffer,Buffer amplifiers
 Amplifier_Current,Amplifiers for current sensors (shunt)
-Amplifier_Difference,Amplifiers for analog differencial signals
+Amplifier_Difference,Amplifiers for analog differential signals
 Amplifier_Operational,General operational amplifiers
 Amplifier_Instrumentation,Instrumentation amplitifers
 Amplifier_Video,Video amplifiers
@@ -130,4 +130,5 @@ Valve,Valve symbols
 Video,Video symbols
 power,"Power symbols, special power flags"
 pspice,Legacy pspice symbol library
+MCU_Microchip_SAME,Microchip SAME microcontrollers
 MCU_Microchip_SAML,Microchip SAML microcontrollers
