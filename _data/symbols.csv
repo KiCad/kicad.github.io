@@ -18,6 +18,7 @@ Connector_Generic_Shielded,Generic shielded connector symbols
 Connector_Specialized,"Specialized connector symbols (Examples: Terminal Block, D-SUB, Din, ...)"
 Converter_DCDC,DC to DC converter modules
 CPLD_Altera,Altera CPLD symbols
+CPLD_Xilinx,Xilinx CPLD symbols
 CPU,"Central processor unit (CPU) symbols, assorted"
 Device,"Generic devices, common symbols"
 DSP_Freescale,Freescale DSP symbols
@@ -33,6 +34,13 @@ Driver_LED,LED drivers
 Driver_Motor,Integrated motor driver and controller ICs
 Driver_Relay,Relay drivers and controllers
 FPGA_Actel,Actel FPGA symbols
+FPGA_Xilinx,Assorted Xilinx FPGA symbols
+FPGA_Xilinx_Artix7,Xilinx Artix7 FPGA symbols
+FPGA_Xilinx_Kintex7,Xilinx Kintex7 FPGA symbols
+FPGA_Xilinx_Spartan6,Xilinx Spartan6 FPGA symbols
+FPGA_Xilinx_Virtex5,Xilinx Virtex5 FPGA symbols
+FPGA_Xilinx_Virtex6,Xilinx Virtex6 FPGA symbols
+FPGA_Xilinx_Virtex7,Xilinx Virtex7 FPGA symbols
 Graphic,Graphical symbols
 Interface,Assorted interface symbols
 Interface_CAN_LIN,CAN / LIN interface symbols
@@ -61,8 +69,13 @@ Memory_EEPROM,EEPROM memory
 Memory_Flash,Flash memory
 Memory_NVRAM,Non volatile RAM (NVRAM)
 Memory_RAM,Volatile RAM
+Memory_ROM,Read only memory (ROM)
 Memory_UniqueID,UID and serial number memory devices
 MCU_AnalogDevices,Analog Devices microcontrollers
+MCU_Atmel_8051,Atmel 8051 microcontrollers
+MCU_Atmel_ATMEGA,Atmel ATMEGA microcontrollers
+MCU_Atmel_ATTINY,Atmel ATTINY microcontrollers
+MCU_Atmel_AVR,Atmel AVR microcontrollers
 MCU_Cypress,Cypress microcontrollers
 MCU_Infineon,Infineon microcontrollers
 MCU_Microchip_PIC10,Microchip PIC10 microcontrollers
