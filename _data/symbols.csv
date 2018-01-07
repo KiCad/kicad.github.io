@@ -25,6 +25,7 @@ DSP_Freescale,Freescale DSP symbols
 DSP_Microchip_DSPIC33,Microchip DSPIC33 symbols
 DSP_Texas,Texas Instruments DSP symbols
 Diode,Diodes
+Diode_Bridge,Diode Bridges/Rectifiers
 Diode_Laser,Laser diodes
 Display_Character,"Character displays. (n-Segment, dot-matrix, ...)"
 Display_Graphic,Graphic displays. (Pixel based color or monchrome displays.)
@@ -139,6 +140,7 @@ Transistor_Array,Specialized transistor arrays
 Transistor_BJT,BJT transistor symbols
 Transistor_FET,FET transistor symbols
 Transistor_IGBT,IGBT transistor symbols
+Triac_Thyristor,TRIAC and thyristor symbols
 Valve,Valve symbols
 Video,Video symbols
 power,"Power symbols, special power flags"
