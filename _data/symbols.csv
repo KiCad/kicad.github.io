@@ -20,9 +20,13 @@ Converter_DCDC,DC to DC converter modules
 CPLD_Altera,Altera CPLD symbols
 CPLD_Xilinx,Xilinx CPLD symbols
 CPU,"Central processor unit (CPU) symbols, assorted"
+CPU_NXP_6800,NXP (formerly Motorola) 6800 CPUs
+CPU_NXP_68000,NXP (formerly Motorola) 68000 CPUs
+CPU_PowerPC,PowerPC-based CPUs
 Device,"Generic devices, common symbols"
 DSP_Freescale,Freescale DSP symbols
 DSP_Microchip_DSPIC33,Microchip DSPIC33 symbols
+DSP_Motorola,Motorola DSP symbols
 DSP_Texas,Texas Instruments DSP symbols
 Diode,Diodes
 Diode_Bridge,Diode Bridges/Rectifiers
@@ -42,6 +46,7 @@ FPGA_Xilinx_Spartan6,Xilinx Spartan6 FPGA symbols
 FPGA_Xilinx_Virtex5,Xilinx Virtex5 FPGA symbols
 FPGA_Xilinx_Virtex6,Xilinx Virtex6 FPGA symbols
 FPGA_Xilinx_Virtex7,Xilinx Virtex7 FPGA symbols
+GPU,Graphics Processing Units
 Graphic,Graphical symbols
 Interface,Assorted interface symbols
 Interface_CAN_LIN,CAN / LIN interface symbols
@@ -87,9 +92,14 @@ MCU_Microchip_PIC18,Microchip PIC18 microcontrollers
 MCU_Microchip_PIC24,Microchip PIC24 microcontrollers
 MCU_Microchip_PIC32,Microchip PIC32 microcontrollers
 MCU_Module,Microcontroller Modules and Breakouts (Arduino ...)
+MCU_NXP_ColdFire,NXP ColdFire microcontrollers (formerly Motorola)
 MCU_NXP_HC11,NXP HC11 microcontrollers
+MCU_NXP_HC12,NXP HC12 microcontrollers
+MCU_NXP_HCS12,NXP HCS12 microcontrollers
 MCU_NXP_Kinetis,NXP Kinetis microcontrollers
 MCU_NXP_LPC,NXP LPC microcontrollers
+MCU_NXP_MAC7100,NXP MAC7100 (ARMv7-based) microcontrollers
+MCU_NXP_MCore,NXP M*Core microcontrollers
 MCU_NXP_S08,NXP S08 microcontrollers
 MCU_Parallax,Parallax microcontrollers
 MCU_SiFive,SiFive microcontrollers
