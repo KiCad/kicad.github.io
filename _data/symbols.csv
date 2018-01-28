@@ -149,6 +149,7 @@ Sensor_Touch,Touch sensors
 Sensor_Voltage,Voltage sensors
 Switch,Switch symbols
 Timer,Assorted timer devices
+Timer_PLL,Phase locked loop (PLL) devices
 Timer_RTC,Real time clock (RTC) devices
 Transformer,Transformer symbols
 Transistor_Array,Specialized transistor arrays
