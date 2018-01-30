@@ -85,6 +85,7 @@ Resistor_THT,"Resistor footprints, through hole (THT)"
 RF_Antenna,Radio-frequency / wireless antenna footprints
 RF_Module,Radio-frequency / wireless modules
 RF_Shielding,Specialied footprints for EMI shields and covers
+Sensor_Audio,Specialied footprints for audio sensors
 Sensor_Current,Specialied footprints for hall effect current sensors
 Sensor_Pressure,Specialied footprints for pressure sensors
 Socket,Sockets

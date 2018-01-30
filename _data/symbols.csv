@@ -140,7 +140,6 @@ Sensor_Gas,Gas sensors
 Sensor_Humidity,Humidity sensors
 Sensor_Magnetic,Magnetic field and hall-effect sensors
 Sensor_Motion,"Accelerometers, gyroscopic sensors"
-Sensor_MultiFunction,Multi-function sensors
 Sensor_Optical,Light and color sensors
 Sensor_Pressure,Fluid and mechanical pressure sensors
 Sensor_Proximity,"Optical interuption and proximity (optical, inductive, capacitve, ...) sensors"
