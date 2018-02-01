@@ -16,6 +16,7 @@ Comparator,Comperator symbols
 Connector_Generic,Generic connector symbols
 Connector_Generic_Shielded,Generic shielded connector symbols
 Connector_Specialized,"Specialized connector symbols (Examples: Terminal Block, D-SUB, Din, ...)"
+Converter_ACDC,AC to DC converter modules
 Converter_DCDC,DC to DC converter modules
 CPLD_Altera,Altera CPLD symbols
 CPLD_Xilinx,Xilinx CPLD symbols
