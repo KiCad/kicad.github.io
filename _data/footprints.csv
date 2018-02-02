@@ -71,9 +71,8 @@ Package_LCC,Leaded Chip Carriers (LCC)
 Package_LGA,Land Grid Array (LGA)
 Package_QFP,Quad Flat Package (QFP)
 Package_SIP,Single Inline Package(SIP)
-Package_SOIC,Small Outline Integrated Circuits (SOIC)
+Package_SO,"Small Outline Integrated Circuits (SOIC, SSOP, xSOP, xSO)"
 Package_SON,Small Outline No-Lead (SON)
-Package_SSOP,"SSOP, TSSOP, MSOP, QSOP, VSO packages"
 Package_TO_SOT_SMD,Surface mount transistor packages
 Package_TO_SOT_THT,Through hole transistor packages
 Potentiometer_SMD,"Potentiometer footprints, surface mount (SMD)"
@@ -92,6 +91,7 @@ Socket,Sockets
 Symbol,PCB symbols
 TerminalBlock,Footprints for terminal blocks that do not have their own manufacturer specific library
 TerminalBlock_4Ucon,4UCON terminal blocks
+TerminalBlock_Dinkle,Dinkle terminal blocks
 TerminalBlock_MetzConnect,Metz Connect terminal blocks
 TerminalBlock_Philmore,Philmore terminal blocks
 TerminalBlock_Phoenix,RND terminal blocks
