@@ -72,6 +72,7 @@ Logic_LevelTranslator,Logic level translators and level shifters
 Logic_Programmable,Programmable logic symbols
 Logic_TTL_IEEE,4000 series TTL_IEEE logic symbols
 Memory_Controller,Memory controller devices
+Memory_EPROM,EPROM memory
 Memory_EEPROM,EEPROM memory
 Memory_Flash,Flash memory
 Memory_NVRAM,Non volatile RAM (NVRAM)
