@@ -50,6 +50,7 @@ Diode_THT,"Diode footprints, through hole"
 Display_7Segment,Seven segment Display
 Display,Display modules
 Fiducial,Fiducial markings
+Filter,Filter footprints
 Fuse,Fuse and fuse holder footprints
 Heatsink,Heatsinks and thermal products
 Inductor_SMD,"Inductor footprints, surface mount"

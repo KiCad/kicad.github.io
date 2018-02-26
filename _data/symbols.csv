@@ -39,6 +39,7 @@ Driver_FET,MOSFET and gate drivers
 Driver_LED,LED drivers
 Driver_Motor,Integrated motor driver and controller ICs
 Driver_Relay,Relay drivers and controllers
+Filter,Filter symbols
 FPGA_Actel,Actel FPGA symbols
 FPGA_Xilinx,Assorted Xilinx FPGA symbols
 FPGA_Xilinx_Artix7,Xilinx Artix7 FPGA symbols
