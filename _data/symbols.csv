@@ -130,6 +130,7 @@ RF_GPS,GPS devices
 RF_Mixer,RF mixer symbols
 RF_Module,RF module symbols
 RF_RFID,Radio Frequency ID (RFID)
+RF_Switch,RF switch symbols
 RF_WiFi,WiFi symbols
 RF_ZigBee,ZigBee / XBee symbols
 Reference_Current,Precision current references
