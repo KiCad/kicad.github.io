@@ -1,4 +1,9 @@
 library,description
+4xxx,4xxx series symbols
+4xxx_IEEE,4xxx series IEEE symbols
+74xGxx,74xGxx symbols
+74xx,74xx symbols
+74xx_IEEE,74xx series IEEE symbols
 Amplifier_Audio,Amplifier for audio applications
 Amplifier_Buffer,Buffer amplifiers
 Amplifier_Current,Amplifiers for current sensors (shunt)
@@ -65,13 +70,8 @@ Isolator,Isolator devices
 Isolator_Analog,Analog isolator devices
 Jumper,(Solder) jumper symbols
 LED,Light Emitting Diode (LED) symbols
-Logic_74xgxx,74xgxx logic symbols
-Logic_74xx,74xx logic symbols
-Logic_CMOS_4000,4000 series CMOS logic symbols
-Logic_CMOS_IEEE,4000 series IEEE logic symbols
 Logic_LevelTranslator,Logic level translators and level shifters
 Logic_Programmable,Programmable logic symbols
-Logic_TTL_IEEE,4000 series TTL_IEEE logic symbols
 Memory_Controller,Memory controller devices
 Memory_EPROM,EPROM memory
 Memory_EEPROM,EEPROM memory
