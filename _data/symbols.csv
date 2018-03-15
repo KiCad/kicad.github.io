@@ -86,6 +86,7 @@ MCU_Atmel_ATMEGA,Atmel ATMEGA microcontrollers
 MCU_Atmel_ATTINY,Atmel ATTINY microcontrollers
 MCU_Atmel_AVR,Atmel AVR microcontrollers
 MCU_Cypress,Cypress microcontrollers
+MCU_Espressif,Espressif microcontrollers
 MCU_Infineon,Infineon microcontrollers
 MCU_Intel,Various Intel MCU devices and associated peripherals
 MCU_Microchip_PIC10,Microchip PIC10 microcontrollers
@@ -104,6 +105,7 @@ MCU_NXP_LPC,NXP LPC microcontrollers
 MCU_NXP_MAC7100,NXP MAC7100 (ARMv7-based) microcontrollers
 MCU_NXP_MCore,NXP M*Core microcontrollers
 MCU_NXP_S08,NXP S08 microcontrollers
+MCU_Nordic,Nordic Semiconductor microcontrollers
 MCU_Parallax,Parallax microcontrollers
 MCU_SiFive,SiFive microcontrollers
 MCU_SiliconLabs,Silicon Labs (SiLabs) microcontrollers
