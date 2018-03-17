@@ -81,10 +81,10 @@ Memory_RAM,Volatile RAM
 Memory_ROM,Read only memory (ROM)
 Memory_UniqueID,UID and serial number memory devices
 MCU_AnalogDevices,Analog Devices microcontrollers
-MCU_Atmel_8051,Atmel 8051 microcontrollers
-MCU_Atmel_ATMEGA,Atmel ATMEGA microcontrollers
-MCU_Atmel_ATTINY,Atmel ATTINY microcontrollers
-MCU_Atmel_AVR,Atmel AVR microcontrollers
+MCU_Microchip_8051,Microchip 8051 microcontrollers
+MCU_Microchip_ATmega,Microchip ATmega microcontrollers
+MCU_Microchip_ATtiny,Microchip ATtiny microcontrollers
+MCU_Microchip_AVR,Microchip AVR microcontrollers
 MCU_Cypress,Cypress microcontrollers
 MCU_Espressif,Espressif microcontrollers
 MCU_Infineon,Infineon microcontrollers
@@ -128,6 +128,7 @@ Regulator_Switching,Switch-mode regulators
 RF,Assorted / uncategorized Radio Frequency (RF) devices
 RF_Bluetooth,RF Bluetooth wireless modules
 RF_AM_FM,AM / FM wireless devices
+RF_Amplifier,RF amplifier symbols
 RF_GPS,GPS devices
 RF_Mixer,RF mixer symbols
 RF_Module,RF module symbols
