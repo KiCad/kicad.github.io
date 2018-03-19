@@ -19,6 +19,7 @@ Audio,Audio devices
 Battery_Management,Battery management ICs
 Comparator,Comperator symbols
 Connector_Generic,Generic connector symbols
+Connector_Generic_MountingPin,Generic connectors with mechanical mounting pin
 Connector_Generic_Shielded,Generic shielded connector symbols
 Connector_Specialized,"Specialized connector symbols (Examples: Terminal Block, D-SUB, Din, ...)"
 Converter_ACDC,AC to DC converter modules
