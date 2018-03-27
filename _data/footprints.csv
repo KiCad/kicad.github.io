@@ -13,7 +13,8 @@ Connector_Audio,Audio connector footprints
 Connector_BarrelJack,(DC) barrel jack connector footprints
 Connector_Card,Card and card holder footprints
 Connector_Coaxial,Coaxial and RF connector footprints
-Connector_Dsub,Footprints for DSub footprints
+Connector_DIN,DIN connector footprints
+Connector_Dsub,DSub connector footprints
 Connector_FFC-FPC,FFC (Flexible Flat Cable) and FPC (Flexible Printed Circuit) connector footprints
 Connector_HDMI,HDMI connector footprints
 Connector_Harwin,Harwin connector footprints
