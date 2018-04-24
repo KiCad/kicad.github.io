@@ -110,7 +110,17 @@ MCU_Nordic,Nordic Semiconductor microcontrollers
 MCU_Parallax,Parallax microcontrollers
 MCU_SiFive,SiFive microcontrollers
 MCU_SiliconLabs,Silicon Labs (SiLabs) microcontrollers
-MCU_ST_STM32,ST STM32 microcontrollers
+MCU_ST_STM32F0,ST STM32F0 microcontrollers
+MCU_ST_STM32F1,ST STM32F1 microcontrollers
+MCU_ST_STM32F2,ST STM32F2 microcontrollers
+MCU_ST_STM32F3,ST STM32F3 microcontrollers
+MCU_ST_STM32F4,ST STM32F4 microcontrollers
+MCU_ST_STM32F7,ST STM32F7 microcontrollers
+MCU_ST_STM32H7,ST STM32H7 microcontrollers
+MCU_ST_STM32L0,ST STM32L0 microcontrollers
+MCU_ST_STM32L1,ST STM32L1 microcontrollers
+MCU_ST_STM32L4,ST STM32L4 microcontrollers
+MCU_ST_STM32L4+,ST STM32L4+ microcontrollers
 MCU_ST_STM8,ST STM8 microcontrollers
 MCU_Texas,Texas Instruments microcontrollers (assorted)
 MCU_Texas_MSP430,Texas Instruments MSP430 microcontrollers
