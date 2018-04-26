@@ -46,7 +46,7 @@ Driver_LED,LED drivers
 Driver_Motor,Integrated motor driver and controller ICs
 Driver_Relay,Relay drivers and controllers
 Filter,Filter symbols
-FPGA_Actel,Actel FPGA symbols
+FPGA_Microsemi,Microsemi FPGA symbols
 FPGA_Xilinx,Assorted Xilinx FPGA symbols
 FPGA_Xilinx_Artix7,Xilinx Artix7 FPGA symbols
 FPGA_Xilinx_Kintex7,Xilinx Kintex7 FPGA symbols
@@ -88,7 +88,6 @@ MCU_Microchip_ATtiny,Microchip ATtiny microcontrollers
 MCU_Microchip_AVR,Microchip AVR microcontrollers
 MCU_Cypress,Cypress microcontrollers
 MCU_Espressif,Espressif microcontrollers
-MCU_Infineon,Infineon microcontrollers
 MCU_Intel,Various Intel MCU devices and associated peripherals
 MCU_Microchip_PIC10,Microchip PIC10 microcontrollers
 MCU_Microchip_PIC12,Microchip PIC12 microcontrollers
