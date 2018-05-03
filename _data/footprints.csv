@@ -35,7 +35,9 @@ Connector_PinSocket_1.27mm,"Pin sockets, 1.27mm pitch"
 Connector_PinSocket_2.00mm,"Pin sockets, 2.0mm pitch"
 Connector_PinSocket_2.54mm,"Pin sockets, 2.54mm pitch"
 Connector_Phoenix_MC,Phoenix MC connector footprints
+Connector_Phoenix_MC_HighVoltage,"Phoenix high voltage (320V, 5.08mm pitch) MC connector footprints"
 Connector_Phoenix_MSTB,Phoenix MSTB connector footprints
+Connector_Phoenix_GMSTB,Phoenix GMSTB series (high voltage MSTB) connector footprints
 Connector_RJ,"Registered Jack (RJ) connector footprints (e.g. RJ11, RJ45, ...)"
 Connector_SATA_SAS,SATA/SAS connector footprints
 Connector_TE-Connectivity,Footprints for connectors by TE Connectivity
