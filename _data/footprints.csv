@@ -45,6 +45,8 @@ Connector_USB,USB connector footprints
 Connector_Wago,Wago connector footprints
 Connector_Wire,Footprints for solder wire pads
 Connector_Samtec,Samtec connector footprints
+Connector_Samtec_HLE_SMD,Samtec surface mount HLE series connector footprints
+Connector_Samtec_HLE_THT,Samtec through hole HLE series connector footprints
 Converter_ACDC,AC/DC converter footprints
 Converter_DCDC,DC/DC converter footprints
 Crystal,Crystal footprints
