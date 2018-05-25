@@ -101,8 +101,8 @@ TerminalBlock_4Ucon,4UCON terminal blocks
 TerminalBlock_Dinkle,Dinkle terminal blocks
 TerminalBlock_MetzConnect,Metz Connect terminal blocks
 TerminalBlock_Philmore,Philmore terminal blocks
-TerminalBlock_Phoenix,RND terminal blocks
-TerminalBlock_RND,Phoenix Contact terminal blocks
+TerminalBlock_Phoenix,Phoenix Contact terminal blocks
+TerminalBlock_RND,RND terminal blocks
 TerminalBlock_WAGO,WAGO terminal blocks
 TestPoint,"Test points, measurement points, probe connection points"
 Transformer_SMD,Surface mount transformers
