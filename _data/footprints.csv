@@ -103,6 +103,7 @@ TerminalBlock_MetzConnect,Metz Connect terminal blocks
 TerminalBlock_Philmore,Philmore terminal blocks
 TerminalBlock_Phoenix,Phoenix Contact terminal blocks
 TerminalBlock_RND,RND terminal blocks
+TerminalBlock_TE-Connectivity,TE Connectivity terminal blocks
 TerminalBlock_WAGO,WAGO terminal blocks
 TestPoint,"Test points, measurement points, probe connection points"
 Transformer_SMD,Surface mount transformers
