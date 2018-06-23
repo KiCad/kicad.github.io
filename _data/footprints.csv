@@ -1,5 +1,5 @@
 library,description
-Battery,battery and battery holder footprints
+Battery,Battery and battery holder footprints
 Button_Switch_Keyboard,Buttons and switches for keyboard applications
 Button_Switch_SMD,"Buttons and switches, surface mount"
 Button_Switch_THT,"Buttons and switches, through hole"
@@ -8,7 +8,7 @@ Calibration_Scale,Scales and grids intended for calibration and measurement
 Capacitor_SMD,"Capacitor, surface mount"
 Capacitor_THT,"Capacitor, through hole"
 Capacitor_Tantalum_SMD,"Tantalum Capacitor, surface mount"
-Connector,generic/unsorted connector footprints
+Connector,Generic/unsorted connector footprints
 Connector_Audio,Audio connector footprints
 Connector_BarrelJack,(DC) barrel jack connector footprints
 Connector_Card,Card and card holder footprints
