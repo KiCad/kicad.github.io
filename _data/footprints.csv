@@ -91,9 +91,10 @@ RF_Antenna,Radio-frequency / wireless antenna footprints
 RF_Module,Radio-frequency / wireless modules
 RF_Shielding,Specialied footprints for EMI shields and covers
 Rotary_Encoder,Rotary Encoder Footprints
-Sensor_Audio,Specialied footprints for audio sensors
-Sensor_Current,Specialied footprints for hall effect current sensors
-Sensor_Pressure,Specialied footprints for pressure sensors
+Sensor_Audio,Specialized footprints for audio sensors
+Sensor_Current,Specialized footprints for current sensors
+Sensor_Pressure,Specialized footprints for pressure sensors
+Sensor_Voltage,Specialized footprints for voltage sensors
 Socket,Sockets
 Symbol,PCB symbols
 TerminalBlock,Footprints for terminal blocks that do not have their own manufacturer specific library
