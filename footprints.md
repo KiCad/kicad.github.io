@@ -7,7 +7,7 @@ layout: default
 ## {{ page.title }}
 
 The KiCad footprint libraries are the individual `.pretty` directories. Each `.pretty` directory contains multiple `.kicad_mod` footprint files.
-These footprints are best used in combination with the official [symbol libs](https://kicad.github.io/symbols/) and [3d model libs](https://kicad.github.io/footprints/).
+These footprints are best used in combination with the official [symbol libs](https://kicad.github.io/symbols/) and [3d model libs](https://kicad.github.io/packages3d/).
 
 ## Requirements
 
