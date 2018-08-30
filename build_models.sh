@@ -9,5 +9,5 @@ fi
 cd $TRAVIS_BUILD_DIR
 
 # Generate 3D model data
-#python _scripts/gen_3dmodel_info.py /home/travis/build/kicad-packages3d/ --output $TRAVIS_BUILD_DIR/_packages3d --download $TRAVIS_BUILD_DIR/download --hash $TRAVIS_BUILD_DIR/_includes/commit_3d.html -v
-python _scripts/gen_3dmodel_info_test.py /home/travis/build/kicad-packages3d/ --output $TRAVIS_BUILD_DIR/_packages3d --download $TRAVIS_BUILD_DIR/download --hash $TRAVIS_BUILD_DIR/_includes/commit_3d.html -v
+python _scripts/gen_3dmodel_info.py /home/travis/build/kicad-packages3d/ --output $TRAVIS_BUILD_DIR/_packages3d --download $TRAVIS_BUILD_DIR/download --hash $TRAVIS_BUILD_DIR/_includes/commit_3d.html -v
+#python _scripts/gen_3dmodel_info_test.py /home/travis/build/kicad-packages3d/ --output $TRAVIS_BUILD_DIR/_packages3d --download $TRAVIS_BUILD_DIR/download --hash $TRAVIS_BUILD_DIR/_includes/commit_3d.html -v
