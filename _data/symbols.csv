@@ -30,7 +30,7 @@ CPU,"Central processor unit (CPU) symbols, assorted"
 CPU_NXP_6800,NXP (formerly Motorola) 6800 CPUs
 CPU_NXP_68000,NXP (formerly Motorola) 68000 CPUs
 CPU_PowerPC,PowerPC-based CPUs
-Device,"Generic devices, common symbols"
+Device,Generic symbols for common devices
 DSP_AnalogDevices,Analog Devices DSP symbols
 DSP_Freescale,Freescale DSP symbols
 DSP_Microchip_DSPIC33,Microchip DSPIC33 symbols
