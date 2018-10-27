@@ -152,6 +152,7 @@ Reference_Current,Precision current references
 Reference_Voltage,Precision voltage references
 Relay,Relay symbols
 Relay_SolidState,Solid state relays (Transistor and Triac based)
+Security,Security devices
 Sensor,"Multi-function sensors, assorted sensors"
 Sensor_Audio,Audio / sound / microphone sensors
 Sensor_Current,Current sensors
