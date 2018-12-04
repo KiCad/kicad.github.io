@@ -22,8 +22,51 @@ def git_hash(path):
 
     return output
 
-def git_diff(path, commit):
+def git_hash(path):
+
     os.chdir(path)
+
+    cmd = ['git', 'rev-parse', 'HEAD']
+
+    p = Popen(cmd, stdin=PIPE, stdout=PIPE, stderr=PIPE)
+
+    output, err = p.communicate()
+
+    return output
+
+def git_hashes(path):
+    
+    os.chdir(path)
+    
+    cmd = ['git', 'log', '--pretty=format:%H']
+    
+    p = Popen(cmd, stdin=PIPE, stdout=PIPE, stderr=PIPE)
+    
+    output, err = p.communicate()
+    
+    return output.split()
+
+
+def git_deepen(path):
+    
+    os.chdir(path)
+    
+    cmd = ['git' 'fetch' '--deepen', '1']
+    
+    p = Popen(cmd, stdin=PIPE, stdout=PIPE, stderr=PIPE)
+    
+    output, err = p.communicate()
+
+
+def git_diff(path, commit):
+    
+    os.chdir(path)
+    
+    hashes = git_hashes(path)
+    
+    while ( commit not in hashes ):
+        git_deepen(path)
+        hashes = git_hashes(path)
 
     cmd = ['git', 'diff', '--name-status', str(commit)]
 
