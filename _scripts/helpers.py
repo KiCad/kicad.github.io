@@ -51,7 +51,7 @@ def git_deepen(path):
     
     os.chdir(path)
     
-    cmd = ['git' 'fetch' '--deepen', '1']
+    cmd = ['git', 'fetch', '--deepen', '1']
     
     p = Popen(cmd, stdin=PIPE, stdout=PIPE, stderr=PIPE)
     
