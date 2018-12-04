@@ -22,18 +22,6 @@ def git_hash(path):
 
     return output
 
-def git_hash(path):
-
-    os.chdir(path)
-
-    cmd = ['git', 'rev-parse', 'HEAD']
-
-    p = Popen(cmd, stdin=PIPE, stdout=PIPE, stderr=PIPE)
-
-    output, err = p.communicate()
-
-    return output
-
 def git_hashes(path):
     
     os.chdir(path)
