@@ -88,6 +88,7 @@ Relay_THT,Through hole relay packages
 Resistor_SMD,"Resistor footprints, surface mount (SMD)"
 Resistor_THT,"Resistor footprints, through hole (THT)"
 RF_Antenna,Radio-frequency / wireless antenna footprints
+RF_GPS,GNSS footprints
 RF_Module,Radio-frequency / wireless modules
 RF_Shielding,Specialied footprints for EMI shields and covers
 Rotary_Encoder,Rotary Encoder Footprints
@@ -98,6 +99,7 @@ Sensor_Pressure,Specialized footprints for pressure sensors
 Sensor_Voltage,Specialized footprints for voltage sensors
 Socket,Sockets
 Symbol,PCB symbols
+TerminalBlock_Altech,Altech terminal block footprints
 TerminalBlock,Footprints for terminal blocks that do not have their own manufacturer specific library
 TerminalBlock_4Ucon,4UCON terminal blocks
 TerminalBlock_Dinkle,Dinkle terminal blocks
