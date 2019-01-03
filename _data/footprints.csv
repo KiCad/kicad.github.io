@@ -65,6 +65,7 @@ LED_SMD,"Light emitting diodes (LED), surface mount"
 LED_THT,"Light emitting diodes (LED), through hole"
 Module,Footprints for SoM (System on Module)
 MountingHole,Mechanical fasteners
+MountingEquipment,Mechanical parts
 NetTie,Net ties
 OptoDevice,"Optical devices (light sensors, opto isolators/interrupters, laser diodes, fiber optical components ...)"
 Oscillator,Footprints for oscillator devices
