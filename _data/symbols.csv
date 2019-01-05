@@ -183,3 +183,4 @@ power,"Power symbols, special power flags"
 pspice,Legacy pspice symbol library
 MCU_Microchip_SAME,Microchip SAME microcontrollers
 MCU_Microchip_SAML,Microchip SAML microcontrollers
+MCU_Microchip_SAMD,Microchip SAMD microcontrollers
