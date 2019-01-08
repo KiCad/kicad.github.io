@@ -90,6 +90,7 @@ Resistor_SMD,"Resistor footprints, surface mount (SMD)"
 Resistor_THT,"Resistor footprints, through hole (THT)"
 RF_Antenna,Radio-frequency / wireless antenna footprints
 RF_GPS,GNSS footprints
+RF_GSM,GSM Modules footprints
 RF_Module,Radio-frequency / wireless modules
 RF_Shielding,Specialied footprints for EMI shields and covers
 Rotary_Encoder,Rotary Encoder Footprints
