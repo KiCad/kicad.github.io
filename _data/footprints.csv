@@ -89,6 +89,7 @@ Relay_THT,Through hole relay packages
 Resistor_SMD,"Resistor footprints, surface mount (SMD)"
 Resistor_THT,"Resistor footprints, through hole (THT)"
 RF_Antenna,Radio-frequency / wireless antenna footprints
+RF_Converter,"Specialized footprints for RF signal converters (Like Attenuators, Baluns, Mixers, Couplers, etc.)"
 RF_GPS,GNSS footprints
 RF_GSM,GSM Modules footprints
 RF_Module,Radio-frequency / wireless modules
