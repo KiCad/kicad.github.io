@@ -54,6 +54,7 @@ Diode_SMD,"Diode footprints, surface mount"
 Diode_THT,"Diode footprints, through hole"
 Display_7Segment,Seven segment Display
 Display,Display modules
+Ferrite_THT,"Ferrite bead, through hole"
 Fiducial,Fiducial markings
 Filter,Filter footprints
 Fuse,Fuse and fuse holder footprints
