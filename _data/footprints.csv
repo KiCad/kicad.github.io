@@ -80,6 +80,7 @@ Package_LGA,Land Grid Array (LGA)
 Package_QFP,Quad Flat Package (QFP)
 Package_SIP,Single Inline Package(SIP)
 Package_SO,"Small Outline Integrated Circuits (SOIC, SSOP, xSOP, xSO)"
+Package_SO_J-Lead,Small Outline Integrated Circuits J-Lead
 Package_SON,Small Outline No-Lead (SON)
 Package_TO_SOT_SMD,Surface mount transistor packages
 Package_TO_SOT_THT,Through hole transistor packages
@@ -89,6 +90,7 @@ Relay_SMD,Surface mount relay packages
 Relay_THT,Through hole relay packages
 Resistor_SMD,"Resistor footprints, surface mount (SMD)"
 Resistor_THT,"Resistor footprints, through hole (THT)"
+RF,Specialized footprints for RF components that don't fit in the other RF libraries
 RF_Antenna,Radio-frequency / wireless antenna footprints
 RF_Converter,"Specialized footprints for RF signal converters (Like Attenuators, Baluns, Mixers, Couplers, etc.)"
 RF_GPS,GNSS footprints
@@ -96,6 +98,7 @@ RF_GSM,GSM Modules footprints
 RF_Module,Radio-frequency / wireless modules
 RF_Shielding,Specialied footprints for EMI shields and covers
 Rotary_Encoder,Rotary Encoder Footprints
+Sensor,Specialized footprints for multi-function sensors
 Sensor_Audio,Specialized footprints for audio sensors
 Sensor_Current,Specialized footprints for current sensors
 Sensor_Motion,Specialized footprints for motion sensors
