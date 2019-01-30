@@ -95,6 +95,7 @@ RF_Antenna,Radio-frequency / wireless antenna footprints
 RF_Converter,"Specialized footprints for RF signal converters (Like Attenuators, Baluns, Mixers, Couplers, etc.)"
 RF_GPS,GNSS footprints
 RF_GSM,GSM Modules footprints
+RF_Mini-Circuits,Footprints for Mini-Circuits RF parts
 RF_Module,Radio-frequency / wireless modules
 RF_Shielding,Specialied footprints for EMI shields and covers
 Rotary_Encoder,Rotary Encoder Footprints
