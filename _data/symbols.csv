@@ -168,6 +168,7 @@ Sensor_Proximity,"Optical interuption and proximity (optical, inductive, capacit
 Sensor_Temperature,Temperature sensors
 Sensor_Touch,Touch sensors
 Sensor_Voltage,Voltage sensors
+Simulation_SPICE,Symbols specialized for SPICE circuit simulation (including ngspice)
 Switch,Switch symbols
 Timer,Assorted timer devices
 Timer_PLL,Phase locked loop (PLL) devices
