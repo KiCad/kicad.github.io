@@ -29,6 +29,7 @@ CPLD_Xilinx,Xilinx CPLD symbols
 CPU,"Central processor unit (CPU) symbols, assorted"
 CPU_NXP_6800,NXP (formerly Motorola) 6800 CPUs
 CPU_NXP_68000,NXP (formerly Motorola) 68000 CPUs
+CPU_NXP_IMX,NXP IMX CPUs
 CPU_PowerPC,PowerPC-based CPUs
 Device,Generic symbols for common devices
 DSP_AnalogDevices,Analog Devices DSP symbols
