@@ -143,6 +143,7 @@ RF,Assorted / uncategorized Radio Frequency (RF) devices
 RF_Bluetooth,RF Bluetooth wireless modules
 RF_AM_FM,AM / FM wireless devices
 RF_Amplifier,RF amplifier symbols
+RF_Filter,RF filter symbols
 RF_GPS,GPS devices
 RF_GSM,GSM devices
 RF_Mixer,RF mixer symbols
@@ -187,3 +188,4 @@ pspice,Legacy pspice symbol library
 MCU_Microchip_SAME,Microchip SAME microcontrollers
 MCU_Microchip_SAML,Microchip SAML microcontrollers
 MCU_Microchip_SAMD,Microchip SAMD microcontrollers
+Driver_Haptic,"Haptic drivers for solenoids, voice coils, LRAs, etc"

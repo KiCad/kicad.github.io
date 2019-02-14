@@ -40,6 +40,7 @@ Connector_Phoenix_MSTB,Phoenix MSTB connector footprints
 Connector_Phoenix_GMSTB,Phoenix GMSTB series (high voltage MSTB) connector footprints
 Connector_RJ,"Registered Jack (RJ) connector footprints (e.g. RJ11, RJ45, ...)"
 Connector_SATA_SAS,SATA/SAS connector footprints
+Connector_Stocko,Stocko connector footprints
 Connector_TE-Connectivity,Footprints for connectors by TE Connectivity
 Connector_USB,USB connector footprints
 Connector_Wago,Wago connector footprints
