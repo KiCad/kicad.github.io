@@ -66,6 +66,7 @@ Interface_CurrentLoop,Current loop interface devices
 Interface_Ethernet,Ethernet interface symbols
 Interface_Expansion,"I/O expansion devices, shift registers, etc"
 Interface_HID,Human Interface Device (HID) symbols
+Interface_HDMI,High Definition Multimedia Interface (HDMI) symbols
 Interface_LineDriver,Line driver interface symbols
 Interface_Optical,Optical interfaces (IR receivers)
 Interface_Telecom,Telecom interface symbols
