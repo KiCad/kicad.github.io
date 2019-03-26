@@ -41,9 +41,10 @@ Diode,Diodes
 Diode_Bridge,Diode Bridges/Rectifiers
 Diode_Laser,Laser diodes
 Display_Character,"Character displays. (n-Segment, dot-matrix, ...)"
-Display_Graphic,Graphic displays. (Pixel based color or monchrome displays.)
+Display_Graphic,Graphic displays. (Pixel-based color or monochrome displays.)
 Driver_Display,Drivers for displays. (For graphic and character based displays.)
 Driver_FET,MOSFET and gate drivers
+Driver_Haptic,"Haptic drivers for solenoids, voice coils, LRAs, etc"
 Driver_LED,LED drivers
 Driver_Motor,Integrated motor driver and controller ICs
 Driver_Relay,Relay drivers and controllers
@@ -188,4 +189,3 @@ pspice,Legacy pspice symbol library
 MCU_Microchip_SAMD,Microchip SAMD microcontrollers
 MCU_Microchip_SAME,Microchip SAME microcontrollers
 MCU_Microchip_SAML,Microchip SAML microcontrollers
-Driver_Haptic,"Haptic drivers for solenoids, voice coils, LRAs, etc"
