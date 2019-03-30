@@ -126,6 +126,7 @@ MCU_ST_STM32L1,ST STM32L1 microcontrollers
 MCU_ST_STM32L4,ST STM32L4 microcontrollers
 MCU_ST_STM32L4+,ST STM32L4+ microcontrollers
 MCU_ST_STM8,ST STM8 microcontrollers
+MCU_STC,STC microcontrollers
 MCU_Texas,Texas Instruments microcontrollers (assorted)
 MCU_Texas_MSP430,Texas Instruments MSP430 microcontrollers
 Mechanical,Mechanical symbols
