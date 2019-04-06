@@ -9,6 +9,7 @@ Capacitor_SMD,"Capacitor, surface mount"
 Capacitor_THT,"Capacitor, through hole"
 Capacitor_Tantalum_SMD,"Tantalum Capacitor, surface mount"
 Connector,Generic/unsorted connector footprints
+Connector_AMASS,AMASS connector footprints
 Connector_Audio,Audio connector footprints
 Connector_BarrelJack,(DC) barrel jack connector footprints
 Connector_Card,Card and card holder footprints
