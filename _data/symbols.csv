@@ -113,6 +113,7 @@ MCU_NXP_MCore,NXP M*Core microcontrollers
 MCU_NXP_S08,NXP S08 microcontrollers
 MCU_Nordic,Nordic Semiconductor microcontrollers
 MCU_Parallax,Parallax microcontrollers
+MCU_Renesas_Synergy_S1,Renesas Synergy S1 microcontrollers
 MCU_SiFive,SiFive microcontrollers
 MCU_SiliconLabs,Silicon Labs (SiLabs) microcontrollers
 MCU_ST_STM32F0,ST STM32F0 microcontrollers
