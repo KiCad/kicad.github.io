@@ -70,7 +70,7 @@ Module,Footprints for SoM (System on Module)
 MountingHole,Mechanical fasteners
 MountingEquipment,Mechanical parts
 NetTie,Net ties
-OptoDevice,"Optical devices (light sensors, opto isolators/interrupters, laser diodes, fiber optical components ...)"
+OptoDevice,"Optical devices (light sensors, opto isolators/interrupters, laser diodes, fiber optical components, lightpipes, lenses ...)"
 Oscillator,Footprints for oscillator devices
 Package_BGA,Ball Grid Array (BGA)
 Package_CSP,Chip Scale Packages (CSP)
