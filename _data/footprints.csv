@@ -39,6 +39,9 @@ Connector_Phoenix_MC,Phoenix MC connector footprints
 Connector_Phoenix_MC_HighVoltage,"Phoenix high voltage (320V, 5.08mm pitch) MC connector footprints"
 Connector_Phoenix_MSTB,Phoenix MSTB connector footprints
 Connector_Phoenix_GMSTB,Phoenix GMSTB series (high voltage MSTB) connector footprints
+Connector_Samtec,Samtec connector footprints
+Connector_Samtec_HLE_SMD,Samtec surface mount HLE series connector footprints
+Connector_Samtec_HLE_THT,Samtec through hole HLE series connector footprints
 Connector_RJ,"Registered Jack (RJ) connector footprints (e.g. RJ11, RJ45, ...)"
 Connector_SATA_SAS,SATA/SAS connector footprints
 Connector_Stocko,Stocko connector footprints
@@ -46,9 +49,7 @@ Connector_TE-Connectivity,Footprints for connectors by TE Connectivity
 Connector_USB,USB connector footprints
 Connector_Wago,Wago connector footprints
 Connector_Wire,Footprints for solder wire pads
-Connector_Samtec,Samtec connector footprints
-Connector_Samtec_HLE_SMD,Samtec surface mount HLE series connector footprints
-Connector_Samtec_HLE_THT,Samtec through hole HLE series connector footprints
+Connector_Wuerth,Wuerth connector footprints
 Converter_ACDC,AC/DC converter footprints
 Converter_DCDC,DC/DC converter footprints
 Crystal,Crystal footprints
