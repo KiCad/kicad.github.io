@@ -131,6 +131,7 @@ MCU_ST_STM8,ST STM8 microcontrollers
 MCU_STC,STC microcontrollers
 MCU_Texas,Texas Instruments microcontrollers (assorted)
 MCU_Texas_MSP430,Texas Instruments MSP430 microcontrollers
+MCU_Texas_SimpleLink,Texas Instruments SimpleLink microcontrollers
 Mechanical,Mechanical symbols
 Motor,Motor symbols
 Oscillator,Oscillator symbols
