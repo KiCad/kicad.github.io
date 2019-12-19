@@ -25,6 +25,7 @@ Connector_Generic_Shielded,Generic shielded connector symbols
 Converter_ACDC,AC to DC converter modules
 Converter_DCDC,DC to DC converter modules
 CPLD_Altera,Altera CPLD symbols
+CPLD_Microchip,Microchip CPLD symbols
 CPLD_Xilinx,Xilinx CPLD symbols
 CPU,"Central processor unit (CPU) symbols, assorted"
 CPU_NXP_6800,NXP (formerly Motorola) 6800 CPUs
