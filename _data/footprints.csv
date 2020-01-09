@@ -107,6 +107,7 @@ Rotary_Encoder,Rotary Encoder Footprints
 Sensor,Specialized footprints for multi-function sensors
 Sensor_Audio,Specialized footprints for audio sensors
 Sensor_Current,Specialized footprints for current sensors
+Sensor_Humidity,Specialized footprints for humidity sensors
 Sensor_Motion,Specialized footprints for motion sensors
 Sensor_Pressure,Specialized footprints for pressure sensors
 Sensor_Voltage,Specialized footprints for voltage sensors
