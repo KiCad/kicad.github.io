@@ -17,6 +17,7 @@ Analog_DAC,Digital to analog converters
 Analog_Switch,Analog switches
 Audio,Audio devices
 Battery_Management,Battery management ICs
+Buffer,High-speed clock/data buffer ICs
 Comparator,Comparator symbols
 Connector,"Connector symbols (Examples: Terminal Block, D-SUB, DIN, USB...)"
 Connector_Generic,Generic connector symbols
