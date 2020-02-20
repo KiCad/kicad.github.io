@@ -112,6 +112,7 @@ MCU_NXP_Kinetis,NXP Kinetis microcontrollers
 MCU_NXP_LPC,NXP LPC microcontrollers
 MCU_NXP_MAC7100,NXP MAC7100 (ARMv7-based) microcontrollers
 MCU_NXP_MCore,NXP M*Core microcontrollers
+MCU_NXP_NTAG,NXP NFC microcontrollers
 MCU_NXP_S08,NXP S08 microcontrollers
 MCU_Nordic,Nordic Semiconductor microcontrollers
 MCU_Parallax,Parallax microcontrollers

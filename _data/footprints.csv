@@ -106,6 +106,7 @@ RF_Shielding,Specialied footprints for EMI shields and covers
 Rotary_Encoder,Rotary Encoder Footprints
 Sensor,Specialized footprints for multi-function sensors
 Sensor_Audio,Specialized footprints for audio sensors
+Sensor_Distance,Specialized footprints for distance sensors
 Sensor_Current,Specialized footprints for current sensors
 Sensor_Humidity,Specialized footprints for humidity sensors
 Sensor_Motion,Specialized footprints for motion sensors
