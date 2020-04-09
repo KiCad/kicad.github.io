@@ -50,6 +50,7 @@ Driver_Haptic,"Haptic drivers for solenoids, voice coils, LRAs, etc"
 Driver_LED,LED drivers
 Driver_Motor,Integrated motor driver and controller ICs
 Driver_Relay,Relay drivers and controllers
+Driver_TEC,Thermoelectric cooler (Peltier) drivers and controllers
 Fiber_Optic,Fiber optic symbols
 Filter,Filter symbols
 FPGA_Lattice,Lattice FPGA symbols
