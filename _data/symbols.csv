@@ -169,6 +169,7 @@ Security,Security devices
 Sensor,"Multi-function sensors, assorted sensors"
 Sensor_Audio,Audio / sound / microphone sensors
 Sensor_Current,Current sensors
+Sensor_Distance,Distance sensors
 Sensor_Gas,Gas sensors
 Sensor_Humidity,Humidity sensors
 Sensor_Magnetic,Magnetic field and hall-effect sensors
