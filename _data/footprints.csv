@@ -125,6 +125,7 @@ TerminalBlock_Phoenix,Phoenix Contact terminal blocks
 TerminalBlock_RND,RND terminal blocks
 TerminalBlock_TE-Connectivity,TE Connectivity terminal blocks
 TerminalBlock_WAGO,WAGO terminal blocks
+TerminalBlock_Wuerth,Wuerth Elektronik terminal blocks
 TestPoint,"Test points, measurement points, probe connection points"
 Transformer_SMD,Surface mount transformers
 Transformer_THT,Through hole transformers
