@@ -24,8 +24,8 @@ Connector_Hirose,Hirose connector footprints
 Connector_IDC,IDC connector footprints
 Connector_JAE,JAE connector footprints
 Connector_JST,JST connector footprints www.jst.com
-Connector_Molex,Molex connector foottprints www.molex.com
-Connector_Multicomp,Multicomp connector foottprints
+Connector_Molex,Molex connector footprints www.molex.com
+Connector_Multicomp,Multicomp connector footprints
 Connector_PCBEdge,"PCB edge connectors (e.g. PCI, ISA, PCIe, ...)"
 Connector_Pin,Single (solder) pin conectors
 Connector_PinHeader_1.00mm,"Pin headers, 1.0mm pitch"
