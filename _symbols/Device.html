@@ -11,10 +11,10 @@ archivesize: "29K"
 <th>Description</th>
 </tr>
 <tr>
-<td>Amperemeter_AC</td><td>Description: AC ammeter<br>Keys: ammeter AC ampere meter</td>
+<td>Ammeter_AC</td><td>Description: AC ammeter<br>Keys: ammeter AC ampere meter</td>
 </tr>
 <tr>
-<td>Amperemeter_DC</td><td>Description: DC ammeter<br>Keys: ammeter DC ampere meter</td>
+<td>Ammeter_DC</td><td>Description: DC ammeter<br>Keys: ammeter DC ampere meter</td>
 </tr>
 <tr>
 <td>Antenna</td><td>Description: Antenna<br>Keys: antenna</td>
@@ -47,7 +47,28 @@ archivesize: "29K"
 <td>C_Feedthrough</td><td>Description: Feedthrough capacitor<br>Keys: EMI filter feedthrough capacitor</td>
 </tr>
 <tr>
+<td>C_Polarized</td><td>Description: Polarized capacitor<br>Keys: cap capacitor</td>
+</tr>
+<tr>
+<td>C_Polarized_Small</td><td>Description: Polarized capacitor, small symbol<br>Keys: cap capacitor</td>
+</tr>
+<tr>
+<td>C_Polarized_Small_US</td><td>Description: Polarized capacitor, small US symbol<br>Keys: cap capacitor</td>
+</tr>
+<tr>
+<td>C_Polarized_US</td><td>Description: Polarized capacitor, US symbol<br>Keys: cap capacitor</td>
+</tr>
+<tr>
 <td>C_Small</td><td>Description: Unpolarized capacitor, small symbol<br>Keys: capacitor cap</td>
+</tr>
+<tr>
+<td>C_Trim</td><td>Description: Trimmable capacitor<br>Keys: trimmer variable capacitor</td>
+</tr>
+<tr>
+<td>C_Trim_Differential</td><td>Description: Differential variable capacitor with two stators<br>Keys: trimmer capacitor</td>
+</tr>
+<tr>
+<td>C_Trim_Small</td><td>Description: Trimmable capacitor, small symbol<br>Keys: trimmer variable capacitor</td>
 </tr>
 <tr>
 <td>C_Variable</td><td>Description: Variable capacitor<br>Keys: trimmer capacitor</td>
@@ -69,18 +90,6 @@ archivesize: "29K"
 </tr>
 <tr>
 <td>CircuitBreaker_3P_US</td><td>Description: Triple pole circuit breaker, US symbol<br>Keys: CB 3P</td>
-</tr>
-<tr>
-<td>CP</td><td>Description: Polarized capacitor<br>Keys: cap capacitor</td>
-</tr>
-<tr>
-<td>CP1</td><td>Description: Polarized capacitor, US symbol<br>Keys: cap capacitor</td>
-</tr>
-<tr>
-<td>CP1_Small</td><td>Description: Polarized capacitor, small US symbol<br>Keys: cap capacitor</td>
-</tr>
-<tr>
-<td>CP_Small</td><td>Description: Polarized capacitor, small symbol<br>Keys: cap capacitor</td>
 </tr>
 <tr>
 <td>Crystal</td><td>Description: Two pin crystal<br>Keys: quartz ceramic resonator oscillator</td>
@@ -113,22 +122,13 @@ archivesize: "29K"
 <td>Crystal_Small</td><td>Description: Two pin crystal, small symbol<br>Keys: quartz ceramic resonator oscillator</td>
 </tr>
 <tr>
-<td>CTRIM</td><td>Description: Trimmable capacitor<br>Keys: trimmer variable capacitor</td>
-</tr>
-<tr>
-<td>CTRIM_DIF</td><td>Description: Differential variable capacitor with two stators<br>Keys: trimmer capacitor</td>
-</tr>
-<tr>
-<td>CTRIM_Small</td><td>Description: Trimmable capacitor, small symbol<br>Keys: trimmer variable capacitor</td>
-</tr>
-<tr>
 <td>D</td><td>Description: Diode<br>Keys: diode</td>
 </tr>
 <tr>
 <td>D_AAK</td><td>Description: Diode, anode on pins 1 and 2<br>Keys: diode</td>
 </tr>
 <tr>
-<td>D_ALT</td><td>Description: Diode, filled shape<br>Keys: diode</td>
+<td>D_Alt</td><td>Description: Diode, filled shape<br>Keys: diode</td>
 </tr>
 <tr>
 <td>D_Bridge_+-AA</td><td>Description: Diode bridge, +ve/-ve/AC/AC<br>Keys: rectifier ACDC</td>
@@ -149,7 +149,115 @@ archivesize: "29K"
 <td>D_Capacitance</td><td>Description: Variable capacitance diode<br>Keys: capacitance diode varicap varactor</td>
 </tr>
 <tr>
-<td>D_Capacitance_ALT</td><td>Description: Variable capacitance diode, filled shape<br>Keys: capacitance diode varicap varactor</td>
+<td>D_Capacitance_Alt</td><td>Description: Variable capacitance diode, filled shape<br>Keys: capacitance diode varicap varactor</td>
+</tr>
+<tr>
+<td>D_Dual_CommonAnode_AKK</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_CommonAnode_AKK_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_CommonAnode_AKK_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_CommonAnode_KAK</td><td>Description: Dual diode, common anode on pin 2<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_CommonAnode_KAK_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_CommonAnode_KAK_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_CommonAnode_KKA</td><td>Description: Dual diode, common anode on pin 3<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_CommonAnode_KKA_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_CommonAnode_KKA_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_CommonCathode_AAK</td><td>Description: Dual diode, common cathode on pin 3<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_CommonCathode_AAK_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_CommonCathode_AAK_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_CommonCathode_AKA</td><td>Description: Dual diode, common cathode on pin 2<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_CommonCathode_AKA_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_CommonCathode_AKA_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_CommonCathode_KAA</td><td>Description: Dual diode, common cathode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_CommonCathode_KAA_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_CommonCathode_KAA_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_Serial_ACK</td><td>Description: Dual diode, anode/center/cathode<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_Serial_AKC</td><td>Description: Dual diode, anode/cathode/center<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_Serial_CAK</td><td>Description: Dual diode, center/anode/cathode<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_Serial_CKA</td><td>Description: Dual diode, center/cathode/anode<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_Serial_KAC</td><td>Description: Dual diode, cathode/anode/center<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_Serial_KCA</td><td>Description: Dual diode, cathode/center/anode<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_Series_ACK_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_Series_ACK_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_Series_AKC_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_Series_AKC_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_Series_CAK_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_Series_CAK_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_Series_CKA_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_Series_CKA_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_Series_KAC_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_Series_KAC_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_Series_KCA_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Dual_Series_KCA_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
 </tr>
 <tr>
 <td>D_KAA</td><td>Description: Diode, anode on pins 2 and 3<br>Keys: diode</td>
@@ -161,16 +269,31 @@ archivesize: "29K"
 <td>D_KKA</td><td>Description: Diode, cathode on pins 1 and 2<br>Keys: diode</td>
 </tr>
 <tr>
+<td>D_Laser_1A3C</td><td>Description: Laser diode, cathode on pin 3, anode on pin 1<br>Keys: opto laserdiode</td>
+</tr>
+<tr>
+<td>D_Laser_1C2A</td><td>Description: Laser diode, cathode on pin 1, anode on pin 2<br>Keys: opto laserdiode</td>
+</tr>
+<tr>
+<td>D_Laser_Photo_MType</td><td>Description: Laser diode with photodiode, common cathode on pin 2<br>Keys: opto laserdiode photodiode<br>Datasheet: <a href="http://www.egismos.disonhu.com/laser/diode-package.htm">http://www.egismos.disonhu.com/laser/diode-package.htm</a></td>
+</tr>
+<tr>
+<td>D_Laser_Photo_NType</td><td>Description: Laser diode with photodiode, center on pin 2, LD cathode on pin 1<br>Keys: opto laserdiode photodiode<br>Datasheet: <a href="http://www.egismos.disonhu.com/laser/diode-package.htm">http://www.egismos.disonhu.com/laser/diode-package.htm</a></td>
+</tr>
+<tr>
+<td>D_Laser_Photo_PType</td><td>Description: Laser diode with photodiode, center on pin 2, PD cathode on pin 3<br>Keys: opto laserdiode photodiode<br>Datasheet: <a href="http://www.egismos.disonhu.com/laser/diode-package.htm">http://www.egismos.disonhu.com/laser/diode-package.htm</a></td>
+</tr>
+<tr>
 <td>D_Photo</td><td>Description: Photodiode<br>Keys: photodiode diode opto</td>
 </tr>
 <tr>
-<td>D_Photo_ALT</td><td>Description: Photodiode, filled shape<br>Keys: photodiode diode opto</td>
+<td>D_Photo_Alt</td><td>Description: Photodiode, filled shape<br>Keys: photodiode diode opto</td>
 </tr>
 <tr>
 <td>D_Radiation</td><td>Description: Semiconductor radiation detector<br>Keys: radiation detector diode</td>
 </tr>
 <tr>
-<td>D_Radiation_ALT</td><td>Description: Semiconductor radiation detector, filled shape<br>Keys: radiation detector diode</td>
+<td>D_Radiation_Alt</td><td>Description: Semiconductor radiation detector, filled shape<br>Keys: radiation detector diode</td>
 </tr>
 <tr>
 <td>D_Schottky</td><td>Description: Schottky diode<br>Keys: diode Schottky</td>
@@ -185,7 +308,115 @@ archivesize: "29K"
 <td>D_Schottky_AKK</td><td>Description: Schottky diode, cathode on pins 2 and 3<br>Keys: diode Schottky SCHDPAK</td>
 </tr>
 <tr>
-<td>D_Schottky_ALT</td><td>Description: Schottky diode, filled shape<br>Keys: diode Schottky</td>
+<td>D_Schottky_Alt</td><td>Description: Schottky diode, filled shape<br>Keys: diode Schottky</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_CommonAnode_AKK</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_CommonAnode_AKK_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_CommonAnode_AKK_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_CommonAnode_KAK</td><td>Description: Dual Schottky diode, common anode on pin 2<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_CommonAnode_KAK_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_CommonAnode_KAK_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_CommonAnode_KKA</td><td>Description: Dual Schottky diode, common anode on pin 3<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_CommonAnode_KKA_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_CommonAnode_KKA_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_CommonCathode_AAK</td><td>Description: Dual Schottky diode, common cathode on pin 3<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_CommonCathode_AAK_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_CommonCathode_AAK_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_CommonCathode_AKA</td><td>Description: Dual Schottky diode, common cathode on pin 2<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_CommonCathode_AKA_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_CommonCathode_AKA_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_CommonCathode_KAA</td><td>Description: Dual Schottky diode, common cathode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_CommonCathode_KAA_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_CommonCathode_KAA_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_Serial_ACK</td><td>Description: Dual Schottky diode, anode/center/cathode<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_Serial_AKC</td><td>Description: Dual Schottky diode, anode/cathode/center<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_Serial_CAK</td><td>Description: Dual Schottky diode, center/anode/cathode<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_Serial_CKA</td><td>Description: Dual Schottky diode, center/cathode/anode<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_Serial_KAC</td><td>Description: Dual Schottky diode, cathode/anode/center<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_Serial_KCA</td><td>Description: Dual Schottky diode, cathode/center/anode<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_Series_ACK_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_Series_ACK_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_Series_AKC_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_Series_AKC_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_Series_CAK_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_Series_CAK_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_Series_CKA_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_Series_CKA_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_Series_KAC_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_Series_KAC_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_Series_KCA_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Schottky_Dual_Series_KCA_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
 </tr>
 <tr>
 <td>D_Schottky_KAA</td><td>Description: Schottky diode, anode on pins 2 and 3<br>Keys: diode Schottky SCHDPAK</td>
@@ -200,115 +431,7 @@ archivesize: "29K"
 <td>D_Schottky_Small</td><td>Description: Schottky diode, small symbol<br>Keys: diode Schottky</td>
 </tr>
 <tr>
-<td>D_Schottky_Small_ALT</td><td>Description: Schottky diode, small symbol, filled shape<br>Keys: diode Schottky</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_ACom_AKK</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_ACom_AKK_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_ACom_AKK_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_ACom_KAK</td><td>Description: Dual Schottky diode, common anode on pin 2<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_ACom_KAK_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_ACom_KAK_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_ACom_KKA</td><td>Description: Dual Schottky diode, common anode on pin 3<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_ACom_KKA_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_ACom_KKA_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_KCom_AAK</td><td>Description: Dual Schottky diode, common cathode on pin 3<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_KCom_AAK_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_KCom_AAK_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_KCom_AKA</td><td>Description: Dual Schottky diode, common cathode on pin 2<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_KCom_AKA_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_KCom_AKA_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_KCom_KAA</td><td>Description: Dual Schottky diode, common cathode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_KCom_KAA_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_KCom_KAA_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_Serial_ACK</td><td>Description: Dual Schottky diode, anode/center/cathode<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_Serial_AKC</td><td>Description: Dual Schottky diode, anode/cathode/center<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_Serial_CAK</td><td>Description: Dual Schottky diode, center/anode/cathode<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_Serial_CKA</td><td>Description: Dual Schottky diode, center/cathode/anode<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_Serial_KAC</td><td>Description: Dual Schottky diode, cathode/anode/center<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_Serial_KCA</td><td>Description: Dual Schottky diode, cathode/center/anode<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_Series_ACK_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_Series_ACK_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_Series_AKC_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_Series_AKC_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_Series_CAK_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_Series_CAK_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_Series_CKA_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_Series_CKA_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_Series_KAC_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_Series_KAC_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_Series_KCA_Parallel</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Schottky_x2_Series_KCA_Split</td><td>Description: Dual Schottky diode, common anode on pin 1<br>Keys: diode</td>
+<td>D_Schottky_Small_Alt</td><td>Description: Schottky diode, small symbol, filled shape<br>Keys: diode Schottky</td>
 </tr>
 <tr>
 <td>D_Shockley</td><td>Description: Shockley (PNPN) diode<br>Keys: Shockley diode PNPN</td>
@@ -320,256 +443,148 @@ archivesize: "29K"
 <td>D_Small</td><td>Description: Diode, small symbol<br>Keys: diode</td>
 </tr>
 <tr>
-<td>D_Small_ALT</td><td>Description: Diode, small symbol, filled shape<br>Keys: diode</td>
+<td>D_Small_Alt</td><td>Description: Diode, small symbol, filled shape<br>Keys: diode</td>
 </tr>
 <tr>
-<td>D_Temperature_Dependent</td><td>Description: Temperature dependent diode<br>Keys: temperature sensor diode</td>
+<td>D_TemperatureDependent</td><td>Description: Temperature dependent diode<br>Keys: temperature sensor diode</td>
 </tr>
 <tr>
-<td>D_Temperature_Dependent_ALT</td><td>Description: Temperature dependent diode, filled shape<br>Keys: temperature sensor diode</td>
+<td>D_TemperatureDependent_Alt</td><td>Description: Temperature dependent diode, filled shape<br>Keys: temperature sensor diode</td>
 </tr>
 <tr>
 <td>D_Tunnel</td><td>Description: Tunnel diode (Esaki diode)<br>Keys: tunnel diode</td>
 </tr>
 <tr>
-<td>D_Tunnel_ALT</td><td>Description: Tunnel diode (Esaki diode), filled shape<br>Keys: tunnel diode</td>
+<td>D_Tunnel_Alt</td><td>Description: Tunnel diode (Esaki diode), filled shape<br>Keys: tunnel diode</td>
 </tr>
 <tr>
 <td>D_TVS</td><td>Description: Bidirectional transient-voltage-suppression diode<br>Keys: diode TVS thyrector</td>
 </tr>
 <tr>
-<td>D_TVS_ALT</td><td>Description: Bidirectional transient-voltage-suppression diode, filled shape<br>Keys: diode TVS thyrector</td>
+<td>D_TVS_Alt</td><td>Description: Bidirectional transient-voltage-suppression diode, filled shape<br>Keys: diode TVS thyrector</td>
 </tr>
 <tr>
-<td>D_TVS_x2_AAC</td><td>Description: Bidirectional dual transient-voltage-suppression diode, center on pin 3<br>Keys: diode TVS thyrector</td>
+<td>D_TVS_Dual_AAC</td><td>Description: Bidirectional dual transient-voltage-suppression diode, center on pin 3<br>Keys: diode TVS thyrector</td>
 </tr>
 <tr>
-<td>D_TVS_x2_ACA</td><td>Description: Bidirectional dual transient-voltage-suppression diode, center on pin 2<br>Keys: diode TVS thyrector</td>
+<td>D_TVS_Dual_ACA</td><td>Description: Bidirectional dual transient-voltage-suppression diode, center on pin 2<br>Keys: diode TVS thyrector</td>
 </tr>
 <tr>
-<td>D_TVS_x2_CAA</td><td>Description: Bidirectional dual transient-voltage-suppression diode, center on pin 1<br>Keys: diode TVS thyrector</td>
+<td>D_TVS_Dual_CAA</td><td>Description: Bidirectional dual transient-voltage-suppression diode, center on pin 1<br>Keys: diode TVS thyrector</td>
 </tr>
 <tr>
 <td>D_Unitunnel</td><td>Description: Unitunnel diode<br>Keys: unitunnel diode</td>
 </tr>
 <tr>
-<td>D_Unitunnel_ALT</td><td>Description: Unitunnel diode, filled shape<br>Keys: unitunnel diode</td>
-</tr>
-<tr>
-<td>D_x2_ACom_AKK</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_ACom_AKK_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_ACom_AKK_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_ACom_KAK</td><td>Description: Dual diode, common anode on pin 2<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_ACom_KAK_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_ACom_KAK_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_ACom_KKA</td><td>Description: Dual diode, common anode on pin 3<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_ACom_KKA_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_ACom_KKA_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_KCom_AAK</td><td>Description: Dual diode, common cathode on pin 3<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_KCom_AAK_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_KCom_AAK_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_KCom_AKA</td><td>Description: Dual diode, common cathode on pin 2<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_KCom_AKA_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_KCom_AKA_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_KCom_KAA</td><td>Description: Dual diode, common cathode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_KCom_KAA_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_KCom_KAA_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_Serial_ACK</td><td>Description: Dual diode, anode/center/cathode<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_Serial_AKC</td><td>Description: Dual diode, anode/cathode/center<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_Serial_CAK</td><td>Description: Dual diode, center/anode/cathode<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_Serial_CKA</td><td>Description: Dual diode, center/cathode/anode<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_Serial_KAC</td><td>Description: Dual diode, cathode/anode/center<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_Serial_KCA</td><td>Description: Dual diode, cathode/center/anode<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_Series_ACK_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_Series_ACK_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_Series_AKC_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_Series_AKC_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_Series_CAK_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_Series_CAK_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_Series_CKA_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_Series_CKA_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_Series_KAC_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_Series_KAC_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_Series_KCA_Parallel</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_x2_Series_KCA_Split</td><td>Description: Dual diode, common anode on pin 1<br>Keys: diode</td>
+<td>D_Unitunnel_Alt</td><td>Description: Unitunnel diode, filled shape<br>Keys: unitunnel diode</td>
 </tr>
 <tr>
 <td>D_Zener</td><td>Description: Zener diode<br>Keys: diode</td>
 </tr>
 <tr>
-<td>D_Zener_ALT</td><td>Description: Zener diode, filled shape<br>Keys: diode</td>
+<td>D_Zener_Alt</td><td>Description: Zener diode, filled shape<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Zener_Dual_CommonAnode_AKK</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode zener dual</td>
+</tr>
+<tr>
+<td>D_Zener_Dual_CommonAnode_AKK_Parallel</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Zener_Dual_CommonAnode_AKK_Split</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Zener_Dual_CommonAnode_KAK</td><td>Description: Dual Zener diode, common anode on pin 2<br>Keys: diode zener dual</td>
+</tr>
+<tr>
+<td>D_Zener_Dual_CommonAnode_KAK_Parallel</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Zener_Dual_CommonAnode_KAK_Split</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Zener_Dual_CommonAnode_KKA</td><td>Description: Dual Zener diode, common anode on pin 3<br>Keys: diode zener dual</td>
+</tr>
+<tr>
+<td>D_Zener_Dual_CommonAnode_KKA_Parallel</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Zener_Dual_CommonAnode_KKA_Split</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Zener_Dual_CommonCathode_AAK</td><td>Description: Dual Zener diode, common cathode on pin 3<br>Keys: diode zener dual</td>
+</tr>
+<tr>
+<td>D_Zener_Dual_CommonCathode_AAK_Parallel</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Zener_Dual_CommonCathode_AAK_Split</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Zener_Dual_CommonCathode_AKA</td><td>Description: Dual Zener diode, common cathode on pin 2<br>Keys: diode zener dual</td>
+</tr>
+<tr>
+<td>D_Zener_Dual_CommonCathode_AKA_Parallel</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Zener_Dual_CommonCathode_AKA_Split</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Zener_Dual_CommonCathode_KAA</td><td>Description: Dual Zener diode, common cathode on pin 1<br>Keys: diode zener dual</td>
+</tr>
+<tr>
+<td>D_Zener_Dual_CommonCathode_KAA_Parallel</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
+</tr>
+<tr>
+<td>D_Zener_Dual_CommonCathode_KAA_Split</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
 </tr>
 <tr>
 <td>D_Zener_Small</td><td>Description: Zener diode, small symbol<br>Keys: diode</td>
 </tr>
 <tr>
-<td>D_Zener_Small_ALT</td><td>Description: Zener diode, small symbol, filled shape<br>Keys: diode</td>
+<td>D_Zener_Small_Alt</td><td>Description: Zener diode, small symbol, filled shape<br>Keys: diode</td>
 </tr>
 <tr>
-<td>D_Zener_x2_ACom_AKK</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode zener dual</td>
-</tr>
-<tr>
-<td>D_Zener_x2_ACom_AKK_Parallel</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Zener_x2_ACom_AKK_Split</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Zener_x2_ACom_KAK</td><td>Description: Dual Zener diode, common anode on pin 2<br>Keys: diode zener dual</td>
-</tr>
-<tr>
-<td>D_Zener_x2_ACom_KAK_Parallel</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Zener_x2_ACom_KAK_Split</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Zener_x2_ACom_KKA</td><td>Description: Dual Zener diode, common anode on pin 3<br>Keys: diode zener dual</td>
-</tr>
-<tr>
-<td>D_Zener_x2_ACom_KKA_Parallel</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Zener_x2_ACom_KKA_Split</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Zener_x2_KCom_AAK</td><td>Description: Dual Zener diode, common cathode on pin 3<br>Keys: diode zener dual</td>
-</tr>
-<tr>
-<td>D_Zener_x2_KCom_AAK_Parallel</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Zener_x2_KCom_AAK_Split</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Zener_x2_KCom_AKA</td><td>Description: Dual Zener diode, common cathode on pin 2<br>Keys: diode zener dual</td>
-</tr>
-<tr>
-<td>D_Zener_x2_KCom_AKA_Parallel</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Zener_x2_KCom_AKA_Split</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Zener_x2_KCom_KAA</td><td>Description: Dual Zener diode, common cathode on pin 1<br>Keys: diode zener dual</td>
-</tr>
-<tr>
-<td>D_Zener_x2_KCom_KAA_Parallel</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>D_Zener_x2_KCom_KAA_Split</td><td>Description: Dual Zener diode, common anode on pin 1<br>Keys: diode</td>
-</tr>
-<tr>
-<td>Delay_Line</td><td>Description: Delay line<br>Keys: delay propagation retard impedance</td>
+<td>DelayLine</td><td>Description: Delay line<br>Keys: delay propagation retard impedance</td>
 </tr>
 <tr>
 <td>DIAC</td><td>Description: Diode for alternating current<br>Keys: AC diode DIAC</td>
 </tr>
 <tr>
-<td>DIAC_ALT</td><td>Description: Diode for alternating current, filled shape<br>Keys: AC diode DIAC</td>
+<td>DIAC_Alt</td><td>Description: Diode for alternating current, filled shape<br>Keys: AC diode DIAC</td>
 </tr>
 <tr>
 <td>Earphone</td><td>Description: Earphone, polarized<br>Keys: earphone speaker headphone</td>
 </tr>
 <tr>
-<td>Electromagnetic_Actor</td><td>Description: Electromagnetic actor<br>Keys: electromagnet coil inductor</td>
+<td>ElectromagneticActor</td><td>Description: Electromagnetic actor<br>Keys: electromagnet coil inductor</td>
 </tr>
 <tr>
-<td>EMI_Filter_C</td><td>Description: EMI filter, single capacitor<br>Keys: EMI filter feedthrough capacitor<br>Datasheet: <a href="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb">http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb</a></td>
+<td>FerriteBead</td><td>Description: Ferrite bead<br>Keys: L ferrite bead inductor filter</td>
 </tr>
 <tr>
-<td>EMI_Filter_CLC</td><td>Description: EMI T-filter (CLC)<br>Keys: EMI T-filter<br>Datasheet: <a href="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb">http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb</a></td>
+<td>FerriteBead_Small</td><td>Description: Ferrite bead, small symbol<br>Keys: L ferrite bead inductor filter</td>
 </tr>
 <tr>
-<td>EMI_Filter_CommonMode</td><td>Description: EMI 2-inductor common mode filter<br>Keys: EMI common mode filter</td>
+<td>Filter_EMI_C</td><td>Description: EMI filter, single capacitor<br>Keys: EMI filter feedthrough capacitor<br>Datasheet: <a href="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb">http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb</a></td>
 </tr>
 <tr>
-<td>EMI_Filter_LCL</td><td>Description: EMI T-filter (LCL)<br>Keys: EMI T-filter<br>Datasheet: <a href="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb">http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb</a></td>
+<td>Filter_EMI_CLC</td><td>Description: EMI T-filter (CLC)<br>Keys: EMI T-filter<br>Datasheet: <a href="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb">http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb</a></td>
 </tr>
 <tr>
-<td>EMI_Filter_LL</td><td>Description: EMI 2-inductor filter<br>Keys: EMI filter</td>
+<td>Filter_EMI_CommonMode</td><td>Description: EMI 2-inductor common mode filter<br>Keys: EMI common mode filter</td>
 </tr>
 <tr>
-<td>EMI_Filter_LL_1423</td><td>Description: EMI 2-inductor filter, pin-connections 1-4 and 2-3<br>Keys: EMI filter common-mode choke</td>
+<td>Filter_EMI_LCL</td><td>Description: EMI T-filter (LCL)<br>Keys: EMI T-filter<br>Datasheet: <a href="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb">http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb</a></td>
 </tr>
 <tr>
-<td>Ferrite_Bead</td><td>Description: Ferrite bead<br>Keys: L ferrite bead inductor filter</td>
+<td>Filter_EMI_LL</td><td>Description: EMI 2-inductor filter<br>Keys: EMI filter</td>
 </tr>
 <tr>
-<td>Ferrite_Bead_Small</td><td>Description: Ferrite bead, small symbol<br>Keys: L ferrite bead inductor filter</td>
+<td>Filter_EMI_LL_1423</td><td>Description: EMI 2-inductor filter, pin-connections 1-4 and 2-3<br>Keys: EMI filter common-mode choke</td>
 </tr>
 <tr>
-<td>Frequency_Counter</td><td>Description: Frequency counter<br>Keys: frequency counter</td>
+<td>FrequencyCounter</td><td>Description: Frequency counter<br>Keys: frequency counter</td>
 </tr>
 <tr>
 <td>Fuse</td><td>Description: Fuse<br>Keys: fuse</td>
@@ -587,19 +602,19 @@ archivesize: "29K"
 <td>Galvanometer</td><td>Description: Galvanometer<br>Keys: galvanometer</td>
 </tr>
 <tr>
-<td>GDT_2pin</td><td>Description: Gas Discharge Tube with 2 Pins<br>Keys: gdt</td>
+<td>GDT_2Pin</td><td>Description: Gas Discharge Tube with 2 Pins<br>Keys: gdt</td>
 </tr>
 <tr>
-<td>GDT_3pin</td><td>Description: Gas Discharge Tube with 3 Pins<br>Keys: gdt</td>
+<td>GDT_3Pin</td><td>Description: Gas Discharge Tube with 3 Pins<br>Keys: gdt</td>
 </tr>
 <tr>
-<td>Hall_Generator</td><td>Description: Hall effect generator<br>Keys: Hall generator magnet</td>
+<td>HallGenerator</td><td>Description: Hall effect generator<br>Keys: Hall generator magnet</td>
 </tr>
 <tr>
 <td>Heater</td><td>Description: Resistive heater<br>Keys: heater R resistor</td>
 </tr>
 <tr>
-<td>Jumper</td><td>Description: Jumper, normally closed<br>Keys: jumper bridge link NC</td>
+<td>Jumper_NC</td><td>Description: Jumper, normally closed<br>Keys: jumper bridge link NC</td>
 </tr>
 <tr>
 <td>Jumper_NC_Dual</td><td>Description: Dual jumper, normally closed<br>Keys: jumper bridge link NC</td>
@@ -612,78 +627,6 @@ archivesize: "29K"
 </tr>
 <tr>
 <td>L</td><td>Description: Inductor<br>Keys: inductor choke coil reactor magnetic</td>
-</tr>
-<tr>
-<td>L_Core_Ferrite</td><td>Description: Inductor with ferrite core<br>Keys: inductor choke coil reactor magnetic</td>
-</tr>
-<tr>
-<td>L_Core_Ferrite_Coupled</td><td>Description: Coupled inductor with ferrite core<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Ferrite_Coupled_1243</td><td>Description: Coupled inductor with ferrite core<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Ferrite_Coupled_1324</td><td>Description: Coupled inductor with ferrite core<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Ferrite_Coupled_1342</td><td>Description: Coupled inductor with ferrite core<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Ferrite_Coupled_1423</td><td>Description: Coupled inductor with ferrite core<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Ferrite_Coupled_Small</td><td>Description: Coupled inductor with ferrite core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Ferrite_Coupled_Small_1243</td><td>Description: Coupled inductor with ferrite core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Ferrite_Coupled_Small_1324</td><td>Description: Coupled inductor with ferrite core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Ferrite_Coupled_Small_1342</td><td>Description: Coupled inductor with ferrite core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Ferrite_Coupled_Small_1423</td><td>Description: Coupled inductor with ferrite core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Ferrite_Small</td><td>Description: Inductor with ferrite core, small symbol<br>Keys: inductor choke coil reactor magnetic</td>
-</tr>
-<tr>
-<td>L_Core_Iron</td><td>Description: Inductor with iron core<br>Keys: inductor choke coil reactor magnetic</td>
-</tr>
-<tr>
-<td>L_Core_Iron_Coupled</td><td>Description: Coupled inductor with iron core<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Iron_Coupled_1243</td><td>Description: Coupled inductor with iron core<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Iron_Coupled_1324</td><td>Description: Coupled inductor with iron core<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Iron_Coupled_1342</td><td>Description: Coupled inductor with iron core<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Iron_Coupled_1423</td><td>Description: Coupled inductor with iron core<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Iron_Coupled_Small</td><td>Description: Coupled inductor with iron core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Iron_Coupled_Small_1243</td><td>Description: Coupled inductor with iron core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Iron_Coupled_Small_1324</td><td>Description: Coupled inductor with iron core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Iron_Coupled_Small_1342</td><td>Description: Coupled inductor with iron core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Iron_Coupled_Small_1423</td><td>Description: Coupled inductor with iron core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
-</tr>
-<tr>
-<td>L_Core_Iron_Small</td><td>Description: Inductor with iron core, small symbol<br>Keys: inductor choke coil reactor magnetic</td>
 </tr>
 <tr>
 <td>L_Coupled</td><td>Description: Coupled inductor<br>Keys: inductor choke coil reactor magnetic coupled</td>
@@ -716,7 +659,82 @@ archivesize: "29K"
 <td>L_Coupled_Small_1423</td><td>Description: Coupled inductor, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
 </tr>
 <tr>
+<td>L_Ferrite</td><td>Description: Inductor with ferrite core<br>Keys: inductor choke coil reactor magnetic</td>
+</tr>
+<tr>
+<td>L_Ferrite_Coupled</td><td>Description: Coupled inductor with ferrite core<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Ferrite_Coupled_1243</td><td>Description: Coupled inductor with ferrite core<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Ferrite_Coupled_1324</td><td>Description: Coupled inductor with ferrite core<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Ferrite_Coupled_1342</td><td>Description: Coupled inductor with ferrite core<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Ferrite_Coupled_1423</td><td>Description: Coupled inductor with ferrite core<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Ferrite_Coupled_Small</td><td>Description: Coupled inductor with ferrite core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Ferrite_Coupled_Small_1243</td><td>Description: Coupled inductor with ferrite core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Ferrite_Coupled_Small_1324</td><td>Description: Coupled inductor with ferrite core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Ferrite_Coupled_Small_1342</td><td>Description: Coupled inductor with ferrite core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Ferrite_Coupled_Small_1423</td><td>Description: Coupled inductor with ferrite core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Ferrite_Small</td><td>Description: Inductor with ferrite core, small symbol<br>Keys: inductor choke coil reactor magnetic</td>
+</tr>
+<tr>
+<td>L_Iron</td><td>Description: Inductor with iron core<br>Keys: inductor choke coil reactor magnetic</td>
+</tr>
+<tr>
+<td>L_Iron_Coupled</td><td>Description: Coupled inductor with iron core<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Iron_Coupled_1243</td><td>Description: Coupled inductor with iron core<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Iron_Coupled_1324</td><td>Description: Coupled inductor with iron core<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Iron_Coupled_1342</td><td>Description: Coupled inductor with iron core<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Iron_Coupled_1423</td><td>Description: Coupled inductor with iron core<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Iron_Coupled_Small</td><td>Description: Coupled inductor with iron core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Iron_Coupled_Small_1243</td><td>Description: Coupled inductor with iron core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Iron_Coupled_Small_1324</td><td>Description: Coupled inductor with iron core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Iron_Coupled_Small_1342</td><td>Description: Coupled inductor with iron core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Iron_Coupled_Small_1423</td><td>Description: Coupled inductor with iron core, small symbol<br>Keys: inductor choke coil reactor magnetic coupled</td>
+</tr>
+<tr>
+<td>L_Iron_Small</td><td>Description: Inductor with iron core, small symbol<br>Keys: inductor choke coil reactor magnetic</td>
+</tr>
+<tr>
 <td>L_Small</td><td>Description: Inductor, small symbol<br>Keys: inductor choke coil reactor magnetic</td>
+</tr>
+<tr>
+<td>L_Trim</td><td>Description: Variable inductor<br>Keys: inductor choke coil reactor magnetic</td>
 </tr>
 <tr>
 <td>Lamp</td><td>Description: Lamp<br>Keys: lamp</td>
@@ -726,21 +744,6 @@ archivesize: "29K"
 </tr>
 <tr>
 <td>Lamp_Neon</td><td>Description: Neon lamp<br>Keys: neon lamp</td>
-</tr>
-<tr>
-<td>Laserdiode_1A3C</td><td>Description: Laser diode, cathode on pin 3, anode on pin 1<br>Keys: opto laserdiode</td>
-</tr>
-<tr>
-<td>Laserdiode_1C2A</td><td>Description: Laser diode, cathode on pin 1, anode on pin 2<br>Keys: opto laserdiode</td>
-</tr>
-<tr>
-<td>Laserdiode_M_TYPE</td><td>Description: Laser diode with photodiode, common cathode on pin 2<br>Keys: opto laserdiode photodiode<br>Datasheet: <a href="http://www.egismos.disonhu.com/laser/diode-package.htm">http://www.egismos.disonhu.com/laser/diode-package.htm</a></td>
-</tr>
-<tr>
-<td>Laserdiode_N_TYPE</td><td>Description: Laser diode with photodiode, center on pin 2, LD cathode on pin 1<br>Keys: opto laserdiode photodiode<br>Datasheet: <a href="http://www.egismos.disonhu.com/laser/diode-package.htm">http://www.egismos.disonhu.com/laser/diode-package.htm</a></td>
-</tr>
-<tr>
-<td>Laserdiode_P_TYPE</td><td>Description: Laser diode with photodiode, center on pin 2, PD cathode on pin 3<br>Keys: opto laserdiode photodiode<br>Datasheet: <a href="http://www.egismos.disonhu.com/laser/diode-package.htm">http://www.egismos.disonhu.com/laser/diode-package.htm</a></td>
 </tr>
 <tr>
 <td>LED</td><td>Description: Light emitting diode<br>Keys: LED diode</td>
@@ -758,7 +761,7 @@ archivesize: "29K"
 <td>LED_AGRB</td><td>Description: RGB LED, anode/green/red/blue<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_ALT</td><td>Description: Light emitting diode, filled shape<br>Keys: LED diode</td>
+<td>LED_Alt</td><td>Description: Light emitting diode, filled shape<br>Keys: LED diode</td>
 </tr>
 <tr>
 <td>LED_ARBG</td><td>Description: RGB LED, anode/red/blue/green<br>Keys: LED RGB diode</td>
@@ -773,76 +776,58 @@ archivesize: "29K"
 <td>LED_BARG</td><td>Description: RGB LED, blue/anode/red/green<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_BCGR</td><td>Description: RGB LED, blue/cathode/green/red<br>Keys: LED RGB diode</td>
-</tr>
-<tr>
-<td>LED_BCRG</td><td>Description: RGB LED, blue/cathode/red/green<br>Keys: LED RGB diode</td>
-</tr>
-<tr>
 <td>LED_BGAR</td><td>Description: RGB LED, blue/green/anode/red<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_BGCR</td><td>Description: RGB LED, blue/green/cathode/red<br>Keys: LED RGB diode</td>
+<td>LED_BGKR</td><td>Description: RGB LED, blue/green/cathode/red<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
 <td>LED_BGRA</td><td>Description: RGB LED, blue/green/red/anode<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_BGRC</td><td>Description: RGB LED, blue/green/red/cathode<br>Keys: LED RGB diode</td>
+<td>LED_BGRK</td><td>Description: RGB LED, blue/green/red/cathode<br>Keys: LED RGB diode</td>
+</tr>
+<tr>
+<td>LED_BKGR</td><td>Description: RGB LED, blue/cathode/green/red<br>Keys: LED RGB diode</td>
+</tr>
+<tr>
+<td>LED_BKRG</td><td>Description: RGB LED, blue/cathode/red/green<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
 <td>LED_BRAG</td><td>Description: RGB LED, blue/red/anode/green<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_BRCG</td><td>Description: RGB LED, blue/red/cathode/green<br>Keys: LED RGB diode</td>
-</tr>
-<tr>
 <td>LED_BRGA</td><td>Description: RGB LED, blue/red/green/anode<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_BRGC</td><td>Description: RGB LED, blue/red/green/cathode<br>Keys: LED RGB diode</td>
+<td>LED_BRGK</td><td>Description: RGB LED, blue/red/green/cathode<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_CBGR</td><td>Description: RGB LED, cathode/blue/green/red<br>Keys: LED RGB diode</td>
+<td>LED_BRKG</td><td>Description: RGB LED, blue/red/cathode/green<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_CBRG</td><td>Description: RGB LED, cathode/blue/red/green<br>Keys: LED RGB diode</td>
+<td>LED_Dual_AAK</td><td>Description: Dual LED, common cathode on pin 3<br>Keys: LED diode bicolor dual</td>
 </tr>
 <tr>
-<td>LED_CGBR</td><td>Description: RGB LED, cathode/green/blue/red<br>Keys: LED RGB diode</td>
+<td>LED_Dual_AAKK</td><td>Description: Dual LED, cathodes on pins 3 and 4<br>Keys: LED diode bicolor dual</td>
 </tr>
 <tr>
-<td>LED_CGRB</td><td>Description: RGB LED, cathode/green/red/blue<br>Keys: LED RGB diode</td>
+<td>LED_Dual_AKA</td><td>Description: Dual LED, common cathode on pin 2<br>Keys: LED diode bicolor dual</td>
 </tr>
 <tr>
-<td>LED_CRBG</td><td>Description: RGB LED, cathode/red/blue/green<br>Keys: LED RGB diode</td>
+<td>LED_Dual_AKAK</td><td>Description: Dual LED, cathodes on pins 2 and 4<br>Keys: LED diode bicolor dual</td>
 </tr>
 <tr>
-<td>LED_CRGB</td><td>Description: RGB LED, cathode/red/green/blue<br>Keys: LED RGB diode</td>
+<td>LED_Dual_Bidirectional</td><td>Description: Dual LED, bidirectional<br>Keys: LED diode bicolor dual</td>
 </tr>
 <tr>
-<td>LED_Dual_2pin</td><td>Description: Dual LED, bidirectional<br>Keys: LED diode bicolor dual</td>
+<td>LED_Dual_KAK</td><td>Description: Dual LED, common anode on pin 2<br>Keys: LED diode bicolor dual</td>
 </tr>
 <tr>
-<td>LED_Dual_AAC</td><td>Description: Dual LED, common cathode on pin 3<br>Keys: LED diode bicolor dual</td>
+<td>LED_Dual_KAKA</td><td>Description: Dual LED, cathodes on pins 1 and 3<br>Keys: LED diode bicolor dual</td>
 </tr>
 <tr>
-<td>LED_Dual_AACC</td><td>Description: Dual LED, cathodes on pins 3 and 4<br>Keys: LED diode bicolor dual</td>
-</tr>
-<tr>
-<td>LED_Dual_ACA</td><td>Description: Dual LED, common cathode on pin 2<br>Keys: LED diode bicolor dual</td>
-</tr>
-<tr>
-<td>LED_Dual_ACAC</td><td>Description: Dual LED, cathodes on pins 2 and 4<br>Keys: LED diode bicolor dual</td>
-</tr>
-<tr>
-<td>LED_Dual_CAC</td><td>Description: Dual LED, common anode on pin 2<br>Keys: LED diode bicolor dual</td>
-</tr>
-<tr>
-<td>LED_Dual_CACA</td><td>Description: Dual LED, cathodes on pins 1 and 3<br>Keys: LED diode bicolor dual</td>
-</tr>
-<tr>
-<td>LED_Dual_CCA</td><td>Description: Dual LED, common anode on pin 3<br>Keys: LED diode bicolor dual</td>
+<td>LED_Dual_KKA</td><td>Description: Dual LED, common anode on pin 3<br>Keys: LED diode bicolor dual</td>
 </tr>
 <tr>
 <td>LED_GABR</td><td>Description: RGB LED, green/anode/blue/red<br>Keys: LED RGB diode</td>
@@ -854,19 +839,19 @@ archivesize: "29K"
 <td>LED_GBAR</td><td>Description: RGB LED, green/blue/anode/red<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_GBCR</td><td>Description: RGB LED, green/blue/cathode/red<br>Keys: LED RGB diode</td>
+<td>LED_GBKR</td><td>Description: RGB LED, green/blue/cathode/red<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
 <td>LED_GBRA</td><td>Description: RGB LED, green/blue/red/anode<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_GBRC</td><td>Description: RGB LED, green/blue/red/cathode<br>Keys: LED RGB diode</td>
+<td>LED_GBRK</td><td>Description: RGB LED, green/blue/red/cathode<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_GCBR</td><td>Description: RGB LED, green/cathode/blue/red<br>Keys: LED RGB diode</td>
+<td>LED_GKBR</td><td>Description: RGB LED, green/cathode/blue/red<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_GCRB</td><td>Description: RGB LED, green/cathode/red/blue<br>Keys: LED RGB diode</td>
+<td>LED_GKRB</td><td>Description: RGB LED, green/cathode/red/blue<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
 <td>LED_GRAB</td><td>Description: RGB LED, green/red/anode/blue<br>Keys: LED RGB diode</td>
@@ -875,13 +860,31 @@ archivesize: "29K"
 <td>LED_GRBA</td><td>Description: RGB LED, green/red/blue/anode<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_GRBC</td><td>Description: RGB LED, green/red/blue/cathode<br>Keys: LED RGB diode</td>
+<td>LED_GRBK</td><td>Description: RGB LED, green/red/blue/cathode<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_GRCB</td><td>Description: RGB LED, green/red/cathode/blue<br>Keys: LED RGB diode</td>
+<td>LED_GRKB</td><td>Description: RGB LED, green/red/cathode/blue<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_PAD</td><td>Description: Light emitting diode with pad<br>Keys: LED diode pad</td>
+<td>LED_KBGR</td><td>Description: RGB LED, cathode/blue/green/red<br>Keys: LED RGB diode</td>
+</tr>
+<tr>
+<td>LED_KBRG</td><td>Description: RGB LED, cathode/blue/red/green<br>Keys: LED RGB diode</td>
+</tr>
+<tr>
+<td>LED_KGBR</td><td>Description: RGB LED, cathode/green/blue/red<br>Keys: LED RGB diode</td>
+</tr>
+<tr>
+<td>LED_KGRB</td><td>Description: RGB LED, cathode/green/red/blue<br>Keys: LED RGB diode</td>
+</tr>
+<tr>
+<td>LED_KRBG</td><td>Description: RGB LED, cathode/red/blue/green<br>Keys: LED RGB diode</td>
+</tr>
+<tr>
+<td>LED_KRGB</td><td>Description: RGB LED, cathode/red/green/blue<br>Keys: LED RGB diode</td>
+</tr>
+<tr>
+<td>LED_Pad</td><td>Description: Light emitting diode with pad<br>Keys: LED diode pad</td>
 </tr>
 <tr>
 <td>LED_RABG</td><td>Description: RGB LED, red/anode/blue/green<br>Keys: LED RGB diode</td>
@@ -893,19 +896,13 @@ archivesize: "29K"
 <td>LED_RBAG</td><td>Description: RGB LED, red/blue/anode/green<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_RBCG</td><td>Description: RGB LED, red/blue/cathode/green<br>Keys: LED RGB diode</td>
-</tr>
-<tr>
 <td>LED_RBGA</td><td>Description: RGB LED, red/blue/green/anode<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_RBGC</td><td>Description: RGB LED, red/blue/green/cathode<br>Keys: LED RGB diode</td>
+<td>LED_RBGK</td><td>Description: RGB LED, red/blue/green/cathode<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_RCBG</td><td>Description: RGB LED, red/cathode/blue/green<br>Keys: LED RGB diode</td>
-</tr>
-<tr>
-<td>LED_RCGB</td><td>Description: RGB LED, red/cathode/green/blue<br>Keys: LED RGB diode</td>
+<td>LED_RBKG</td><td>Description: RGB LED, red/blue/cathode/green<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
 <td>LED_RGAB</td><td>Description: RGB LED, red/green/anode/blue<br>Keys: LED RGB diode</td>
@@ -920,28 +917,31 @@ archivesize: "29K"
 <td>LED_RGBA</td><td>Description: RGB LED, red/green/blue/anode<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_RGBC</td><td>Description: RGB LED, red/green/blue/cathode<br>Keys: LED RGB diode</td>
+<td>LED_RGBK</td><td>Description: RGB LED, red/green/blue/cathode<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
-<td>LED_RGCB</td><td>Description: RGB LED, red/green/cathode/blue<br>Keys: LED RGB diode</td>
+<td>LED_RGKB</td><td>Description: RGB LED, red/green/cathode/blue<br>Keys: LED RGB diode</td>
+</tr>
+<tr>
+<td>LED_RKBG</td><td>Description: RGB LED, red/cathode/blue/green<br>Keys: LED RGB diode</td>
+</tr>
+<tr>
+<td>LED_RKGB</td><td>Description: RGB LED, red/cathode/green/blue<br>Keys: LED RGB diode</td>
 </tr>
 <tr>
 <td>LED_Series</td><td>Description: Several LEDs in series<br>Keys: LED diode</td>
 </tr>
 <tr>
-<td>LED_Series_PAD</td><td>Description: Several LEDs in series with exposed pad<br>Keys: LED diode pad</td>
+<td>LED_Series_Pad</td><td>Description: Several LEDs in series with exposed pad<br>Keys: LED diode pad</td>
 </tr>
 <tr>
 <td>LED_Small</td><td>Description: Light emitting diode, small symbol<br>Keys: LED diode light-emitting-diode</td>
 </tr>
 <tr>
-<td>LED_Small_ALT</td><td>Description: Light emitting diode, small symbol, filled shape<br>Keys: LED diode light-emitting-diode</td>
+<td>LED_Small_Alt</td><td>Description: Light emitting diode, small symbol, filled shape<br>Keys: LED diode light-emitting-diode</td>
 </tr>
 <tr>
-<td>LTRIM</td><td>Description: Variable inductor<br>Keys: inductor choke coil reactor magnetic</td>
-</tr>
-<tr>
-<td>MEMRISTOR</td><td>Description: Memristor<br>Keys: memristor</td>
+<td>Memristor</td><td>Description: Memristor<br>Keys: memristor</td>
 </tr>
 <tr>
 <td>Microphone</td><td>Description: Microphone<br>Keys: microphone</td>
@@ -956,34 +956,34 @@ archivesize: "29K"
 <td>Microphone_Ultrasound</td><td>Description: Ultrasound receiver<br>Keys: microphone ultrasound crystal</td>
 </tr>
 <tr>
-<td>Net-Tie_2</td><td>Description: Net tie, 2 pins<br>Keys: net tie short</td>
+<td>NetTie_2</td><td>Description: Net tie, 2 pins<br>Keys: net tie short</td>
 </tr>
 <tr>
-<td>Net-Tie_3</td><td>Description: Net tie, 3 pins<br>Keys: net tie short</td>
+<td>NetTie_3</td><td>Description: Net tie, 3 pins<br>Keys: net tie short</td>
 </tr>
 <tr>
-<td>Net-Tie_3_Tee</td><td>Description: Net tie, 3 pins, tee<br>Keys: net tie short</td>
+<td>NetTie_3_Tee</td><td>Description: Net tie, 3 pins, tee<br>Keys: net tie short</td>
 </tr>
 <tr>
-<td>Net-Tie_4</td><td>Description: Net tie, 4 pins<br>Keys: net tie short</td>
+<td>NetTie_4</td><td>Description: Net tie, 4 pins<br>Keys: net tie short</td>
 </tr>
 <tr>
-<td>Net-Tie_4_Cross</td><td>Description: Net tie, 4 pins, cross<br>Keys: net tie short</td>
+<td>NetTie_4_Cross</td><td>Description: Net tie, 4 pins, cross<br>Keys: net tie short</td>
 </tr>
 <tr>
 <td>Ohmmeter</td><td>Description: Ohmmeter<br>Keys: ohmmeter resistance</td>
 </tr>
 <tr>
-<td>Opamp_Dual_Generic</td><td>Description: Dual operational amplifier<br>Keys: dual opamp</td>
+<td>Opamp_Dual</td><td>Description: Dual operational amplifier<br>Keys: dual opamp</td>
 </tr>
 <tr>
-<td>Opamp_Quad_Generic</td><td>Description: Quad operational amplifier<br>Keys: quad opamp</td>
+<td>Opamp_Quad</td><td>Description: Quad operational amplifier<br>Keys: quad opamp</td>
 </tr>
 <tr>
 <td>Oscilloscope</td><td>Description: Oscilloscope<br>Keys: oscilloscope</td>
 </tr>
 <tr>
-<td>Peltier_Element</td><td>Description: Peltier element, thermoelectric cooler<br>Keys: Peltier TEC</td>
+<td>PeltierElement</td><td>Description: Peltier element, thermoelectric cooler<br>Keys: Peltier TEC</td>
 </tr>
 <tr>
 <td>Polyfuse</td><td>Description: Resettable fuse, polymeric positive temperature coefficient<br>Keys: resettable fuse PTC PPTC polyfuse polyswitch</td>
@@ -992,58 +992,58 @@ archivesize: "29K"
 <td>Polyfuse_Small</td><td>Description: Resettable fuse, polymeric positive temperature coefficient, small symbol<br>Keys: resettable fuse PTC PPTC polyfuse polyswitch</td>
 </tr>
 <tr>
-<td>Q_DUAL_NMOS_G1S2G2D2S1D1</td><td>Description: Dual NMOS transistor, 6 pin package<br>Keys: transistor NMOS N-MOS N-MOSFET</td>
+<td>Q_Dual_NMOS_G1S2G2D2S1D1</td><td>Description: Dual NMOS transistor, 6 pin package<br>Keys: transistor NMOS N-MOS N-MOSFET</td>
 </tr>
 <tr>
-<td>Q_DUAL_NMOS_S1G1D2S2G2D1</td><td>Description: Dual NMOS transistor, 6 pin package<br>Keys: transistor NMOS N-MOS N-MOSFET</td>
+<td>Q_Dual_NMOS_S1G1D2S2G2D1</td><td>Description: Dual NMOS transistor, 6 pin package<br>Keys: transistor NMOS N-MOS N-MOSFET</td>
 </tr>
 <tr>
-<td>Q_DUAL_NMOS_S1G1S2G2D2D2D1D1</td><td>Description: Dual NMOS transistor, 8 pin package<br>Keys: transistor NMOS N-MOS N-MOSFET</td>
+<td>Q_Dual_NMOS_S1G1S2G2D2D2D1D1</td><td>Description: Dual NMOS transistor, 8 pin package<br>Keys: transistor NMOS N-MOS N-MOSFET</td>
 </tr>
 <tr>
-<td>Q_DUAL_NPN_C2C1E1E2</td><td>Description: Double NPN transistors, current mirror configuration<br>Keys: transistor NPN</td>
+<td>Q_Dual_NPN_C2C1E1E2</td><td>Description: Double NPN transistors, current mirror configuration<br>Keys: transistor NPN</td>
 </tr>
 <tr>
-<td>Q_DUAL_NPN_NPN_BRT_E1B1C2E2B2C1</td><td>Description: Dual NPN bias resistor transistor, 6 pin package<br>Keys: transistor NPN</td>
+<td>Q_Dual_NPN_NPN_BRT_E1B1C2E2B2C1</td><td>Description: Dual NPN bias resistor transistor, 6 pin package<br>Keys: transistor NPN</td>
 </tr>
 <tr>
-<td>Q_DUAL_NPN_NPN_C2E2C1E1B1B2</td><td>Description: Dual NPN transistor, 6 pin package<br>Keys: transistor NPN</td>
+<td>Q_Dual_NPN_NPN_C2E2C1E1B1B2</td><td>Description: Dual NPN transistor, 6 pin package<br>Keys: transistor NPN</td>
 </tr>
 <tr>
-<td>Q_DUAL_NPN_NPN_E1B1C2E2B2C1</td><td>Description: Dual NPN transistor, 6 pin package<br>Keys: transistor NPN</td>
+<td>Q_Dual_NPN_NPN_E1B1C2E2B2C1</td><td>Description: Dual NPN transistor, 6 pin package<br>Keys: transistor NPN</td>
 </tr>
 <tr>
-<td>Q_DUAL_NPN_PNP_BRT_E1B1C2E2B2C1</td><td>Description: Dual NPN/PNP bias resistor transistor, 6 pin package<br>Keys: transistor NPN</td>
+<td>Q_Dual_NPN_PNP_BRT_E1B1C2E2B2C1</td><td>Description: Dual NPN/PNP bias resistor transistor, 6 pin package<br>Keys: transistor NPN</td>
 </tr>
 <tr>
-<td>Q_DUAL_NPN_PNP_E1B1C2E2B2C1</td><td>Description: Dual NPN/PNP transistor, 6 pin package<br>Keys: transistor NPN PNP</td>
+<td>Q_Dual_NPN_PNP_E1B1C2E2B2C1</td><td>Description: Dual NPN/PNP transistor, 6 pin package<br>Keys: transistor NPN PNP</td>
 </tr>
 <tr>
-<td>Q_DUAL_PMOS_G1S2G2D2S1D1</td><td>Description: Dual PMOS transistor, 6 pin package<br>Keys: transistor PMOS P-MOS P-MOSFET</td>
+<td>Q_Dual_PMOS_G1S2G2D2S1D1</td><td>Description: Dual PMOS transistor, 6 pin package<br>Keys: transistor PMOS P-MOS P-MOSFET</td>
 </tr>
 <tr>
-<td>Q_DUAL_PMOS_S1G1D2S2G2D1</td><td>Description: Dual PMOS transistor, 6 pin package<br>Keys: transistor PMOS P-MOS P-MOSFET</td>
+<td>Q_Dual_PMOS_S1G1D2S2G2D1</td><td>Description: Dual PMOS transistor, 6 pin package<br>Keys: transistor PMOS P-MOS P-MOSFET</td>
 </tr>
 <tr>
-<td>Q_DUAL_PMOS_S1G1S2G2D2D2D1D1</td><td>Description: Dual PMOS transistor, 8 pin package<br>Keys: transistor PMOS P-MOS P-MOSFET</td>
+<td>Q_Dual_PMOS_S1G1S2G2D2D2D1D1</td><td>Description: Dual PMOS transistor, 8 pin package<br>Keys: transistor PMOS P-MOS P-MOSFET</td>
 </tr>
 <tr>
-<td>Q_DUAL_PNP_C2C1E1E2</td><td>Description: Double PNP transistors, current mirror configuration<br>Keys: transistor PNP</td>
+<td>Q_Dual_PNP_C2C1E1E2</td><td>Description: Double PNP transistors, current mirror configuration<br>Keys: transistor PNP</td>
 </tr>
 <tr>
-<td>Q_DUAL_PNP_NPN_BRT_E1B1C2E2B2C1</td><td>Description: Dual PNP/NPN bias resistor transistor, 6 pin package<br>Keys: transistor NPN</td>
+<td>Q_Dual_PNP_NPN_BRT_E1B1C2E2B2C1</td><td>Description: Dual PNP/NPN bias resistor transistor, 6 pin package<br>Keys: transistor NPN</td>
 </tr>
 <tr>
-<td>Q_DUAL_PNP_PNP_BRT_E1B1C2E2B2C1</td><td>Description: Dual PNP bias resistor transistor, 6 pin package<br>Keys: transistor NPN</td>
+<td>Q_Dual_PNP_PNP_BRT_E1B1C2E2B2C1</td><td>Description: Dual PNP bias resistor transistor, 6 pin package<br>Keys: transistor NPN</td>
 </tr>
 <tr>
-<td>Q_DUAL_PNP_PNP_C1B1B2C2E2E1</td><td>Description: Dual PNP transistor, 6 pin package<br>Keys: transistor PNP<br>Datasheet: <a href="https://www.diodes.com/assets/Datasheets/ds30437.pdf">https://www.diodes.com/assets/Datasheets/ds30437.pdf</a></td>
+<td>Q_Dual_PNP_PNP_C1B1B2C2E2E1</td><td>Description: Dual PNP transistor, 6 pin package<br>Keys: transistor PNP<br>Datasheet: <a href="https://www.diodes.com/assets/Datasheets/ds30437.pdf">https://www.diodes.com/assets/Datasheets/ds30437.pdf</a></td>
 </tr>
 <tr>
-<td>Q_DUAL_PNP_PNP_C2E2C1E1B1B2</td><td>Description: Dual PNP transistor, 6 pin package<br>Keys: transistor PNP</td>
+<td>Q_Dual_PNP_PNP_C2E2C1E1B1B2</td><td>Description: Dual PNP transistor, 6 pin package<br>Keys: transistor PNP</td>
 </tr>
 <tr>
-<td>Q_DUAL_PNP_PNP_E1B1C2E2B2C1</td><td>Description: Dual PNP transistor, 6 pin package<br>Keys: transistor PNP</td>
+<td>Q_Dual_PNP_PNP_E1B1C2E2B2C1</td><td>Description: Dual PNP transistor, 6 pin package<br>Keys: transistor PNP</td>
 </tr>
 <tr>
 <td>Q_NIGBT_CEG</td><td>Description: N-IGBT transistor, collector/emitter/gate<br>Keys: transistor IGBT N-IGBT</td>
@@ -1547,31 +1547,31 @@ archivesize: "29K"
 <td>R_Pack11_Split</td><td>Description: 11 resistor network, parallel topology, split<br>Keys: R network parallel topology isolated</td>
 </tr>
 <tr>
-<td>R_PHOTO</td><td>Description: Photoresistor<br>Keys: resistor variable light sensitive opto LDR</td>
+<td>R_Photo</td><td>Description: Photoresistor<br>Keys: resistor variable light sensitive opto LDR</td>
 </tr>
 <tr>
-<td>R_POT</td><td>Description: Potentiometer<br>Keys: resistor variable</td>
+<td>R_Potentiometer</td><td>Description: Potentiometer<br>Keys: resistor variable</td>
 </tr>
 <tr>
-<td>R_POT_Dual</td><td>Description: Dual potentiometer<br>Keys: resistor variable</td>
+<td>R_Potentiometer_Dual</td><td>Description: Dual potentiometer<br>Keys: resistor variable</td>
 </tr>
 <tr>
-<td>R_POT_Dual_Separate</td><td>Description: Dual potentiometer, separate units<br>Keys: resistor variable</td>
+<td>R_Potentiometer_Dual_Separate</td><td>Description: Dual potentiometer, separate units<br>Keys: resistor variable</td>
 </tr>
 <tr>
-<td>R_POT_MountingPin</td><td>Description: Potentiometer with a mounting pin<br>Keys: resistor variable</td>
+<td>R_Potentiometer_MountingPin</td><td>Description: Potentiometer with a mounting pin<br>Keys: resistor variable</td>
 </tr>
 <tr>
-<td>R_POT_Small</td><td>Description: Potentiometer<br>Keys: resistor variable</td>
+<td>R_Potentiometer_Small</td><td>Description: Potentiometer<br>Keys: resistor variable</td>
 </tr>
 <tr>
-<td>R_POT_TRIM</td><td>Description: Trim-potentiometer<br>Keys: resistor variable trimpot trimmer</td>
+<td>R_Potentiometer_Trim</td><td>Description: Trim-potentiometer<br>Keys: resistor variable trimpot trimmer</td>
 </tr>
 <tr>
-<td>R_POT_TRIM_US</td><td>Description: Trim-potentiometer, US symbol<br>Keys: resistor variable trimpot trimmer</td>
+<td>R_Potentiometer_Trim_US</td><td>Description: Trim-potentiometer, US symbol<br>Keys: resistor variable trimpot trimmer</td>
 </tr>
 <tr>
-<td>R_POT_US</td><td>Description: Potentiometer, US symbol<br>Keys: resistor variable</td>
+<td>R_Potentiometer_US</td><td>Description: Potentiometer, US symbol<br>Keys: resistor variable</td>
 </tr>
 <tr>
 <td>R_Shunt</td><td>Description: Shunt resistor<br>Keys: R res shunt resistor</td>
@@ -1584,6 +1584,9 @@ archivesize: "29K"
 </tr>
 <tr>
 <td>R_Small_US</td><td>Description: Resistor, small US symbol<br>Keys: r resistor</td>
+</tr>
+<tr>
+<td>R_Trim</td><td>Description: Trimmable resistor (preset resistor)<br>Keys: R res resistor variable potentiometer trimmer</td>
 </tr>
 <tr>
 <td>R_US</td><td>Description: Resistor, US symbol<br>Keys: R res resistor</td>
@@ -1601,19 +1604,16 @@ archivesize: "29K"
 <td>Resonator_Small</td><td>Description: Three pin ceramic resonator, small symbol<br>Keys: ceramic resonator</td>
 </tr>
 <tr>
-<td>RF_Shield_One_Piece</td><td>Description: One-piece EMI RF shielding cabinet<br>Keys: RF EMI shielding cabinet</td>
+<td>RFShield_OnePiece</td><td>Description: One-piece EMI RF shielding cabinet<br>Keys: RF EMI shielding cabinet</td>
 </tr>
 <tr>
-<td>RF_Shield_Two_Pieces</td><td>Description: Two-piece EMI RF shielding cabinet<br>Keys: RF EMI shielding cabinet</td>
+<td>RFShield_TwoPieces</td><td>Description: Two-piece EMI RF shielding cabinet<br>Keys: RF EMI shielding cabinet</td>
 </tr>
 <tr>
-<td>Rotary_Encoder</td><td>Description: Rotary encoder, dual channel, incremental quadrate outputs<br>Keys: rotary switch encoder</td>
+<td>RotaryEncoder</td><td>Description: Rotary encoder, dual channel, incremental quadrate outputs<br>Keys: rotary switch encoder</td>
 </tr>
 <tr>
-<td>Rotary_Encoder_Switch</td><td>Description: Rotary encoder, dual channel, incremental quadrate outputs, with switch<br>Keys: rotary switch encoder switch push button</td>
-</tr>
-<tr>
-<td>RTRIM</td><td>Description: Trimmable resistor (preset resistor)<br>Keys: R res resistor variable potentiometer trimmer</td>
+<td>RotaryEncoder_Switch</td><td>Description: Rotary encoder, dual channel, incremental quadrate outputs, with switch<br>Keys: rotary switch encoder switch push button</td>
 </tr>
 <tr>
 <td>Solar_Cell</td><td>Description: Single solar cell<br>Keys: solar cell</td>
@@ -1622,7 +1622,7 @@ archivesize: "29K"
 <td>Solar_Cells</td><td>Description: Multiple solar cells<br>Keys: solar cell</td>
 </tr>
 <tr>
-<td>SPARK_GAP</td><td>Description: Spark gap<br>Keys: spark gap ESD electrostatic suppression</td>
+<td>SparkGap</td><td>Description: Spark gap<br>Keys: spark gap ESD electrostatic suppression</td>
 </tr>
 <tr>
 <td>Speaker</td><td>Description: Speaker<br>Keys: speaker sound</td>
@@ -1640,10 +1640,10 @@ archivesize: "29K"
 <td>Thermistor_NTC</td><td>Description: Temperature dependent resistor, negative temperature coefficient<br>Keys: thermistor NTC resistor sensor RTD</td>
 </tr>
 <tr>
-<td>Thermistor_NTC_3wire</td><td>Description: Temperature dependent resistor, negative temperature coefficient, 3-wire interface<br>Keys: thermistor NTC resistor sensor RTD</td>
+<td>Thermistor_NTC_3Wire</td><td>Description: Temperature dependent resistor, negative temperature coefficient, 3-wire interface<br>Keys: thermistor NTC resistor sensor RTD</td>
 </tr>
 <tr>
-<td>Thermistor_NTC_4wire</td><td>Description: Temperature dependent resistor, negative temperature coefficient, 4-wire interface<br>Keys: thermistor NTC resistor sensor RTD</td>
+<td>Thermistor_NTC_4Wire</td><td>Description: Temperature dependent resistor, negative temperature coefficient, 4-wire interface<br>Keys: thermistor NTC resistor sensor RTD</td>
 </tr>
 <tr>
 <td>Thermistor_NTC_US</td><td>Description: Temperature dependent resistor, negative temperature coefficient, US symbol<br>Keys: thermistor NTC resistor sensor RTD</td>
@@ -1652,10 +1652,10 @@ archivesize: "29K"
 <td>Thermistor_PTC</td><td>Description: Temperature dependent resistor, positive temperature coefficient<br>Keys: resistor PTC thermistor sensor RTD</td>
 </tr>
 <tr>
-<td>Thermistor_PTC_3wire</td><td>Description: Temperature dependent resistor, positive temperature coefficient, 3-wire interface<br>Keys: resistor PTC thermistor sensor RTD</td>
+<td>Thermistor_PTC_3Wire</td><td>Description: Temperature dependent resistor, positive temperature coefficient, 3-wire interface<br>Keys: resistor PTC thermistor sensor RTD</td>
 </tr>
 <tr>
-<td>Thermistor_PTC_4wire</td><td>Description: Temperature dependent resistor, positive temperature coefficient, 3-wire interface<br>Keys: resistor PTC thermistor sensor RTD</td>
+<td>Thermistor_PTC_4Wire</td><td>Description: Temperature dependent resistor, positive temperature coefficient, 3-wire interface<br>Keys: resistor PTC thermistor sensor RTD</td>
 </tr>
 <tr>
 <td>Thermistor_PTC_US</td><td>Description: Temperature dependent resistor, positive temperature coefficient, US symbol<br>Keys: resistor PTC thermistor sensor RTD</td>
@@ -1667,7 +1667,7 @@ archivesize: "29K"
 <td>Thermocouple</td><td>Description: Thermocouple<br>Keys: thermocouple temperature sensor cold junction</td>
 </tr>
 <tr>
-<td>Thermocouple_ALT</td><td>Description: Thermocouple with connector block<br>Keys: thermocouple temperature sensor cold junction</td>
+<td>Thermocouple_Alt</td><td>Description: Thermocouple with connector block<br>Keys: thermocouple temperature sensor cold junction</td>
 </tr>
 <tr>
 <td>Thermocouple_Block</td><td>Description: Thermocouple with isothermal block<br>Keys: thermocouple temperature sensor cold junction</td>
@@ -1685,7 +1685,7 @@ archivesize: "29K"
 <td>Transformer_1P_SS</td><td>Description: Transformer, single primary, split secondary<br>Keys: transformer coil magnet</td>
 </tr>
 <tr>
-<td>Transformer_AUDIO</td><td>Description: Audio transformer<br>Keys: transformer coil magnet sound</td>
+<td>Transformer_Audio</td><td>Description: Audio transformer<br>Keys: transformer coil magnet sound</td>
 </tr>
 <tr>
 <td>Transformer_SP_1S</td><td>Description: Transformer, split primary, single secondary<br>Keys: transformer coil magnet</td>
@@ -1700,13 +1700,13 @@ archivesize: "29K"
 <td>Varistor_US</td><td>Description: Voltage dependent resistor, US symbol<br>Keys: VDR resistance</td>
 </tr>
 <tr>
-<td>Voltage_Divider</td><td>Description: Voltage divider<br>Keys: R network voltage divider</td>
+<td>VoltageDivider</td><td>Description: Voltage divider<br>Keys: R network voltage divider</td>
 </tr>
 <tr>
-<td>Voltage_Divider_CenterPin1</td><td>Description: Voltage divider, center on pin 1<br>Keys: R network voltage divider</td>
+<td>VoltageDivider_CenterPin1</td><td>Description: Voltage divider, center on pin 1<br>Keys: R network voltage divider</td>
 </tr>
 <tr>
-<td>Voltage_Divider_CenterPin3</td><td>Description: Voltage divider, center on pin 3<br>Keys: R network voltage divider</td>
+<td>VoltageDivider_CenterPin3</td><td>Description: Voltage divider, center on pin 3<br>Keys: R network voltage divider</td>
 </tr>
 <tr>
 <td>Voltmeter_AC</td><td>Description: AC voltmeter<br>Keys: voltmeter AC</td>
