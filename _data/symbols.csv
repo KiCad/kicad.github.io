@@ -103,6 +103,11 @@ MCU_Microchip_PIC16,Microchip PIC16 microcontrollers
 MCU_Microchip_PIC18,Microchip PIC18 microcontrollers
 MCU_Microchip_PIC24,Microchip PIC24 microcontrollers
 MCU_Microchip_PIC32,Microchip PIC32 microcontrollers
+MCU_Microchip_SAMA,Microchip SAMA microcontrollers
+MCU_Microchip_SAMD,Microchip SAMD microcontrollers
+MCU_Microchip_SAME,Microchip SAME microcontrollers
+MCU_Microchip_SAML,Microchip SAML microcontrollers
+MCU_Microchip_SAMV,Microchip SAMV microcontrollers
 MCU_Module,Microcontroller Modules and Breakouts (Arduino ...)
 MCU_NXP_ColdFire,NXP ColdFire microcontrollers (formerly Motorola)
 MCU_NXP_HC11,NXP HC11 microcontrollers
@@ -196,8 +201,4 @@ Valve,Valve symbols
 Video,Video symbols
 power,"Power symbols, special power flags"
 pspice,Legacy pspice symbol library
-MCU_Microchip_SAMA,Microchip SAMA microcontrollers
-MCU_Microchip_SAMD,Microchip SAMD microcontrollers
-MCU_Microchip_SAME,Microchip SAME microcontrollers
-MCU_Microchip_SAML,Microchip SAML microcontrollers
 MCU_Dialog,Dialog Semiconductor microcontrollers

@@ -1,4 +1,5 @@
 library,description
+Audio_Module,Audio Module footprints
 Battery,Battery and battery holder footprints
 Button_Switch_Keyboard,Buttons and switches for keyboard applications
 Button_Switch_SMD,"Buttons and switches, surface mount"
