@@ -15,21 +15,21 @@ The files packaged here are intended for KiCad version 5 or nightly builds that 
 
 ## Updating via Git
 
-Users who wish to keep footprint libraries up to date can track the [https://github.com/kicad/kicad-footprints](https://github.com/kicad/kicad-footprints) GitHub repository.
+Users who wish to keep footprint libraries up to date can track the [https://gitlab.com/kicad/libraries/kicad-footprints](https://gitlab.com/kicad/libraries/kicad-footprints) GitLab repository.
 
 ## Contributing
 
-Users who wish to contribute to the footprint libraries can submit a pull request at [http://github.com/kicad/kicad-footprints](https://github.com/kicad/kicad-footprints)
+Users who wish to contribute to the footprint libraries can submit a merge request at [https://gitlab.com/kicad/libraries/kicad-footprints](https://gitlab.com/kicad/libraries/kicad-footprints).
 
 ## Library Releases
 
 The latest complete set of KiCad footprint libraries can be downloaded from the following link:
 
-[https://github.com/KiCad/kicad-footprints/archive/master.zip](https://github.com/KiCad/kicad-footprints/archive/master.zip)
+[https://gitlab.com/kicad/libraries/kicad-footprints/-/archive/master/kicad-footprints-master.zip](https://gitlab.com/kicad/libraries/kicad-footprints/-/archive/master/kicad-footprints-master.zip)
 
 Stable releases of the the footprint libraries can be found at:
 
-[https://github.com/kicad/kicad-footprints/releases](https://github.com/kicad/kicad-footprints/releases)
+[https://gitlab.com/kicad/libraries/kicad-footprints/-/releases](https://gitlab.com/kicad/libraries/kicad-footprints/-/releases)
 
 {% include fptable.html %}
 
