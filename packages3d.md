@@ -20,23 +20,23 @@ STEP files are required for integration with MCAD software.
 
 ## Updating via Git
 
-Users who wish to keep 3D model libraries up to date can track the [https://github.com/kicad/kicad-packages3d](https://github.com/kicad/kicad-packages3d) GitHub repository.
+Users who wish to keep 3D model libraries up to date can track the [https://gitlab.com/kicad/libraries/kicad-packages3D](https://gitlab.com/kicad/libraries/kicad-packages3D) GitLab repository.
 
 ## Contributing
 
-Users who wish to contribute to the 3D model libraries can submit a pull request at [https://github.com/kicad/kicad-packages3d](https://github.com/kicad/kicad-packages3d).
+Users who wish to contribute to the 3D model libraries can submit a merge request at [https://gitlab.com/kicad/libraries/kicad-packages3D](https://gitlab.com/kicad/libraries/kicad-packages3D).
 
-Source files for 3D models can be found at [https://github.com/kicad/kicad-packages3d-source](https://github.com/kicad/kicad-packages3d-source).
+Source files for 3D models can be found at [https://gitlab.com/kicad/libraries/kicad-packages3D-source](https://gitlab.com/kicad/libraries/kicad-packages3D-source).
 
 ## Library Releases
 
 The latest complete set of KiCad 3D model libraries can be downloaded from the following link:
 
-[https://github.com/kicad/kicad-packages3d/archive/master.zip](https://github.com/kicad/kicad-packages3d/archive/master.zip)
+[https://gitlab.com/kicad/libraries/kicad-packages3D/-/archive/master/kicad-packages3D-master.zip](https://gitlab.com/kicad/libraries/kicad-packages3D/-/archive/master/kicad-packages3D-master.zip)
 
 Stable releases of the 3D model libraries can be found at:
 
-[https://github.com/kicad/kicad-packages3d/releases](https://github.com/kicad/kicad-packages3d/releases)
+[https://gitlab.com/kicad/libraries/kicad-packages3D/-/releases](https://gitlab.com/kicad/libraries/kicad-packages3D/-/releases)
 
 {% include pkg3dtable.html %}
 
