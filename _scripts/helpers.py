@@ -110,7 +110,7 @@ def read_lib_table(lib_table_file):
 
 
 def datasheet_link(text):
-    links = ['http', 'www', 'ftp']
+    links = ['https:', 'http:', 'www.', 'ftp:']
 
     if not text:
         text = ''
@@ -123,22 +123,19 @@ def datasheet_link(text):
 
         el = element
 
-        # Strip quote characters
-        start = ['"', "'", "[", "(", "{", ":"]
-        end = ['"', "'", "]", ")", "}", ".", ","]
+        # Strip illegal characters
+        quotes = "\"'[]{}():.,; *"
+        
+        # Remove from start
+        while any([el.startswith(q) for q in quotes]):
+            el = el[1:]
+        
+        # Remove from end
+        while any([el.endswith(q) for q in quotes]):
+            el = el[:-1]
 
-        for s in start:
-            if el.startswith(s):
-                el = el[1:]
-
-        for e in end:
-            if el.endswith(e):
-                el = el[:-1]
-
+        # Links must be remote
         if any([el.lower().startswith(i) for i in links]):
-            link = True
-
-        elif el.endswith('.pdf') or '.htm' in el:
             link = True
 
         if link:
