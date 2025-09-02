@@ -6,20 +6,24 @@ layout: default
 
 ## {{ page.title }}
 
-The KiCad footprint libraries are the individual `.pretty` directories. Each `.pretty` directory contains multiple `.kicad_mod` footprint files.
-These footprints are best used in combination with the official [symbol libs](https://kicad.github.io/symbols/) and [3d model libs](https://kicad.github.io/packages3d/).
+**This page contains footprint libraries for KiCad version 5, which are very old. They are not appropriate for newer versions of KiCad. If you are using a modern KiCad version, see the library downloads available on the [KiCad website](https://www.kicad.org/libraries/download/).**
+
+The KiCad version 5 footprint libraries are the individual `.pretty` directories. Each `.pretty` directory contains multiple `.kicad_mod` footprint files.
+These footprints are best used in combination with the official [version 5 symbol libs](https://kicad.github.io/symbols/) and [version 5 3d model libs](https://kicad.github.io/packages3d/).
 
 ## Requirements
 
-The files packaged here are intended for KiCad version 5 or nightly builds that support rounded rectangle and polygon pads.
+The files packaged here are intended for KiCad version 5.
 
 ## Updating via Git
 
 Users who wish to keep footprint libraries up to date can track the [https://gitlab.com/kicad/libraries/kicad-footprints](https://gitlab.com/kicad/libraries/kicad-footprints) GitLab repository.
+Libraries for KiCad version 5 are no longer maintained.
 
 ## Contributing
 
 Users who wish to contribute to the footprint libraries can submit a merge request at [https://gitlab.com/kicad/libraries/kicad-footprints](https://gitlab.com/kicad/libraries/kicad-footprints).
+Libraries for KiCad version 5 are no longer maintained.
 
 ## Library Releases
 

@@ -4,7 +4,9 @@ layout: home
 
 # KiCad Libraries
 
-This site serves the latest KiCad libraries which are community contributed on the [KiCad GitLab page](https://gitlab.com/kicad).
+This site serves the version 5 KiCad libraries. **The libraries archived here are old, out-of-date, and no longer maintained.** If you are using a newer KiCad version, see the library downloads available on the [KiCad website](https://www.kicad.org/libraries/download/).
+
+Modern versions of the libraries are community contributed on the [KiCad GitLab page](https://gitlab.com/kicad).
 
 If you would like to contribute to the libraries, refer to the library contributing guide at [https://www.kicad.org/libraries/contribute](https://www.kicad.org/libraries/contribute).
 
@@ -29,7 +31,7 @@ Users who wish to keep up to date with the latest libraries should clone the KiC
 
 ---
 
-_This site is automatically generated and mirrors the latest library data available on the [KiCad GitLab page](https://gitlab.com/kicad)._
+_This site is automatically generated and mirrors the latest KiCad version 5 library data available on the [KiCad GitLab page](https://gitlab.com/kicad)._
 
 _Library updates may take up to 48 hours to appear._
 

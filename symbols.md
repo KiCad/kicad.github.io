@@ -6,20 +6,24 @@ layout: default
 
 ## {{ page.title }}
 
-The KiCad symbol libraries are the individual `.lib` files, with the corresponding `.dcm` files containing symbol metadata.
-These symbols are best used in combination with the official [footprint libs](https://kicad.github.io/footprints/).
+**This page contains symbol libraries for KiCad version 5, which are very old. They are not appropriate for newer versions of KiCad. If you are using a modern KiCad version, see the library downloads available on the [KiCad website](https://www.kicad.org/libraries/download/).**
+
+The KiCad version 5 symbol libraries are the individual `.lib` files, with the corresponding `.dcm` files containing symbol metadata.
+These symbols are best used in combination with the official [version 5 footprint libs](https://kicad.github.io/footprints/).
 
 ## Requirements
 
-The files packaged here are intended for KiCad version 5 or nightly builds that support the schematic library version 2.4 or newer.
+The files packaged here are intended for KiCad version 5 (schematic library version 2.4).
 
 ## Updating via Git
 
 Users who wish to keep symbol libraries up to date can track the [https://gitlab.com/kicad/libraries/kicad-symbols](https://gitlab.com/kicad/libraries/kicad-symbols) GitLab repository.
+Libraries for KiCad version 5 are no longer maintained.
 
 ## Contributing
 
 Users who wish to contribute to the symbols libraries can submit a merge request at [https://gitlab.com/kicad/libraries/kicad-symbols](https://gitlab.com/kicad/libraries/kicad-symbols).
+Libraries for KiCad version 5 are no longer maintained.
 
 ## Library Releases
 
