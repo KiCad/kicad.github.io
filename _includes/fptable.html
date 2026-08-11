@@ -7,11 +7,11 @@
   </tr>
 {% for lib in site.footprints %}
   <tr>
-    <td><a href="/footprints/{{ lib.title }}">{{ lib.title }}</a></td>
+    <td><a href="{{ "/footprints/" | append: lib.title | relative_url }}">{{ lib.title }}</a></td>
     {% capture fp_lib %}{{ lib.title }}{% endcapture %}
     <td>{% include fp_description.html name=fp_lib %}</td>
     <td align="center">{{ lib.footprintcount }}</td>
-    <td><a href="/download/footprints/{{ lib.title }}.pretty.7z">{{ lib.archivesize }}</a></td>
+    <td><a href="{{ "/download/footprints/" | append: lib.title | append: ".pretty.7z" | relative_url }}">{{ lib.archivesize }}</a></td>
   </tr>
 {% endfor %}
 </table>

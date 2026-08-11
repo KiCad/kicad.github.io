@@ -3,3 +3,11 @@
 ---
 
 @import "minima";
+
+td img.symimg {
+    max-width: 96px;
+    max-height: 64px;
+    background: #ffffff;
+    border: 1px solid #e1e4e8;
+    padding: 4px;
+}

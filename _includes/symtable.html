@@ -7,11 +7,11 @@
   </tr>
 {% for lib in site.symbols %}
   <tr>
-    <td><a href="/symbols/{{ lib.title }}">{{ lib.title }}</a></td>
+    <td><a href="{{ "/symbols/" | append: lib.title | relative_url }}">{{ lib.title }}</a></td>
     {% capture sym_lib %}{{ lib.title }}{% endcapture %}
     <td>{% include sym_description.html name=sym_lib %}</td>
     <td align="center">{{ lib.symbolcount }}</td>
-    <td><a href="/download/symbols/{{ lib.title }}.7z">{{ lib.archivesize }}</a></td>
+    <td><a href="{{ "/download/symbols/" | append: lib.title | append: ".7z" | relative_url }}">{{ lib.archivesize }}</a></td>
   </tr>
 {% endfor %}
 </table>

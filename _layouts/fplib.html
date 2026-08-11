@@ -15,13 +15,13 @@
             {% include fp_description.html name=fp_lib %}
             </p>
         <p>Footprints: {{ page.footprintcount }}</p>
-        <p>Download: <a href="/download/footprints/{{ page.title }}.pretty.7z">{{ page.title }}.7z - {{ page.archivesize }}</a></p>
+         <p>Download: <a href="{{ "/download/footprints/" | append: page.title | append: ".pretty.7z" | relative_url }}">{{ page.title }}.7z - {{ page.archivesize }}</a></p>
         <br>
         {{ content }}
         <br>
         {% include render_date.html %}
         <br>
-        <a href="/footprints">Back</a>
+         <a href="{{ "/footprints" | relative_url }}">Back</a>
     </div>
   </main>
 

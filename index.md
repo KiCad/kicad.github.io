@@ -16,9 +16,9 @@ Library licensing information is available at [https://www.kicad.org/libraries/l
 
 The following library files are available:
 
-* [Symbols](/symbols) - Schematic symbol libraries
-* [Footprints](/footprints) - PCB footprint libraries
-* [3D models](/packages3d) - 3D model data
+* [Symbols]({{ "/symbols" | relative_url }}) - Schematic symbol libraries
+* [Footprints]({{ "/footprints" | relative_url }}) - PCB footprint libraries
+* [3D models]({{ "/packages3d" | relative_url }}) - 3D model data
 
 ## Cloning Libraries
 
